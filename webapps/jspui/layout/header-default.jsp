@@ -45,7 +45,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><%= siteName %>: <%= title %></title>
+        <title>Repositorio UEB</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="Generator" content="<%= generator %>" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -131,14 +131,14 @@
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
-        <div class="col-md-7 brand">
-            <h1>REPOSITORIO DIGITAL UEB</h1>
-           <h2 style="font-family:sans-serif ;line-height: 30px;font-size:16px;color:#306a9c;" align="justify">
-Siempre informados  con el repositorio de la UEB aqui puedes encontrar las Resoluciones, Acuerdos, Estatutos,  Leyes y mucho más. 
-</h2>
+        <div class="col-md-6 brand">
+            <h1 style="color:#064582;">REPOSITORIO DIGITAL UEB</h1>
+           <h2 style="font-family:sans-serif ;line-height: 30px;font-size:18px;color:#306a9c;" align="justify">
+	Siempre informados  con el repositorio de la UEB aquí puedes encontrar 
+	las Resoluciones, Acuerdos, Estatutos,  Leyes y mucho más. </h2>
 
         </div>
-        <div class="col-md-4"><img class="pull-right"  height="200px" src="http://desarrollo.ueb.edu.ec:8080/repositorio/image/repositorio.jpg" alt="Repositorio UEB" />
+        <div class="col-md-6"><img class="pull-right"  height="210px" src="http://desarrollo.ueb.edu.ec:8080/repositorio/image/repositorio.jpg" alt="Repositorio UEB" />
         </div>
     </div>
 </div>

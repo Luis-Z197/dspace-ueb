@@ -56,7 +56,7 @@
 
 
        <div class="navbar-header">
-         <a class="navbar-brand" href="<%= request.getContextPath() %>/"><img height="25" src="http://desarrollo.ueb.edu.ec:8080/repositorio/image/logo_ueb.png" alt="DSpace UEB" /></a>
+         <a class="navbar-brand" href="<%= request.getContextPath() %>/"><img height="65" src="http://desarrollo.ueb.edu.ec:8080/repositorio/image/logo_ueb.png" alt="DSpace UEB" /></a>
        </div>
        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
        <div class="nav navbar-nav navbar-right">

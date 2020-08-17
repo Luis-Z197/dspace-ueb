@@ -43,9 +43,9 @@
          <dc-element>contributor</dc-element>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Authors</label>
+         <label>Autor/es</label>
          <input-type>name</input-type>
-         <hint>Enter the names of the authors of this item.</hint>
+         <hint>Ingrese los nombres del o los autores de este artículo.</hint>
          <required></required>
        </field>
 
@@ -54,10 +54,10 @@
          <dc-element>title</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Title</label>
+         <label>Titulo</label>
          <input-type>onebox</input-type>
-         <hint>Enter the main title of the item.</hint>
-         <required>You must enter a main title for this item.</required>
+         <hint>Ingrese el titulo del documento.</hint>
+         <required>Debes ingresar un título principal para este artículo.</required>
        </field>
 
        <field>
@@ -65,9 +65,9 @@
          <dc-element>title</dc-element>
          <dc-qualifier>alternative</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Other Titles</label>
+         <label>Otros titulos</label>
          <input-type>onebox</input-type>
-         <hint>If the item has any alternative titles, please enter them here.</hint>
+         <hint>Si el artículo tiene títulos alternativos, ingréselos aquí.</hint>
          <required></required>
        </field>
 
@@ -76,12 +76,10 @@
          <dc-element>date</dc-element>
          <dc-qualifier>issued</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Date of Issue</label>
+         <label>Fecha de publicación</label>
          <input-type>date</input-type>
-         <hint>Please give the date of previous publication or public distribution.
-                        You can leave out the day and/or month if they aren't
-                        applicable.</hint>
-         <required>You must enter at least the year.</required>
+         <hint>Indique la fecha de publicación puede omitir el mes y dia pero el año es obligatorio.</hint>
+         <required>Debes ingresar al menos el año.</required>
        </field>
 
        <field>
@@ -89,9 +87,9 @@
          <dc-element>publisher</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Publisher</label>
+         <label>Editorial</label>
          <input-type>onebox</input-type>
-         <hint>Enter the name of the publisher of the previously issued instance of this item.</hint>
+         <hint>Ingrese el nombre del editor de la instancia emitida de este artículo.</hint>
          <required></required>
        </field>
 
@@ -100,9 +98,9 @@
          <dc-element>identifier</dc-element>
          <dc-qualifier>citation</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Citation</label>
+         <label>Cita</label>
          <input-type>onebox</input-type>
-         <hint>Enter the standard citation for the previously issued instance of this item.</hint>
+         <hint>Ingrese la cita estándar para la instancia emitida de este artículo.</hint>
          <required></required>
        </field>
 
@@ -111,9 +109,9 @@
          <dc-element>relation</dc-element>
          <dc-qualifier>ispartofseries</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Series/Report No.</label>
+         <label>Serie/No. Reporte</label>
          <input-type>series</input-type>
-         <hint>Enter the series and number assigned to this item by your community.</hint>
+         <hint>Ingrese la serie y el número asignado a este artículo por su comunidad.</hint>
          <required></required>
        </field>
 
@@ -123,7 +121,7 @@
          <dc-qualifier></dc-qualifier>
          <!-- An input-type of qualdrop_value MUST be marked as repeatable -->
          <repeatable>true</repeatable>
-         <label>Identifiers</label>
+         <label>Identificador</label>
          <input-type value-pairs-name="common_identifiers">qualdrop_value</input-type>
          <hint>If the item has any identification numbers or codes associated with
 it, please enter the types and the actual numbers or codes.</hint>
@@ -135,7 +133,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>type</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Type</label>
+         <label>Tipo</label>
          <input-type value-pairs-name="common_types">dropdown</input-type>
          <hint>Select the type(s) of content of the item. To select more than one value in the list, you may have to hold down the "CTRL" or "Shift" key.</hint>
          <required></required>
@@ -146,7 +144,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>language</dc-element>
          <dc-qualifier>iso</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Language</label>
+         <label>Idioma</label>
          <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
          <hint>Select the language of the main content of the item.  If the language does not appear in the list, please select 'Other'.  If the content does not really have a language (for example, if it is a dataset or an image) please select 'N/A'.</hint>
          <required></required>
@@ -160,9 +158,9 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-qualifier></dc-qualifier>
          <!-- An input-type of twobox MUST be marked as repeatable -->
          <repeatable>true</repeatable>
-         <label>Subject Keywords</label>
+         <label>Palabras claves</label>
          <input-type>twobox</input-type>
-         <hint>Enter appropriate subject keywords or phrases. </hint>
+         <hint>Ingrese una frase o palabras claves. </hint>
          <required></required>
          <vocabulary>srsc</vocabulary>
        </field>
@@ -172,7 +170,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>description</dc-element>
          <dc-qualifier>abstract</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Abstract</label>
+         <label>Resumen</label>
          <input-type>textarea</input-type>
          <hint>Enter the abstract of the item. </hint>
          <required></required>
@@ -183,7 +181,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>description</dc-element>
          <dc-qualifier>sponsorship</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Sponsors</label>
+         <label>Patrocinadores</label>
          <input-type>textarea</input-type>
          <hint>Enter the names of any sponsors and/or funding codes in the box. </hint>
          <required></required>
@@ -194,9 +192,9 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>description</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Description</label>
+         <label>Descripción</label>
          <input-type>textarea</input-type>
-         <hint>Enter any other description or comments in this box. </hint>
+         <hint>Ingrese alguna descripción. </hint>
          <required></required>
        </field>
      </page>
@@ -209,9 +207,9 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>contributor</dc-element>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>One: Authors</label>
+         <label>Autores principales</label>
          <input-type>name</input-type>
-         <hint>Enter the names of the authors of this item.</hint>
+         <hint>Ingrese los nombres de los autores de este artículo.</hint>
          <required></required>
        </field>
       </page>

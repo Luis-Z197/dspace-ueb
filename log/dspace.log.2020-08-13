@@ -1,0 +1,673 @@
+2020-08-13 00:00:01,202 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=8037B05DCD76B430AE0CB9F4B75C4E29:ip_addr=179.49.13.43:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-13 00:00:01,206 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=8037B05DCD76B430AE0CB9F4B75C4E29:ip_addr=179.49.13.43:authenticate:type=PasswordAuthentication
+2020-08-13 00:00:01,206 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=8037B05DCD76B430AE0CB9F4B75C4E29:ip_addr=179.49.13.43:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-13 00:00:01,212 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=8037B05DCD76B430AE0CB9F4B75C4E29:ip_addr=179.49.13.43:login:type=explicit
+2020-08-13 00:00:01,289 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:view_mydspace:
+2020-08-13 00:00:14,558 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:view_community_list:
+2020-08-13 00:00:23,425 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=60A3E7B4C88A27B12C5535CF930DABA1:ip_addr=181.198.172.133:browse_mini:
+2020-08-13 00:00:23,432 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:00:23,444 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:00:23,444 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:00:34,409 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:view_collection:collection_id=49a4688a-2614-4889-b694-a22d44ccf0c2
+2020-08-13 00:00:34,409 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:browse_by_item:
+2020-08-13 00:00:34,420 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@9de8d904: 4
+2020-08-13 00:00:34,434 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:view_collection:collection_id=49a4688a-2614-4889-b694-a22d44ccf0c2
+2020-08-13 00:00:38,577 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,580 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:create_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,580 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:create_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,580 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,583 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,585 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,586 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,587 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,589 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,589 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:create_workspace_item:workspace_item_id=15item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7collection_id=49a4688a-2614-4889-b694-a22d44ccf0c2
+2020-08-13 00:00:38,590 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_workspace_item:workspace_item_id=15
+2020-08-13 00:00:38,591 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,591 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_workspace_item:workspace_item_id=15
+2020-08-13 00:00:38,591 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:00:38,591 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_workspace_item:workspace_item_id=15
+2020-08-13 00:00:38,592 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=9d1e7381-28c1-4d11-9fd7-3387e55b5fd7
+2020-08-13 00:01:02,413 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,416 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:create_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,416 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:create_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,416 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,418 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,420 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,428 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,430 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,432 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,432 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:create_workspace_item:workspace_item_id=16item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7collection_id=49a4688a-2614-4889-b694-a22d44ccf0c2
+2020-08-13 00:01:02,433 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=16
+2020-08-13 00:01:02,434 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,434 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=16
+2020-08-13 00:01:02,435 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,435 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=16
+2020-08-13 00:01:02,435 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_item:item_id=7e4248ec-8ee6-4c05-ad5b-711fffcb18e7
+2020-08-13 00:01:02,562 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,564 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:create_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,564 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:create_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,565 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,567 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,568 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,570 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,571 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,573 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,573 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:create_workspace_item:workspace_item_id=17item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfbcollection_id=49a4688a-2614-4889-b694-a22d44ccf0c2
+2020-08-13 00:01:02,574 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_workspace_item:workspace_item_id=17
+2020-08-13 00:01:02,575 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,575 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_workspace_item:workspace_item_id=17
+2020-08-13 00:01:02,575 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:02,576 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_workspace_item:workspace_item_id=17
+2020-08-13 00:01:02,576 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=b9e38e42-22f9-4313-8c11-cfb62beaadfb
+2020-08-13 00:01:21,447 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,450 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:create_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,450 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:create_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,451 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,453 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,455 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,456 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,458 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,460 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,460 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:create_workspace_item:workspace_item_id=18item_id=87b0a299-3f6c-457e-a295-85b6f6b53182collection_id=49a4688a-2614-4889-b694-a22d44ccf0c2
+2020-08-13 00:01:21,461 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_workspace_item:workspace_item_id=18
+2020-08-13 00:01:21,462 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,462 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_workspace_item:workspace_item_id=18
+2020-08-13 00:01:21,463 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:01:21,463 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_workspace_item:workspace_item_id=18
+2020-08-13 00:01:21,463 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=9BA5E0BC1B0BCCD8F1AFD97F52A86C3D:ip_addr=179.49.13.43:update_item:item_id=87b0a299-3f6c-457e-a295-85b6f6b53182
+2020-08-13 00:03:08,674 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:03:08,683 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:03:08,697 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:03:08,697 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:04:26,240 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:04:26,247 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:04:26,259 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:04:26,259 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:04:28,656 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 00:04:30,488 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:04:30,492 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:04:30,502 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:04:30,502 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:04:33,121 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 00:04:33,123 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:04:33,134 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-13 00:04:33,145 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 00:04:37,590 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:view_community:community_id=348960bf-c5ee-4a18-a20c-d0485587f913
+2020-08-13 00:04:37,591 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:04:37,594 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@6ec0671: 4
+2020-08-13 00:04:37,603 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:view_community:community_id=348960bf-c5ee-4a18-a20c-d0485587f913
+2020-08-13 00:04:53,218 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:04:53,225 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:04:53,241 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:04:53,241 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:05:31,569 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:05:31,573 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:05:31,584 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:05:31,584 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:05:33,466 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 00:05:36,051 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:browse:type=dateissued,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=2,community=n/a,collection=n/a,level=0,etal=-1
+2020-08-13 00:05:36,051 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 00:05:43,798 INFO  org.dspace.app.webui.servlet.LogoutServlet @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:logout:
+2020-08-13 00:06:14,738 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-13 00:06:14,742 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:failed_login:email=luizurita@mailes.ueb.edu.ec, result=2
+2020-08-13 00:06:22,667 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-13 00:06:22,669 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:authenticate:type=PasswordAuthentication
+2020-08-13 00:06:22,669 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-13 00:06:22,676 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=0F4CC1CDDC0D33D5EAD804ED887D2824:ip_addr=181.198.172.161:login:type=explicit
+2020-08-13 00:06:22,706 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:view_mydspace:
+2020-08-13 00:06:27,327 INFO  org.dspace.app.webui.servlet.LogoutServlet @ luizurita@mailes.ueb.edu.ec:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:logout:
+2020-08-13 00:06:42,610 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:06:42,616 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:06:42,632 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:06:42,632 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:06:46,211 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:06:46,218 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:06:46,240 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:06:46,240 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:07:32,116 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:07:32,116 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:07:36,193 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:07:36,199 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:07:40,589 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:07:40,594 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:07:42,386 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:07:42,391 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:07:44,771 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:07:44,771 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:07:47,179 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:07:47,185 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:07:47,198 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:07:47,198 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:11:32,779 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-13 00:11:32,785 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:authenticate:type=PasswordAuthentication
+2020-08-13 00:11:32,785 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-13 00:11:32,796 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=33335AF2D76D80AA9A3ADB174413B9A5:ip_addr=181.198.172.161:login:type=explicit
+2020-08-13 00:11:32,835 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:view_mydspace:
+2020-08-13 00:11:51,415 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 00:13:26,320 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:13:26,332 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:13:26,346 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:13:26,346 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:16:22,684 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:16:22,696 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:16:22,712 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:16:22,712 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:17:18,208 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:17:18,214 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:17:18,230 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:17:18,231 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 00:18:06,078 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:browse:type=subject,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=0,etal=-1
+2020-08-13 00:18:06,078 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:browse_by_value:focus=null
+2020-08-13 00:18:19,167 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=0,etal=-1
+2020-08-13 00:18:19,168 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 00:18:49,868 INFO  org.dspace.app.webui.servlet.EditProfileServlet @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:view_profile:
+2020-08-13 00:19:04,255 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=73AF6C392D35CDFCB8A68A310D706118:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 00:19:04,260 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 00:19:04,275 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 00:19:04,275 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 02:10:01,002 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D3E1A3E3E40DFA9A4625E1DE1C1F97A7:ip_addr=181.198.158.163:browse_mini:
+2020-08-13 02:10:01,023 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 02:10:01,041 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 02:10:01,041 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 02:10:29,216 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 02:10:29,234 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=D3E1A3E3E40DFA9A4625E1DE1C1F97A7:ip_addr=181.198.158.163:search:scope=null,query="null",results=(0,0,1)
+2020-08-13 08:32:34,325 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9B1A262186A359763BBC110676415643:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 08:32:34,341 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 08:32:34,359 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 08:32:34,360 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 09:34:17,645 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B8CA8CC172604BC914BE9902D49A2D73:ip_addr=45.71.112.51:browse_mini:
+2020-08-13 09:34:17,670 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 09:34:17,689 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 09:34:17,689 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 09:34:36,710 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 09:34:36,726 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=9AFBBB438F3C2FBD29B720BA232FD063:ip_addr=45.71.112.51:search:scope=null,query="null",results=(0,0,1)
+2020-08-13 09:35:49,898 INFO  org.dspace.app.webui.servlet.RegisterServlet @ anonymous:session_id=67CFE891C36549A58F6F42E3C5F903DB:ip_addr=45.71.112.51:sendtoken_register:email=zuritaangel49@gmail.com
+2020-08-13 09:35:49,987 INFO  org.dspace.app.webui.servlet.RegisterServlet @ anonymous:session_id=67CFE891C36549A58F6F42E3C5F903DB:ip_addr=45.71.112.51:error_emailing:email=zuritaangel49@gmail.com
+javax.mail.SendFailedException: Send failure (javax.mail.MessagingException: Unknown SMTP host: smtp.example.com (java.net.UnknownHostException: smtp.example.com))
+	at javax.mail.Transport.send(Transport.java:163)
+	at javax.mail.Transport.send(Transport.java:48)
+	at org.dspace.core.Email.send(Email.java:360)
+	at org.dspace.eperson.AccountServiceImpl.sendEmail(AccountServiceImpl.java:265)
+	at org.dspace.eperson.AccountServiceImpl.sendInfo(AccountServiceImpl.java:225)
+	at org.dspace.eperson.AccountServiceImpl.sendRegistrationInfo(AccountServiceImpl.java:70)
+	at org.dspace.app.webui.servlet.RegisterServlet.processEnterEmail(RegisterServlet.java:276)
+	at org.dspace.app.webui.servlet.RegisterServlet.doDSPost(RegisterServlet.java:188)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:122)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.mail.MessagingException: Unknown SMTP host: smtp.example.com (java.net.UnknownHostException: smtp.example.com)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1959)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:654)
+	at javax.mail.Service.connect(Service.java:274)
+	at javax.mail.Service.connect(Service.java:91)
+	at javax.mail.Service.connect(Service.java:76)
+	at javax.mail.Transport.send(Transport.java:94)
+	... 36 more
+Caused by: java.net.UnknownHostException: smtp.example.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at java.net.Socket.connect(Socket.java:556)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:321)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:237)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1927)
+	... 41 more
+2020-08-13 10:54:06,937 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2D95B82051A388F3CF3C4378AC03BD76:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 10:54:06,959 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 10:54:06,979 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 10:54:06,979 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 11:37:08,259 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=49089EF45A1CB57329BA3E6B02F6A41E:ip_addr=181.198.172.155:browse_mini:
+2020-08-13 11:37:08,272 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 11:37:08,287 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 11:37:08,287 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 11:38:11,946 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=49089EF45A1CB57329BA3E6B02F6A41E:ip_addr=181.198.172.155:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-13 11:38:11,951 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=49089EF45A1CB57329BA3E6B02F6A41E:ip_addr=181.198.172.155:authenticate:type=PasswordAuthentication
+2020-08-13 11:38:11,952 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=49089EF45A1CB57329BA3E6B02F6A41E:ip_addr=181.198.172.155:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-13 11:38:11,961 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=49089EF45A1CB57329BA3E6B02F6A41E:ip_addr=181.198.172.155:login:type=explicit
+2020-08-13 11:38:12,041 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=30BDC7C6797E567823E99A24A7D61DBE:ip_addr=181.198.172.155:view_mydspace:
+2020-08-13 11:39:10,229 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:39:10,238 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 11:39:10,252 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 11:39:10,252 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 11:39:27,601 INFO  org.dspace.app.webui.servlet.LogoutServlet @ luizurita@mailes.ueb.edu.ec:session_id=30BDC7C6797E567823E99A24A7D61DBE:ip_addr=181.198.172.155:logout:
+2020-08-13 11:53:25,278 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 11:53:25,307 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:search:scope=null,query="null",results=(0,0,1)
+2020-08-13 11:53:28,996 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-13 11:53:29,015 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-13 11:53:39,019 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:view_bitstream:bitstream_id=35618bcf-b39e-4c0f-a160-5ce904dda899
+2020-08-13 11:53:39,019 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:view_bitstream:bitstream_id=35618bcf-b39e-4c0f-a160-5ce904dda899
+2020-08-13 11:54:44,149 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 11:54:50,494 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:54:50,495 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:54:50,503 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 11:54:50,520 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:54:58,576 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-13 11:54:58,579 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:authenticate:type=PasswordAuthentication
+2020-08-13 11:54:58,579 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-13 11:54:58,586 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=521B666566221906CF0BB37B93A24FE8:ip_addr=181.198.172.161:login:type=explicit
+2020-08-13 11:54:58,605 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_mydspace:
+2020-08-13 11:55:00,908 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:55:00,913 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 11:55:00,924 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 11:55:00,924 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 11:55:03,453 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 11:55:03,455 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:55:03,458 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-13 11:55:03,469 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 11:55:05,753 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=348960bf-c5ee-4a18-a20c-d0485587f913
+2020-08-13 11:55:05,754 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:55:05,757 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@6ec0671: 4
+2020-08-13 11:55:05,767 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=348960bf-c5ee-4a18-a20c-d0485587f913
+2020-08-13 11:55:08,419 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:55:08,420 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:55:08,424 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 11:55:08,435 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:55:27,300 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 11:55:27,310 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_community:community_id=d292f5e7-1ce6-46ea-b6bd-37f7243babdf,handle=123456789/19
+2020-08-13 11:55:27,311 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_subcommunity:parent_comm_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,child_comm_id=d292f5e7-1ce6-46ea-b6bd-37f7243babdf
+2020-08-13 11:55:27,324 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_community:community_id=d292f5e7-1ce6-46ea-b6bd-37f7243babdf
+2020-08-13 11:55:27,350 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: 123456789/19 to Index
+2020-08-13 11:55:27,380 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=d292f5e7-1ce6-46ea-b6bd-37f7243babdf
+2020-08-13 11:55:27,380 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:55:27,385 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@5cf2319a: 4
+2020-08-13 11:55:27,395 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=d292f5e7-1ce6-46ea-b6bd-37f7243babdf
+2020-08-13 11:55:32,861 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:55:32,865 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 11:55:32,875 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 11:55:32,875 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 11:55:34,505 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 11:55:34,507 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:55:34,510 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-13 11:55:34,521 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 11:55:37,203 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:55:37,204 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:55:37,207 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 11:55:37,217 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:55:51,567 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_community:community_id=d292f5e7-1ce6-46ea-b6bd-37f7243babdf
+2020-08-13 11:55:51,571 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:remove_subcommunity:parent_comm_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,child_comm_id=d292f5e7-1ce6-46ea-b6bd-37f7243babdf
+2020-08-13 11:55:51,571 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COMMUNITY id=d292f5e7-1ce6-46ea-b6bd-37f7243babdf, perhaps it has been deleted.
+2020-08-13 11:55:51,641 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:55:51,642 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:55:51,647 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 11:55:51,661 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:56:00,030 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=4a9048f0-8bdd-4286-a8d4-1ab271e71f82
+2020-08-13 11:56:00,031 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 11:56:00,043 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=4a9048f0-8bdd-4286-a8d4-1ab271e71f82,handle=123456789/20
+2020-08-13 11:56:00,068 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/20 to Index
+2020-08-13 11:56:32,791 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 11:56:32,796 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_community:community_id=99b46779-a2c0-45d3-8567-d6206225d7e7,handle=123456789/21
+2020-08-13 11:56:32,797 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_subcommunity:parent_comm_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,child_comm_id=99b46779-a2c0-45d3-8567-d6206225d7e7
+2020-08-13 11:56:32,805 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_community:community_id=99b46779-a2c0-45d3-8567-d6206225d7e7
+2020-08-13 11:56:32,821 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Community: 123456789/21 to Index
+2020-08-13 11:56:32,840 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=99b46779-a2c0-45d3-8567-d6206225d7e7
+2020-08-13 11:56:32,840 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:56:32,844 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@dc3625e2: 4
+2020-08-13 11:56:32,856 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=99b46779-a2c0-45d3-8567-d6206225d7e7
+2020-08-13 11:56:35,240 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:56:35,243 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 11:56:35,254 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 11:56:35,254 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 11:56:36,747 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 11:56:36,749 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:56:36,753 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-13 11:56:36,765 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 11:56:40,974 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 11:56:49,210 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:56:49,212 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:56:49,217 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 11:56:49,229 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:57:36,996 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-13 11:57:36,999 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 11:57:37,004 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b,handle=123456789/22
+2020-08-13 11:57:37,026 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/22 to Index
+2020-08-13 11:57:47,645 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_group:group_id=fbd8dbaa-8394-438f-95e8-a921ce66d3a7
+2020-08-13 11:57:47,647 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=fbd8dbaa-8394-438f-95e8-a921ce66d3a7
+2020-08-13 11:57:47,676 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=fbd8dbaa-8394-438f-95e8-a921ce66d3a7
+2020-08-13 11:57:47,684 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-13 11:57:47,707 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/22 to Index
+2020-08-13 11:57:54,677 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=103
+2020-08-13 11:57:54,689 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-13 11:58:02,173 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=fbd8dbaa-8394-438f-95e8-a921ce66d3a7
+2020-08-13 11:58:07,864 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=104
+2020-08-13 11:58:07,867 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=105
+2020-08-13 11:58:07,868 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=106
+2020-08-13 11:58:07,868 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=107
+2020-08-13 11:58:07,868 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=108
+2020-08-13 11:58:07,868 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=109
+2020-08-13 11:58:07,870 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-13 11:58:07,910 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-13 11:58:07,911 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 11:58:07,916 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@6bfba71b: 4
+2020-08-13 11:58:07,937 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-13 11:58:13,486 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 11:58:19,168 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:58:19,170 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:58:19,178 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 11:58:19,191 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:58:33,340 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_community:community_id=99b46779-a2c0-45d3-8567-d6206225d7e7
+2020-08-13 11:58:33,342 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:remove_subcommunity:parent_comm_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,child_comm_id=99b46779-a2c0-45d3-8567-d6206225d7e7
+2020-08-13 11:58:33,343 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COMMUNITY id=99b46779-a2c0-45d3-8567-d6206225d7e7, perhaps it has been deleted.
+2020-08-13 11:58:33,392 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:58:33,394 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:58:33,398 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 11:58:33,415 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:58:41,481 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-13 11:58:41,487 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 11:58:41,493 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39,handle=123456789/23
+2020-08-13 11:58:41,522 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/23 to Index
+2020-08-13 11:58:44,221 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_group:group_id=620155a0-a0fe-419c-a379-84efecb5b69f
+2020-08-13 11:58:44,222 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=620155a0-a0fe-419c-a379-84efecb5b69f
+2020-08-13 11:58:44,225 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=620155a0-a0fe-419c-a379-84efecb5b69f
+2020-08-13 11:58:44,232 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-13 11:58:44,245 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/23 to Index
+2020-08-13 11:59:06,055 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=112
+2020-08-13 11:59:06,063 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-13 11:59:07,745 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=620155a0-a0fe-419c-a379-84efecb5b69f
+2020-08-13 11:59:14,740 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=113
+2020-08-13 11:59:14,745 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=114
+2020-08-13 11:59:14,746 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=115
+2020-08-13 11:59:14,746 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=116
+2020-08-13 11:59:14,746 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=117
+2020-08-13 11:59:14,746 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=118
+2020-08-13 11:59:14,748 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-13 11:59:14,788 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-13 11:59:14,789 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 11:59:14,796 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@b6945eb4: 4
+2020-08-13 11:59:14,819 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-13 11:59:52,512 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:59:52,516 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 11:59:52,540 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 11:59:52,541 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 11:59:54,233 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 11:59:54,235 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:59:54,240 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-13 11:59:54,257 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 11:59:56,719 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 11:59:56,720 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 11:59:56,724 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 11:59:56,736 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:00:01,539 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5
+2020-08-13 12:00:01,545 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 12:00:01,551 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5,handle=123456789/24
+2020-08-13 12:00:01,570 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/24 to Index
+2020-08-13 12:00:02,908 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_group:group_id=81b03810-8ff2-4e58-80a0-1528ead13607
+2020-08-13 12:00:02,910 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=81b03810-8ff2-4e58-80a0-1528ead13607
+2020-08-13 12:00:02,912 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=81b03810-8ff2-4e58-80a0-1528ead13607
+2020-08-13 12:00:02,918 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5
+2020-08-13 12:00:02,928 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/24 to Index
+2020-08-13 12:00:08,154 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=121
+2020-08-13 12:00:08,161 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5
+2020-08-13 12:00:10,153 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=81b03810-8ff2-4e58-80a0-1528ead13607
+2020-08-13 12:00:13,405 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=122
+2020-08-13 12:00:13,410 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=123
+2020-08-13 12:00:13,411 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=124
+2020-08-13 12:00:13,411 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=125
+2020-08-13 12:00:13,411 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=126
+2020-08-13 12:00:13,411 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=127
+2020-08-13 12:00:13,412 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5
+2020-08-13 12:00:13,441 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5
+2020-08-13 12:00:13,442 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 12:00:13,448 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@937c7cf0: 4
+2020-08-13 12:00:13,459 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5
+2020-08-13 12:00:20,184 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 12:00:32,943 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=dfe72ca6-fd26-4e15-988b-432adf80513d
+2020-08-13 12:00:32,944 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:00:32,950 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@65ca7319: 4
+2020-08-13 12:00:32,960 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=dfe72ca6-fd26-4e15-988b-432adf80513d
+2020-08-13 12:00:57,914 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:00:57,916 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:00:57,921 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 12:00:57,938 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:00:59,687 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=64fcb7dc-fd48-460d-acc5-51dd56bdaa73
+2020-08-13 12:00:59,690 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 12:00:59,695 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=64fcb7dc-fd48-460d-acc5-51dd56bdaa73,handle=123456789/25
+2020-08-13 12:00:59,719 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/25 to Index
+2020-08-13 12:01:01,272 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_group:group_id=37910b9b-9a27-46c6-a5bd-98695e332bda
+2020-08-13 12:01:01,274 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=37910b9b-9a27-46c6-a5bd-98695e332bda
+2020-08-13 12:01:01,275 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=37910b9b-9a27-46c6-a5bd-98695e332bda
+2020-08-13 12:01:01,283 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=64fcb7dc-fd48-460d-acc5-51dd56bdaa73
+2020-08-13 12:01:01,293 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/25 to Index
+2020-08-13 12:01:06,825 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=130
+2020-08-13 12:01:06,835 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=64fcb7dc-fd48-460d-acc5-51dd56bdaa73
+2020-08-13 12:01:08,632 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=37910b9b-9a27-46c6-a5bd-98695e332bda
+2020-08-13 12:01:11,653 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=131
+2020-08-13 12:01:11,657 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=132
+2020-08-13 12:01:11,658 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=133
+2020-08-13 12:01:11,658 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=134
+2020-08-13 12:01:11,658 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=135
+2020-08-13 12:01:11,658 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=136
+2020-08-13 12:01:11,660 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=64fcb7dc-fd48-460d-acc5-51dd56bdaa73
+2020-08-13 12:01:11,682 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=64fcb7dc-fd48-460d-acc5-51dd56bdaa73
+2020-08-13 12:01:11,683 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 12:01:11,688 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@63cc7097: 4
+2020-08-13 12:01:11,709 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=64fcb7dc-fd48-460d-acc5-51dd56bdaa73
+2020-08-13 12:01:15,247 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 12:01:19,158 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:01:19,159 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:01:19,165 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 12:01:19,177 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:01:20,864 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=3e2069b8-79f8-4929-acf0-5fe23d292808
+2020-08-13 12:01:20,867 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 12:01:20,871 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=3e2069b8-79f8-4929-acf0-5fe23d292808,handle=123456789/26
+2020-08-13 12:01:20,885 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/26 to Index
+2020-08-13 12:01:22,384 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_group:group_id=be0ff29f-78f2-4853-aaa4-ee24c5f2dae0
+2020-08-13 12:01:22,385 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=be0ff29f-78f2-4853-aaa4-ee24c5f2dae0
+2020-08-13 12:01:22,387 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=be0ff29f-78f2-4853-aaa4-ee24c5f2dae0
+2020-08-13 12:01:22,394 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=3e2069b8-79f8-4929-acf0-5fe23d292808
+2020-08-13 12:01:22,406 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/26 to Index
+2020-08-13 12:01:28,284 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=139
+2020-08-13 12:01:28,292 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=3e2069b8-79f8-4929-acf0-5fe23d292808
+2020-08-13 12:01:29,736 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=be0ff29f-78f2-4853-aaa4-ee24c5f2dae0
+2020-08-13 12:01:33,401 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=140
+2020-08-13 12:01:33,406 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=141
+2020-08-13 12:01:33,406 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=142
+2020-08-13 12:01:33,406 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=143
+2020-08-13 12:01:33,406 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=144
+2020-08-13 12:01:33,406 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=145
+2020-08-13 12:01:33,408 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=3e2069b8-79f8-4929-acf0-5fe23d292808
+2020-08-13 12:01:33,434 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=3e2069b8-79f8-4929-acf0-5fe23d292808
+2020-08-13 12:01:33,434 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 12:01:33,440 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@d601bd93: 4
+2020-08-13 12:01:33,453 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=3e2069b8-79f8-4929-acf0-5fe23d292808
+2020-08-13 12:01:39,859 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 12:01:42,666 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:01:42,668 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:01:42,673 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 12:01:42,689 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:01:44,802 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=00aa0728-eae7-49c9-9849-5024822f7108
+2020-08-13 12:01:44,805 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 12:01:44,810 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=00aa0728-eae7-49c9-9849-5024822f7108,handle=123456789/27
+2020-08-13 12:01:44,823 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/27 to Index
+2020-08-13 12:01:46,082 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_group:group_id=728d7bff-8704-489c-b998-c0276980f405
+2020-08-13 12:01:46,083 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=728d7bff-8704-489c-b998-c0276980f405
+2020-08-13 12:01:46,084 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=728d7bff-8704-489c-b998-c0276980f405
+2020-08-13 12:01:46,094 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=00aa0728-eae7-49c9-9849-5024822f7108
+2020-08-13 12:01:46,105 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/27 to Index
+2020-08-13 12:01:54,925 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=148
+2020-08-13 12:01:54,937 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=00aa0728-eae7-49c9-9849-5024822f7108
+2020-08-13 12:01:56,392 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=728d7bff-8704-489c-b998-c0276980f405
+2020-08-13 12:01:58,730 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=149
+2020-08-13 12:01:58,737 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=150
+2020-08-13 12:01:58,738 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=151
+2020-08-13 12:01:58,738 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=152
+2020-08-13 12:01:58,738 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=153
+2020-08-13 12:01:58,738 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=154
+2020-08-13 12:01:58,740 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=00aa0728-eae7-49c9-9849-5024822f7108
+2020-08-13 12:01:58,764 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=00aa0728-eae7-49c9-9849-5024822f7108
+2020-08-13 12:01:58,764 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 12:01:58,770 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f02bd5e5: 4
+2020-08-13 12:01:58,781 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=00aa0728-eae7-49c9-9849-5024822f7108
+2020-08-13 12:02:02,198 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 12:02:06,286 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:02:06,290 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:02:06,295 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 12:02:06,317 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:02:47,985 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=d7f841a0-53a7-4bbc-b3d2-3ac98bc5618c
+2020-08-13 12:02:47,987 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 12:02:47,999 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=d7f841a0-53a7-4bbc-b3d2-3ac98bc5618c,handle=123456789/28
+2020-08-13 12:02:48,018 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/28 to Index
+2020-08-13 12:03:02,241 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_group:group_id=2afb041b-da9e-4803-b2c5-5e296f358e67
+2020-08-13 12:03:02,242 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=2afb041b-da9e-4803-b2c5-5e296f358e67
+2020-08-13 12:03:02,244 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=2afb041b-da9e-4803-b2c5-5e296f358e67
+2020-08-13 12:03:02,252 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=d7f841a0-53a7-4bbc-b3d2-3ac98bc5618c
+2020-08-13 12:03:02,266 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/28 to Index
+2020-08-13 12:03:07,108 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=157
+2020-08-13 12:03:07,125 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=d7f841a0-53a7-4bbc-b3d2-3ac98bc5618c
+2020-08-13 12:03:08,457 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=2afb041b-da9e-4803-b2c5-5e296f358e67
+2020-08-13 12:03:11,032 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=158
+2020-08-13 12:03:11,037 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=159
+2020-08-13 12:03:11,038 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=160
+2020-08-13 12:03:11,038 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=161
+2020-08-13 12:03:11,038 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=162
+2020-08-13 12:03:11,038 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=163
+2020-08-13 12:03:11,039 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=d7f841a0-53a7-4bbc-b3d2-3ac98bc5618c
+2020-08-13 12:03:11,062 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=d7f841a0-53a7-4bbc-b3d2-3ac98bc5618c
+2020-08-13 12:03:11,062 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 12:03:11,068 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@bc48b771: 4
+2020-08-13 12:03:11,079 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=d7f841a0-53a7-4bbc-b3d2-3ac98bc5618c
+2020-08-13 12:03:14,404 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 12:03:28,113 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:03:28,115 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:03:28,120 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 12:03:28,134 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:03:33,514 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=87d21e1a-30cf-4522-b65b-66e6cfe82ff5
+2020-08-13 12:03:33,518 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 12:03:33,522 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=87d21e1a-30cf-4522-b65b-66e6cfe82ff5,handle=123456789/29
+2020-08-13 12:03:33,538 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/29 to Index
+2020-08-13 12:03:34,980 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_group:group_id=21d88be8-210e-411e-abad-bb2f22b90755
+2020-08-13 12:03:34,981 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=21d88be8-210e-411e-abad-bb2f22b90755
+2020-08-13 12:03:34,982 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=21d88be8-210e-411e-abad-bb2f22b90755
+2020-08-13 12:03:34,990 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=87d21e1a-30cf-4522-b65b-66e6cfe82ff5
+2020-08-13 12:03:35,000 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/29 to Index
+2020-08-13 12:03:39,737 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=166
+2020-08-13 12:03:39,748 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=87d21e1a-30cf-4522-b65b-66e6cfe82ff5
+2020-08-13 12:03:40,623 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=21d88be8-210e-411e-abad-bb2f22b90755
+2020-08-13 12:03:42,783 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=167
+2020-08-13 12:03:42,789 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=168
+2020-08-13 12:03:42,790 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=169
+2020-08-13 12:03:42,790 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=170
+2020-08-13 12:03:42,790 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=171
+2020-08-13 12:03:42,790 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=172
+2020-08-13 12:03:42,791 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=87d21e1a-30cf-4522-b65b-66e6cfe82ff5
+2020-08-13 12:03:42,815 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=87d21e1a-30cf-4522-b65b-66e6cfe82ff5
+2020-08-13 12:03:42,816 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 12:03:42,821 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@ceae7843: 4
+2020-08-13 12:03:42,830 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=87d21e1a-30cf-4522-b65b-66e6cfe82ff5
+2020-08-13 12:03:45,758 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 12:03:49,635 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:03:49,638 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:03:49,646 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 12:03:49,661 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:03:51,190 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=0b1b8ace-6a73-4101-a92e-5ed30998e63d
+2020-08-13 12:03:51,196 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 12:03:51,201 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=0b1b8ace-6a73-4101-a92e-5ed30998e63d,handle=123456789/30
+2020-08-13 12:03:51,218 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/30 to Index
+2020-08-13 12:03:52,454 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_group:group_id=488ceea7-fe38-449a-81f2-1b094fffda6b
+2020-08-13 12:03:52,455 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=488ceea7-fe38-449a-81f2-1b094fffda6b
+2020-08-13 12:03:52,456 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=488ceea7-fe38-449a-81f2-1b094fffda6b
+2020-08-13 12:03:52,465 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=0b1b8ace-6a73-4101-a92e-5ed30998e63d
+2020-08-13 12:03:52,476 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/30 to Index
+2020-08-13 12:03:57,535 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=175
+2020-08-13 12:03:57,545 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=0b1b8ace-6a73-4101-a92e-5ed30998e63d
+2020-08-13 12:03:59,035 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=488ceea7-fe38-449a-81f2-1b094fffda6b
+2020-08-13 12:04:01,192 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=176
+2020-08-13 12:04:01,198 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=177
+2020-08-13 12:04:01,199 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=178
+2020-08-13 12:04:01,199 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=179
+2020-08-13 12:04:01,199 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=180
+2020-08-13 12:04:01,199 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=181
+2020-08-13 12:04:01,201 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=0b1b8ace-6a73-4101-a92e-5ed30998e63d
+2020-08-13 12:04:01,231 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=0b1b8ace-6a73-4101-a92e-5ed30998e63d
+2020-08-13 12:04:01,231 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 12:04:01,236 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@c1ded939: 4
+2020-08-13 12:04:01,252 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=0b1b8ace-6a73-4101-a92e-5ed30998e63d
+2020-08-13 12:04:03,857 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 12:04:05,520 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:04:05,523 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:04:05,527 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 12:04:05,544 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:04:06,941 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:add_collection:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d,collection_id=22e96b82-1b2f-49fb-872d-6dc5af3c7534
+2020-08-13 12:04:06,944 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-13 12:04:06,954 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_collection:collection_id=22e96b82-1b2f-49fb-872d-6dc5af3c7534,handle=123456789/31
+2020-08-13 12:04:06,971 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/31 to Index
+2020-08-13 12:04:08,323 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:create_group:group_id=b490ba43-1e9d-4de3-a8e2-88494ffd13ca
+2020-08-13 12:04:08,324 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=b490ba43-1e9d-4de3-a8e2-88494ffd13ca
+2020-08-13 12:04:08,325 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=b490ba43-1e9d-4de3-a8e2-88494ffd13ca
+2020-08-13 12:04:08,334 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=22e96b82-1b2f-49fb-872d-6dc5af3c7534
+2020-08-13 12:04:08,344 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/31 to Index
+2020-08-13 12:04:20,682 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=184
+2020-08-13 12:04:20,700 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=22e96b82-1b2f-49fb-872d-6dc5af3c7534
+2020-08-13 12:04:33,219 INFO  org.dspace.eperson.GroupServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_group:group_id=b490ba43-1e9d-4de3-a8e2-88494ffd13ca
+2020-08-13 12:04:35,976 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=185
+2020-08-13 12:04:35,983 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=186
+2020-08-13 12:04:35,984 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=187
+2020-08-13 12:04:35,984 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=188
+2020-08-13 12:04:35,984 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=189
+2020-08-13 12:04:35,984 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=190
+2020-08-13 12:04:35,986 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:update_collection:collection_id=22e96b82-1b2f-49fb-872d-6dc5af3c7534
+2020-08-13 12:04:36,011 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=22e96b82-1b2f-49fb-872d-6dc5af3c7534
+2020-08-13 12:04:36,012 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 12:04:36,016 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@11d7a0a0: 4
+2020-08-13 12:04:36,029 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=22e96b82-1b2f-49fb-872d-6dc5af3c7534
+2020-08-13 12:04:39,068 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 12:04:56,989 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:04:56,993 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:04:56,998 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 12:04:57,011 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:05:11,953 INFO  org.dspace.app.webui.servlet.LogoutServlet @ luizurita@mailes.ueb.edu.ec:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:logout:
+2020-08-13 12:05:15,447 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:05:15,454 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 12:05:15,465 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 12:05:15,465 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 12:05:16,881 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community_list:
+2020-08-13 12:05:19,483 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:05:19,487 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 12:05:19,498 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 12:05:19,498 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-13 12:05:21,565 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 12:05:21,567 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:05:21,572 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-13 12:05:21,585 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-13 12:05:24,241 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:05:24,244 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:05:24,249 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-13 12:05:24,264 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-13 12:05:30,224 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-13 12:05:30,225 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 12:05:30,230 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@6bfba71b: 4
+2020-08-13 12:05:30,239 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-13 12:05:37,699 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=49a4688a-2614-4889-b694-a22d44ccf0c2
+2020-08-13 12:05:37,700 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_by_item:
+2020-08-13 12:05:37,712 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@9de8d904: 4
+2020-08-13 12:05:37,723 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:view_collection:collection_id=49a4688a-2614-4889-b694-a22d44ccf0c2
+2020-08-13 12:05:41,885 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CDBAB24D7281EB4A00C9C85950A644F2:ip_addr=181.198.172.161:browse_mini:
+2020-08-13 12:05:41,889 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-13 12:05:41,899 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-13 12:05:41,899 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)

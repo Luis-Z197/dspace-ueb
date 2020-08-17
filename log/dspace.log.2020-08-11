@@ -4508,3 +4508,63 @@ java.io.FileNotFoundException: /home/dspace/config/GeoLite2-City.mmdb (No existe
 2020-08-11 22:33:22,717 INFO  org.dspace.app.webui.servlet.LogoutServlet @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:logout:
 2020-08-11 22:33:28,948 INFO  org.dspace.app.webui.servlet.LogoutServlet @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:logout:
 2020-08-11 22:34:02,410 INFO  org.dspace.app.webui.servlet.LogoutServlet @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:logout:
+2020-08-11 22:38:37,368 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9BE18205D45627292CBF2E4D382A0C67:ip_addr=181.198.172.161:browse_mini:
+2020-08-11 22:38:37,387 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 22:38:37,408 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-11 22:38:37,409 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-11 22:40:47,891 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=104441D65C8AEE6A5FA309157AAF0D60:ip_addr=45.71.112.51:browse_mini:
+2020-08-11 22:40:47,906 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 22:40:47,930 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-11 22:40:47,930 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-11 22:48:17,813 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2A1016B607512F6543F26C0E6E93D671:ip_addr=181.39.211.12:browse_mini:
+2020-08-11 22:48:17,826 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 22:48:34,072 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2A1016B607512F6543F26C0E6E93D671:ip_addr=181.39.211.12:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-11 22:48:34,085 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2A1016B607512F6543F26C0E6E93D671:ip_addr=181.39.211.12:browse_mini:
+2020-08-11 22:48:34,102 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-11 22:48:34,150 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2A1016B607512F6543F26C0E6E93D671:ip_addr=181.39.211.12:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-11 22:54:40,058 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:browse_mini:
+2020-08-11 22:54:40,072 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 22:54:47,825 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 22:54:47,922 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:search:scope=null,query="encuesta",results=(0,0,0)
+2020-08-11 22:54:56,230 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 22:54:56,292 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:search:scope=null,query="null",results=(10,0,0)
+2020-08-11 22:55:10,976 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 22:55:11,002 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=6CA90277A6D413A5EFCBF96A0954E69C:ip_addr=179.49.13.43:search:scope=null,query="null",results=(10,0,0)
+2020-08-11 23:02:24,619 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:02:24,660 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:search:scope=null,query="null",results=(10,0,0)
+2020-08-11 23:02:33,592 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9BE18205D45627292CBF2E4D382A0C67:ip_addr=181.198.172.161:browse_mini:
+2020-08-11 23:02:33,601 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:02:33,617 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:33,617 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:38,770 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9BE18205D45627292CBF2E4D382A0C67:ip_addr=181.198.172.161:browse_mini:
+2020-08-11 23:02:38,777 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:02:38,794 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:38,795 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:39,765 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9BE18205D45627292CBF2E4D382A0C67:ip_addr=181.198.172.161:browse_mini:
+2020-08-11 23:02:39,770 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:02:39,786 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:39,786 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:40,952 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:02:40,974 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:search:scope=null,query="null",results=(10,0,0)
+2020-08-11 23:02:42,835 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:02:42,860 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:search:scope=null,query="null",results=(10,0,0)
+2020-08-11 23:02:44,613 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9BE18205D45627292CBF2E4D382A0C67:ip_addr=181.198.172.161:browse_mini:
+2020-08-11 23:02:44,620 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:02:44,636 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:44,636 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:50,183 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:browse_mini:
+2020-08-11 23:02:50,190 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:02:50,205 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:50,205 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:58,400 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-11 23:02:58,401 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-11 23:03:04,763 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=25D8E374C3049D2E7227AB5A50C97214:ip_addr=179.49.13.43:browse_mini:
+2020-08-11 23:03:04,770 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:03:07,745 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9BE18205D45627292CBF2E4D382A0C67:ip_addr=181.198.172.161:browse_mini:
+2020-08-11 23:03:07,754 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:03:07,777 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-11 23:03:07,777 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-11 23:03:19,264 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=491470B116CA3393F8016B5D5B056711:ip_addr=181.198.172.161:browse_mini:
+2020-08-11 23:03:19,271 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-11 23:03:19,288 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-11 23:03:19,288 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)

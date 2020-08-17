@@ -174,7 +174,7 @@ if (communities != null && communities.size() != 0)
 {
 %>
 	<div class="col-md-4">		
-               <h3>Communities UEB</h3>
+               <h3>Communidades UEB</h3>
                 <p><fmt:message key="jsp.home.com2"/></p>
 				<div class="list-group">
 <%

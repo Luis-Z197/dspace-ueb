@@ -40,8 +40,8 @@
             <%-- Page footer --%>
              <footer class="navbar navbar-inverse navbar-bottom">
              <div id="designedby" class="container text-muted">
-			<div id="footer_feedback" class="pull-right">                                    
-	           Copyright &copy; 2020 Derechos Reservados Universidad Estatal de Bolívar | Dirección de TICs 
+			<div id="footer_feedback" class="col-md-12">                                    
+	          <p style="color: #ffff;text-align:center;"> Copyright &copy; 2020 Derechos Reservados Universidad Estatal de Bolívar | Dirección de TICs </p>
   
                           </div>
 			</div>
