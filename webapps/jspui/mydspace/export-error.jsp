@@ -30,6 +30,6 @@
     <p><fmt:message key="jsp.mydspace.main.export.error.toolarge"/></p>
  
     <%-- <p align="center"><a href="<%= request.getContextPath() %>/mydspace">Return to My DSpace </a></p> --%>
-    <p align="center"><a href="<%= request.getContextPath() %>/mydspace"><fmt:message key="jsp.mydspace.general.returnto-mydspace"/> </a></p>
+    <p align="center"><a href="<%= request.getContextPath() %>/mydspace">Retornar a página Principal</a></p>
  
 </dspace:layout>

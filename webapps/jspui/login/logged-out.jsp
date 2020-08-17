@@ -20,11 +20,11 @@
 
 <dspace:layout locbar="nolink" titlekey="jsp.login.logged-out.title">
     <%-- <h1>Logged Out</h1> --%>
-    <h1><fmt:message key="jsp.login.logged-out.title"/></h1>
+    <h1>Ha salido del Repositorio</h1>
 
     <%-- <p>Thank you for remembering to log out!</p> --%>
     <p><fmt:message key="jsp.login.logged-out.thank"/></p>
 <%-- <p><a href="<%= request.getContextPath() %>/">Go to Repository Home</a></p> --%>
-    <p><a href="<%= request.getContextPath() %>/"><fmt:message key="jsp.general.gohome"/></a></p>
+    <p><a href="<%= request.getContextPath() %>/">Ir a la página Principal</a></p>
 
 </dspace:layout>
