@@ -74,6 +74,9 @@
 <dspace:layout locbar="nolink" titlekey="jsp.home.title" feedData="<%= feedData %>">
 
 	<div class="jumbotron">
+	<p style="text-align:justify">El Repositorio Institucional de la Universidad Estatal de Bolívar administra, 
+preserva y difunde los documentos académicos de la institución.</p>
+
         <%= topNews %>
 	</div>
 
@@ -192,7 +195,7 @@ if (communities != null && communities.size() != 0)
 <% } else { %>
 	<div class="col-md-12">
 <% }  %>		
-		<h4 class="list-group-item-heading"><a href="<%= request.getContextPath() %>/handle/<%= com.getHandle() %>"><%= com.getName() %></a>
+	<h4 class="list-group-item-heading"><a href="<%= request.getContextPath() %>/handle/<%= com.getHandle() %>"><%= com.getName() %></a>
 <%
         if (configurationService.getBooleanProperty("webui.strengths.show"))
         {

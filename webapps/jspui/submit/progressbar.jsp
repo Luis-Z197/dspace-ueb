@@ -67,7 +67,7 @@
     }
 %>
 
-<!--Progress Bar-->
+<!--Progress Bar -->
 <div class="row container btn-group">
 <%    
     //get progress bar info, used to build progress bar

@@ -43,7 +43,7 @@
 
 
         <h1><fmt:message key="jsp.dspace-admin.list-metadata-schemas.title"/>
-        <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.site-admin\") + \"#dublincore\"%>"><fmt:message key="jsp.help"/></dspace:popup>
+        
 		</h1>
   
 <%

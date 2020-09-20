@@ -51,7 +51,6 @@
                parentlink="/dspace-admin">
 
     <h1><fmt:message key="jsp.dspace-admin.license-edit.heading"/>
-    <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.site-admin\") + \"#editlicense\"%>"><fmt:message key="jsp.help"/></dspace:popup>
     </h1>
     
     <form action="<%= request.getContextPath() %>/dspace-admin/license-edit" method="post">

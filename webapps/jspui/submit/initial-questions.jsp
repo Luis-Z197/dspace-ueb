@@ -57,7 +57,7 @@
 
         <%-- <h1>Submit: Describe Your Item</h1> --%>
 		<h1><fmt:message key="jsp.submit.initial-questions.heading"/>
-		<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#describe1\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
+	<%-- <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#describe1\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup> --%>
 		</h1>
     
         <%-- <p>Please check the boxes next to the statements that apply to your

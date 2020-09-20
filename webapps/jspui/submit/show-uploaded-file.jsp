@@ -79,7 +79,7 @@
 %>
         <%-- <h1>Submit: File Uploaded Successfully</h1> --%>
 		<h1><fmt:message key="jsp.submit.show-uploaded-file.heading1"/>
-		<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\")+ \"#uploadedfile\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup></h1>
+	<%--	<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\")+ \"#uploadedfile\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup> --%></h1>
 
         <%-- <p><strong>Your file was successfully uploaded.</strong></p> --%>
 		<div class="alert aler-info"><fmt:message key="jsp.submit.show-uploaded-file.info1"/></div>
@@ -90,14 +90,15 @@
 %>
         <%-- <h1>Submit: Uploaded File</h1> --%>
 		<h1><fmt:message key="jsp.submit.show-uploaded-file.heading2"/>
-		<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\")+ \"#uploadedfile\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
+	<%--	<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\")+ \"#uploadedfile\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup> --%>
 		</h1>
 <%
     }
 %>
         <%-- <p>Here are the details of the file you have uploaded.  Please check the
         details before going to the next step.
-        &nbsp;&nbsp;&nbsp;<dspace:popup page="/help/index.html#uploadedfile">(More Help...)</dspace:popup></p> --%>
+        &nbsp;&nbsp;&nbsp;
+<!--	<dspace:popup page="/help/index.html#uploadedfile">(More Help...)</dspace:popup></p> --%> -->
 
 		<div><fmt:message key="jsp.submit.show-uploaded-file.info2"/></div>
 

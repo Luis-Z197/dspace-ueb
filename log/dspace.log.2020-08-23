@@ -1,0 +1,101 @@
+2020-08-23 10:12:29,130 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=26A7A99E5092589D364BF5D0C2072E14:ip_addr=179.49.13.43:browse_mini:
+2020-08-23 10:12:29,162 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 10:12:29,179 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 10:12:29,179 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 10:13:31,026 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=26A7A99E5092589D364BF5D0C2072E14:ip_addr=179.49.13.43:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-23 10:13:31,032 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=26A7A99E5092589D364BF5D0C2072E14:ip_addr=179.49.13.43:authenticate:type=PasswordAuthentication
+2020-08-23 10:13:31,032 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=26A7A99E5092589D364BF5D0C2072E14:ip_addr=179.49.13.43:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-23 10:13:31,051 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=26A7A99E5092589D364BF5D0C2072E14:ip_addr=179.49.13.43:login:type=explicit
+2020-08-23 10:13:31,135 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=160CF07E6E477705F6527288818396C2:ip_addr=179.49.13.43:view_mydspace:
+2020-08-23 10:13:51,128 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=160CF07E6E477705F6527288818396C2:ip_addr=179.49.13.43:browse_mini:
+2020-08-23 10:13:51,137 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 10:13:51,151 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 10:13:51,151 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 10:13:53,441 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=160CF07E6E477705F6527288818396C2:ip_addr=179.49.13.43:view_mydspace:
+2020-08-23 10:13:57,554 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=160CF07E6E477705F6527288818396C2:ip_addr=179.49.13.43:view_community_list:
+2020-08-23 10:14:21,533 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=160CF07E6E477705F6527288818396C2:ip_addr=179.49.13.43:browse:type=null,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=0,etal=-1
+2020-08-23 10:14:21,533 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=160CF07E6E477705F6527288818396C2:ip_addr=179.49.13.43:browse_by_item:
+2020-08-23 10:14:24,884 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=160CF07E6E477705F6527288818396C2:ip_addr=179.49.13.43:browse:type=null,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=0,etal=-1
+2020-08-23 10:14:24,885 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=160CF07E6E477705F6527288818396C2:ip_addr=179.49.13.43:browse_by_item:
+2020-08-23 10:48:12,626 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=B362F85ED30F31182C121C8FE24A4299:ip_addr=179.49.13.43:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu..ec
+2020-08-23 10:48:12,629 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=B362F85ED30F31182C121C8FE24A4299:ip_addr=179.49.13.43:failed_login:email=luizurita@mailes.ueb.edu..ec, result=4
+2020-08-23 10:48:25,579 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=B362F85ED30F31182C121C8FE24A4299:ip_addr=179.49.13.43:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-23 10:48:25,582 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=B362F85ED30F31182C121C8FE24A4299:ip_addr=179.49.13.43:authenticate:type=PasswordAuthentication
+2020-08-23 10:48:25,582 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=B362F85ED30F31182C121C8FE24A4299:ip_addr=179.49.13.43:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-23 10:48:25,590 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=B362F85ED30F31182C121C8FE24A4299:ip_addr=179.49.13.43:login:type=explicit
+2020-08-23 16:37:32,235 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8904B49A72051AC7A6DC3750450F365D:ip_addr=181.198.172.161:browse_mini:
+2020-08-23 16:37:32,250 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 16:37:32,269 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 16:37:32,269 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 16:37:37,805 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8904B49A72051AC7A6DC3750450F365D:ip_addr=181.198.172.161:browse_mini:
+2020-08-23 16:37:37,810 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 16:37:37,836 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 16:37:37,836 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 16:37:41,319 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8904B49A72051AC7A6DC3750450F365D:ip_addr=181.198.172.161:browse_mini:
+2020-08-23 16:37:41,323 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 16:37:41,335 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 16:37:41,336 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 16:38:16,466 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8904B49A72051AC7A6DC3750450F365D:ip_addr=181.198.172.161:browse_mini:
+2020-08-23 16:38:16,471 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 16:38:16,486 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 16:38:16,486 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 16:38:25,067 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=8904B49A72051AC7A6DC3750450F365D:ip_addr=181.198.172.161:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-23 16:38:25,069 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=8904B49A72051AC7A6DC3750450F365D:ip_addr=181.198.172.161:authenticate:type=PasswordAuthentication
+2020-08-23 16:38:25,069 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=8904B49A72051AC7A6DC3750450F365D:ip_addr=181.198.172.161:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-23 16:38:25,076 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=8904B49A72051AC7A6DC3750450F365D:ip_addr=181.198.172.161:login:type=explicit
+2020-08-23 16:38:25,094 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=98EC6D33D0882366DD9C2C269225A4D6:ip_addr=181.198.172.161:view_mydspace:
+2020-08-23 16:38:32,039 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=98EC6D33D0882366DD9C2C269225A4D6:ip_addr=181.198.172.161:view_community_list:
+2020-08-23 16:38:39,125 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=98EC6D33D0882366DD9C2C269225A4D6:ip_addr=181.198.172.161:view_mydspace:
+2020-08-23 16:38:43,631 INFO  org.dspace.app.webui.servlet.EditProfileServlet @ luizurita@mailes.ueb.edu.ec:session_id=98EC6D33D0882366DD9C2C269225A4D6:ip_addr=181.198.172.161:view_profile:
+2020-08-23 16:38:55,774 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=98EC6D33D0882366DD9C2C269225A4D6:ip_addr=181.198.172.161:browse:type=null,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=0,etal=-1
+2020-08-23 16:38:55,774 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=98EC6D33D0882366DD9C2C269225A4D6:ip_addr=181.198.172.161:browse_by_item:
+2020-08-23 16:38:59,836 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=98EC6D33D0882366DD9C2C269225A4D6:ip_addr=181.198.172.161:browse:type=null,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=0,etal=-1
+2020-08-23 16:38:59,837 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=98EC6D33D0882366DD9C2C269225A4D6:ip_addr=181.198.172.161:browse_by_item:
+2020-08-23 16:39:18,664 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=98EC6D33D0882366DD9C2C269225A4D6:ip_addr=181.198.172.161:browse_mini:
+2020-08-23 16:39:18,670 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 16:39:18,686 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 16:39:18,686 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:42:23,809 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7B00DD3AC1C31EBBC316971BEFB038C1:ip_addr=179.49.13.43:browse_mini:
+2020-08-23 20:42:23,826 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:42:23,842 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:42:23,842 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:42:38,284 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1687688939C6FD946C4E7DB00B201817:ip_addr=179.49.13.43:browse_mini:
+2020-08-23 20:42:38,289 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:42:38,303 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:42:38,303 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:44:18,549 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=569241BE72EAB16B30BD4353444F1113:ip_addr=181.198.172.161:browse_mini:
+2020-08-23 20:44:18,561 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:44:18,581 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:44:18,581 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:22,159 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=569241BE72EAB16B30BD4353444F1113:ip_addr=181.198.172.161:browse_mini:
+2020-08-23 20:51:22,186 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:51:22,203 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:22,203 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:25,078 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1687688939C6FD946C4E7DB00B201817:ip_addr=179.49.13.43:browse_mini:
+2020-08-23 20:51:25,082 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:51:25,095 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:25,095 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:32,242 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=569241BE72EAB16B30BD4353444F1113:ip_addr=181.198.172.161:browse_mini:
+2020-08-23 20:51:32,249 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:51:32,263 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:32,263 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:33,535 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1687688939C6FD946C4E7DB00B201817:ip_addr=179.49.13.43:browse_mini:
+2020-08-23 20:51:33,539 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:51:33,552 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:33,552 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:33,903 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1687688939C6FD946C4E7DB00B201817:ip_addr=179.49.13.43:browse_mini:
+2020-08-23 20:51:33,908 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:51:33,920 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:33,920 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:34,044 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1687688939C6FD946C4E7DB00B201817:ip_addr=179.49.13.43:browse_mini:
+2020-08-23 20:51:34,048 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:51:34,060 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:34,061 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:56,646 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D931D624900605A9DCD16DD75F5D6A40:ip_addr=179.49.13.43:browse_mini:
+2020-08-23 20:51:56,654 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:51:56,669 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:51:56,670 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-23 20:52:09,460 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=BD4E7CF935CBC60DBF5A22B6562ED514:ip_addr=181.198.172.161:browse_mini:
+2020-08-23 20:52:09,467 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-23 20:52:09,480 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-23 20:52:09,481 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)

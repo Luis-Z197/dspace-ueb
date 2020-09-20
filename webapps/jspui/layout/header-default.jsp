@@ -133,12 +133,12 @@
     <div class="row">
         <div class="col-md-6 brand">
             <h1 style="color:#064582;">REPOSITORIO DIGITAL UEB</h1>
-           <h2 style="font-family:sans-serif ;line-height: 30px;font-size:18px;color:#306a9c;" align="justify">
+           <h2 style="font-family:sans-serif ;line-height: 30px; width:480px; font-size:18px;color:#306a9c;" align="justify">
 	Siempre informados  con el repositorio de la UEB aquí puedes encontrar 
 	las Resoluciones, Acuerdos, Estatutos,  Leyes y mucho más. </h2>
 
         </div>
-        <div class="col-md-6"><img class="pull-right"  height="210px" src="http://desarrollo.ueb.edu.ec:8080/repositorio/image/repositorio.jpg" alt="Repositorio UEB" />
+        <div class="col-md-6"><img class="pull-right"  height="210px" src="/repositorio/image/repositorio.jpg" alt="Repositorio UEB" />
         </div>
     </div>
 </div>

@@ -45,8 +45,8 @@
          <repeatable>true</repeatable>
          <label>Autor/es</label>
          <input-type>name</input-type>
-         <hint>Ingrese los nombres del o los autores de este artículo.</hint>
-         <required></required>
+         <hint>Ingrese</hint>
+	 <required>Debes Ingresar el Autor del documento</required>
        </field>
 
        <field>
@@ -81,7 +81,7 @@
          <hint>Indique la fecha de publicación puede omitir el mes y dia pero el año es obligatorio.</hint>
          <required>Debes ingresar al menos el año.</required>
        </field>
-
+<!--
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>publisher</dc-element>
@@ -113,7 +113,7 @@
          <input-type>series</input-type>
          <hint>Ingrese la serie y el número asignado a este artículo por su comunidad.</hint>
          <required></required>
-       </field>
+       </field>-->
 
        <field>
          <dc-schema>dc</dc-schema>
@@ -123,8 +123,7 @@
          <repeatable>true</repeatable>
          <label>Identificador</label>
          <input-type value-pairs-name="common_identifiers">qualdrop_value</input-type>
-         <hint>If the item has any identification numbers or codes associated with
-it, please enter the types and the actual numbers or codes.</hint>
+         <hint>Seleccione el Identificador(opcional)</hint>
          <required></required>
        </field>
 
@@ -135,7 +134,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <repeatable>true</repeatable>
          <label>Tipo</label>
          <input-type value-pairs-name="common_types">dropdown</input-type>
-         <hint>Select the type(s) of content of the item. To select more than one value in the list, you may have to hold down the "CTRL" or "Shift" key.</hint>
+         <hint>Seleccione el tipo de documento que subira</hint>
          <required></required>
        </field>
 
@@ -146,7 +145,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <repeatable>false</repeatable>
          <label>Idioma</label>
          <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
-         <hint>Select the language of the main content of the item.  If the language does not appear in the list, please select 'Other'.  If the content does not really have a language (for example, if it is a dataset or an image) please select 'N/A'.</hint>
+         <hint>Seleccione el idioma del documento</hint>
          <required></required>
        </field>
      </page>
@@ -259,18 +258,19 @@ it, please enter the types and the actual numbers or codes.</hint>
    </value-pairs>
 
    <value-pairs value-pairs-name="common_types" dc-term="type">
-     <pair>
+    <pair>
        <displayed-value>Animation</displayed-value>
        <stored-value>Animation</stored-value>
      </pair>
      <pair>
-       <displayed-value>Article</displayed-value>
-       <stored-value>Article</stored-value>
+       <displayed-value>Actas</displayed-value>
+       <stored-value>Actas</stored-value>
      </pair>
      <pair>
-       <displayed-value>Book</displayed-value>
-       <stored-value>Book</stored-value>
+       <displayed-value>Estatuto</displayed-value>
+       <stored-value>Estatuto</stored-value>
      </pair>
+<!--
      <pair>
        <displayed-value>Book chapter</displayed-value>
        <stored-value>Book chapter</stored-value>
@@ -298,8 +298,8 @@ it, please enter the types and the actual numbers or codes.</hint>
      <pair>
        <displayed-value>Musical Score</displayed-value>
        <stored-value>Musical Score</stored-value>
-     </pair>
-     <pair>
+     </pair>-->
+    <!-- <pair>
        <displayed-value>Plan or blueprint</displayed-value>
        <stored-value>Plan or blueprint</stored-value>
      </pair>
@@ -336,8 +336,8 @@ it, please enter the types and the actual numbers or codes.</hint>
        <stored-value>Thesis</stored-value>
      </pair>
      <pair>
-       <displayed-value>Video</displayed-value>
-       <stored-value>Video</stored-value>
+       <displayed-value>Actas</displayed-value>
+       <stored-value>Actas</stored-value>
      </pair>
      <pair>
        <displayed-value>Working Paper</displayed-value>
@@ -346,8 +346,8 @@ it, please enter the types and the actual numbers or codes.</hint>
      <pair>
        <displayed-value>Other</displayed-value>
        <stored-value>Other</stored-value>
-     </pair>
-   </value-pairs>
+     </pair>-->
+   </value-pairs> 
 
    <!-- default language order: (from dspace 1.2.1)
         "en_US", "en", "es", "de", "fr", "it", "ja", "zh", "other", ""

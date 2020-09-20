@@ -104,9 +104,9 @@
     {
 %>
     <h3 class="col-md-12"><fmt:message key="jsp.tools.edit-community.heading1"/>
-    	<span>
+    <%--	<span>
         	<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.site-admin\") + \"#editcommunity\"%>"><fmt:message key="jsp.help"/></dspace:popup>
-        </span>
+        </span> --%>
     </h3>
 <%
     }
@@ -116,9 +116,9 @@
     <h3 class="col-md-8"><fmt:message key="jsp.tools.edit-community.heading2">
         <fmt:param><%= community.getHandle() %></fmt:param>
         </fmt:message>
-        <span>
+       <%-- <span>
         	<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.site-admin\") + \"#editcommunity\"%>"><fmt:message key="jsp.help"/></dspace:popup>
-        </span>	
+        </span>--%>	
     </h3>
     <% if(bDelete) { %>
               <form class="col-md-4" method="post" action="">

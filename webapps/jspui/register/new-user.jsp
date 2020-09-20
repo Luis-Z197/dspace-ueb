@@ -43,7 +43,7 @@
 
     <%-- <p>If you've never logged on to DSpace before, please enter your e-mail
     address in the box below and click "Register".</p> --%>
-	<p class="alert"><fmt:message key="jsp.register.new-user.info2"/></p>
+     <%--<p class="alert"><fmt:message key="jsp.register.new-user.info2"/></p>--%>
     
     <form class="form-horizontal" action="<%= request.getContextPath() %>/register" method="post">
 
@@ -58,10 +58,10 @@
             <input class="btn btn-default col-md-4" type="submit" name="submit" value="<fmt:message key="jsp.register.new-user.register.button"/>" />
         </div>
     </form>
-    <%-- <p>If you or your department are interested in registering with DSpace, please
-    contact the DSpace site administrators.</p> --%>
+    <%-- <p>If you or your department are interested in registering with Dspace, please
+    contact the Dspace site administrators.</p> --%>
     <br/>
-	<div class="alert alert-info"><fmt:message key="jsp.register.new-user.info3"/></div>
+	<div class="alert alert-info">Si usted está interesado en registrarse en el Repositorio de la UEB, por favor contáctese con los administradores</div>
 
     <dspace:include page="/components/contact-info.jsp" />
 

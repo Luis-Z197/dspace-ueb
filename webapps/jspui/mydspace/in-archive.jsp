@@ -45,7 +45,7 @@
     <p align="center">
         <a href="<%= request.getContextPath() %>/mydspace">
             <%--Return to My DSpace--%>
-			<fmt:message key="jsp.mydspace.in-archive.return.link"/>
+		Ir a Página Principal<key="jsp.mydspace.in-archive.return.link"/>
         </a>
     </p>
 </dspace:layout>

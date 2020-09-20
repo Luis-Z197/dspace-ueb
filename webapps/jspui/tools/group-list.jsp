@@ -63,9 +63,7 @@
 
     <%--  <h1>Group Editor</h1> --%>
     <h1><fmt:message key="jsp.tools.group-list.title"/>
-    <%-- <dspace:popup page="/help/site-admin.html#groups">Help...</dspace:popup> --%>
-	<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.site-admin\") + \"#groups\"%>"><fmt:message key="jsp.help"/></dspace:popup>
-    </h1>
+</h1>
     
   	
 	<p class="alert alert-info"><fmt:message key="jsp.tools.group-list.note1"/></p>	

@@ -1,0 +1,735 @@
+2020-09-17 00:00:02,443 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=920E74446809EBDAFF94BD3D5081687B:ip_addr=185.39.9.34:browse_mini:
+2020-09-17 00:00:02,454 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 00:00:02,466 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 00:00:02,467 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 00:00:50,008 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-17 00:00:50,029 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=74F617D9F8C18327DD862DE86FE92C6C:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@18b3843e,query="null",results=(0,0,2)
+2020-09-17 00:07:24,293 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=DAFC6FA3B8AA77194835DB7BB03D9CF2:ip_addr=190.15.128.209:display_statistics:handle=123456789/214, path=/statistics
+2020-09-17 00:08:01,958 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 00:08:01,981 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B3FBC938E196CFCE210E82F04F00C32D:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="null",results=(0,0,10)
+2020-09-17 00:08:03,167 INFO  org.dspace.app.webui.servlet.HTMLServlet @ anonymous:session_id=5BC1B580A4EC538305ADA89ECF6B8A81:ip_addr=154.8.216.77:view_html:invalid_bitstream_id=public/index.php
+2020-09-17 00:08:07,097 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=67D427D1B32A45733D2AED253CA8F928:ip_addr=154.8.216.77:browse_mini:
+2020-09-17 00:08:07,102 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 00:08:07,111 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 00:08:07,111 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 00:15:13,937 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=C62B6AD2536D9ECE2B0BFFE8195C6AB5:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=S,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 00:15:13,937 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=C62B6AD2536D9ECE2B0BFFE8195C6AB5:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 00:22:30,110 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 00:22:30,128 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=19E600D7006859E35CDF6D4B3FF96173:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 00:27:23,999 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=6088E57528B5FBE8E6CBC5E32C7FA9FC:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 00:27:24,007 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 00:27:24,020 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 00:27:24,020 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 00:30:28,646 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=FD6BA6130BCE9736E4B0ECE45BB5972A:ip_addr=190.15.128.209:invalid_id:path=123456789/15
+2020-09-17 00:37:18,709 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=36E33D95BEEA232BD32B007C090C8F23:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 00:37:18,717 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 00:37:18,729 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 00:37:18,729 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 00:44:01,967 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=E79A85004E335AF97DA7D76EE9E4D1E4:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=N,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 00:44:01,968 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E79A85004E335AF97DA7D76EE9E4D1E4:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 00:51:13,748 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=15705A1DB313E2A990803FE85C922652:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=V,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 00:51:13,748 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=15705A1DB313E2A990803FE85C922652:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 01:05:37,675 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0FE768B593BFBA02918DC5A0BE3C883B:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/187,level=0,etal=-1
+2020-09-17 01:05:37,675 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0FE768B593BFBA02918DC5A0BE3C883B:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-17 01:12:49,708 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=77B2873B245C58C3118F3D2786A7B953:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=0,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 01:12:49,709 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=77B2873B245C58C3118F3D2786A7B953:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 01:17:07,801 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=53A0B04D90436F9F9BCA0232F467ED18:ip_addr=190.15.128.209:display_statistics:handle=123456789/248, path=/statistics
+2020-09-17 01:18:58,712 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B26EF4BBA0F32D0BC184A5B175EB67C4:ip_addr=185.39.11.105:browse_mini:
+2020-09-17 01:18:58,721 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 01:18:58,733 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 01:18:58,733 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 01:20:01,610 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=5872CAB8E99D7AF7E39FD98EE6C979ED:ip_addr=190.15.128.209:browse:type=subject,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/187,level=0,etal=-1
+2020-09-17 01:20:01,610 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5872CAB8E99D7AF7E39FD98EE6C979ED:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-17 01:24:41,331 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7A4DADA06580ED29A0409C92B91F697E:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 01:24:41,339 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 01:24:41,351 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 01:24:41,351 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 01:27:13,644 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=7F879AC81898D179127DEF76D9277514:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=U,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 01:27:13,645 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7F879AC81898D179127DEF76D9277514:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 01:34:25,545 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=A07461651CA00B962C87928098CB10D9:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=B,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 01:34:25,545 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A07461651CA00B962C87928098CB10D9:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 01:41:37,571 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=A8D03B66DCF13557B7A55C8B1FA2AACE:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=W,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 01:41:37,571 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A8D03B66DCF13557B7A55C8B1FA2AACE:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 01:48:51,560 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=9E3EE6B63AF3C6DF6434B061191F8638:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=0,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 01:48:51,560 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9E3EE6B63AF3C6DF6434B061191F8638:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 01:56:01,501 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0C72B22AEB45A8B383C7A652930F6C92:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=R,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 01:56:01,501 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0C72B22AEB45A8B383C7A652930F6C92:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 02:01:16,675 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=962B368855BF98C355FDE8906157B061:ip_addr=190.15.128.209:invalid_id:path=123456789/76
+2020-09-17 02:02:04,963 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=3EFCF0CC3C2B1B66254C3F99298A7825:ip_addr=190.15.128.209:browse:type=dateissued,order=DESC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=100,sort_by=2,community=n/a,collection=n/a,level=0,etal=-1
+2020-09-17 02:02:04,964 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3EFCF0CC3C2B1B66254C3F99298A7825:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 02:03:13,386 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 02:03:13,401 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=4A49349FDF39E7B5C5D11F508600968A:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="null",results=(0,0,2)
+2020-09-17 02:10:25,444 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 02:10:25,464 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=DB3DFC554318443DC33E0C730B2C88B4:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="",results=(0,0,2)
+2020-09-17 02:12:27,211 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=2754B5037E12E0F9943DE68C699F39B6:ip_addr=190.15.128.209:view_community_list:
+2020-09-17 02:17:37,323 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=5461738A66D0ED15129F8D1A84241CD4:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=D,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 02:17:37,323 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5461738A66D0ED15129F8D1A84241CD4:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 02:24:36,444 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=6F969131BA0F0CD3E6A00A7B7EB098B8:ip_addr=185.39.9.34:browse_mini:
+2020-09-17 02:24:36,452 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 02:24:36,465 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 02:24:36,465 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 02:24:49,340 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 02:24:49,356 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=3407EBFD837BED8BAF8F33CBBE8B249E:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,1)
+2020-09-17 02:33:12,529 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=18F29F38804ECB70C530524944A40390:ip_addr=190.15.128.209:view_item:handle=123456789/236
+2020-09-17 02:33:12,546 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=18F29F38804ECB70C530524944A40390:ip_addr=190.15.128.209:view_item:handle=123456789/236
+2020-09-17 02:39:13,287 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=2A47BBC96925F07542E65966BC0AC266:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=T,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 02:39:13,287 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2A47BBC96925F07542E65966BC0AC266:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 02:46:25,187 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 02:46:25,205 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=21AE5C8F17F91EF12D1BCB0EC9ABEB05:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="null",results=(0,0,2)
+2020-09-17 02:53:37,345 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=63267EE057A8CE27ED2377FFE2BC19E3:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=K,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 02:53:37,346 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=63267EE057A8CE27ED2377FFE2BC19E3:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 03:00:49,110 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 03:00:49,128 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=C601FFD24982C8C91D20931A027D55B8:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="",results=(0,0,2)
+2020-09-17 03:08:01,157 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 03:08:01,177 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=52C49575AF4052B2A10902164BF001A1:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="",results=(0,0,2)
+2020-09-17 03:15:13,025 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=38D5555C72E7613E540F13C2A2D9BD03:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=L,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 03:15:13,026 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=38D5555C72E7613E540F13C2A2D9BD03:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 03:22:25,638 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=A66ACC6483D3936BDE1F4038598783C1:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=T,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 03:22:25,638 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A66ACC6483D3936BDE1F4038598783C1:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 03:29:36,966 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=86541734C5397D40079C9D2A4925E57C:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=A,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 03:29:36,966 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=86541734C5397D40079C9D2A4925E57C:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 03:34:03,305 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=38C983A08093CFAB08C17C25CED6F140:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 03:34:03,313 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 03:34:03,325 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 03:34:03,325 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 03:36:49,011 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-17 03:36:49,032 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=7FD94FF8158C41B0E98F9044D3B32EB8:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@18b3843e,query="null",results=(0,0,10)
+2020-09-17 03:44:00,890 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=B46D8D107E4462E590279CF2BC153725:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=A,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 03:44:00,890 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B46D8D107E4462E590279CF2BC153725:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 03:47:33,629 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=748532A6B69FD81A925C39B77550991C:ip_addr=190.15.128.209:view_collection:collection_id=33d7bcbd-cded-4ca0-8954-b34916b23136
+2020-09-17 03:47:33,630 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=748532A6B69FD81A925C39B77550991C:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 03:47:33,638 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@61dcd87a: 4
+2020-09-17 03:47:33,647 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=748532A6B69FD81A925C39B77550991C:ip_addr=190.15.128.209:view_collection:collection_id=33d7bcbd-cded-4ca0-8954-b34916b23136
+2020-09-17 03:51:12,847 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=D3C804FC5DAF3CD3FDC4278B34FF4D91:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=L,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 03:51:12,847 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D3C804FC5DAF3CD3FDC4278B34FF4D91:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 03:58:25,000 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=B523883B02EBE2B9F16A026CD694A390:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=L,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 03:58:25,000 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B523883B02EBE2B9F16A026CD694A390:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 04:05:36,797 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4FD8F229B5042F9759888F97FD58875C:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=Z,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 04:05:36,798 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4FD8F229B5042F9759888F97FD58875C:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 04:12:48,820 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=087C66B2BEE59C124EF812E5AF49E29F:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=G,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 04:12:48,820 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=087C66B2BEE59C124EF812E5AF49E29F:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 04:13:18,411 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=12A98E154C993AD0A2B9995108A1B6CA:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 04:13:18,415 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 04:13:18,429 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 04:13:18,429 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 04:20:00,725 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 04:20:00,744 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=00C185488BB91DF84BCE820A843ED935:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 04:27:12,758 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4AD467AB3446D79CCEA2919529D25201:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=E,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 04:27:12,758 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4AD467AB3446D79CCEA2919529D25201:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 04:34:24,645 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=FEFD42E871E028036DE24D879C41C4A2:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/190,level=0,etal=-1
+2020-09-17 04:34:24,645 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=FEFD42E871E028036DE24D879C41C4A2:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-17 04:41:36,674 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=B35380012B8C41D713A8DA32590FF5B6:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=W,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/190,level=0,etal=-1
+2020-09-17 04:41:36,675 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B35380012B8C41D713A8DA32590FF5B6:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-17 04:48:48,570 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=E4FA9D28D03F6B920653405C40B52B3E:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=0,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 04:48:48,570 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E4FA9D28D03F6B920653405C40B52B3E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 04:56:00,601 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=24197449DFD2425EFC642B57D0DA1C0A:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=M,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 04:56:00,602 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=24197449DFD2425EFC642B57D0DA1C0A:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 05:01:56,750 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CADB904740FAE320C4D8F183756F9283:ip_addr=85.95.118.158:browse_mini:
+2020-09-17 05:01:56,759 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 05:01:56,772 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 05:01:56,772 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 05:03:12,618 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=E72B40BE79208B62C81B5D232701B14F:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=X,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 05:03:12,618 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E72B40BE79208B62C81B5D232701B14F:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 05:03:34,484 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=D35C8404D2D377915096BAF65DB32F2E:ip_addr=190.15.128.209:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-09-17 05:03:34,485 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D35C8404D2D377915096BAF65DB32F2E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 05:03:34,488 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@b6945eb4: 4
+2020-09-17 05:03:34,497 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=D35C8404D2D377915096BAF65DB32F2E:ip_addr=190.15.128.209:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-09-17 05:10:24,525 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=EF108C8ECF61290BC3BF3314C5B07A72:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=D,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 05:10:24,525 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=EF108C8ECF61290BC3BF3314C5B07A72:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 05:17:36,426 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=1E57699F33D3F3B478ABAFD3ED1CA7E9:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=E,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 05:17:36,426 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1E57699F33D3F3B478ABAFD3ED1CA7E9:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 05:24:48,459 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=FABE1A0598264EAF085A30766F24BE12:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=S,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 05:24:48,459 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=FABE1A0598264EAF085A30766F24BE12:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 05:32:28,108 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=107C6A7EC814D55637298FBFF4D566D4:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=V,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 05:32:28,108 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=107C6A7EC814D55637298FBFF4D566D4:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 05:39:12,377 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=529EA7B839FC934A6EB962157F799968:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=Y,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 05:39:12,378 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=529EA7B839FC934A6EB962157F799968:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 05:46:24,282 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=E0975429C8FC1C1AAD75466315DF59DF:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=I,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 05:46:24,283 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E0975429C8FC1C1AAD75466315DF59DF:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 05:53:36,312 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 05:53:36,333 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=781C466BE89542D2CD0B235F2091B4F6:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="null",results=(0,0,10)
+2020-09-17 06:00:48,214 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=DBBC5D40F3424D4C534B3A6CD6B4743B:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=R,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-17 06:00:48,214 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=DBBC5D40F3424D4C534B3A6CD6B4743B:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 06:15:05,443 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=DB37F553F95180CF9A341EB5CCB2644A:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=B,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 06:15:05,443 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=DB37F553F95180CF9A341EB5CCB2644A:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 06:22:21,163 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4E2B107D2B52ACCB9A5D4AF37E8E5C27:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=E,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 06:22:21,164 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4E2B107D2B52ACCB9A5D4AF37E8E5C27:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 06:25:44,055 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=11F17618EF521C032ED123885B176926:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=Y,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 06:25:44,056 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=11F17618EF521C032ED123885B176926:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 06:25:48,060 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=C99C91C77367F2D1DA99185E208A90DF:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=123456789/61,collection=n/a,level=0,etal=-1
+2020-09-17 06:25:48,060 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=C99C91C77367F2D1DA99185E208A90DF:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 06:26:04,651 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8C51080FACAEB7C3F81956CBB90F727A:ip_addr=216.218.206.68:browse_mini:
+2020-09-17 06:26:04,655 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 06:26:04,666 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 06:26:04,666 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 06:30:38,467 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=A66EB64532DF2595DCA5919BA176CB5B:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=F,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 06:30:38,468 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A66EB64532DF2595DCA5919BA176CB5B:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 06:36:48,104 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4DEC91D811938D88DA09827D5E854380:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=N,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 06:36:48,104 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4DEC91D811938D88DA09827D5E854380:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 06:43:59,991 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=F289CC2916EF0D825704E573BB1AD203:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=J,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 06:43:59,991 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F289CC2916EF0D825704E573BB1AD203:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 06:51:12,039 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-17 06:51:12,057 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=74EC985DA9AC3256D83119175A1E6E85:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@18b3843e,query="null",results=(0,0,1)
+2020-09-17 06:58:23,940 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=3A476FE6EC547F4D1D83895E9B28F347:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=M,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 06:58:23,941 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3A476FE6EC547F4D1D83895E9B28F347:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 07:05:35,958 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=2BF1E5A2566C29542799D8A4C65EF23B:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/190,level=0,etal=-1
+2020-09-17 07:05:35,958 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2BF1E5A2566C29542799D8A4C65EF23B:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 07:12:47,848 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=2A41CF48A24A969414C47397ACA18E42:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=C,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 07:12:47,849 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2A41CF48A24A969414C47397ACA18E42:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 07:17:47,708 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2FCD4DB71ED0F82378F032E9ADF6A3C6:ip_addr=185.39.11.84:browse_mini:
+2020-09-17 07:17:47,716 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 07:17:47,729 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 07:17:47,729 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 07:20:00,049 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=27EA3993CDA15151C9090B698AF53C44:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=0,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 07:20:00,050 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=27EA3993CDA15151C9090B698AF53C44:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 07:27:11,794 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=EF76670350555660B7E18EE6E926A82E:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=Q,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 07:27:11,794 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=EF76670350555660B7E18EE6E926A82E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 07:34:23,819 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 07:34:23,837 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=91233894951EDF4A942DC4164544B3E8:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="null",results=(0,0,2)
+2020-09-17 07:34:33,516 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=4C47FBDEAEFA641170ACADD518D92FBE:ip_addr=190.15.128.209:view_item:handle=123456789/238
+2020-09-17 07:34:33,538 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=4C47FBDEAEFA641170ACADD518D92FBE:ip_addr=190.15.128.209:view_item:handle=123456789/238
+2020-09-17 07:41:35,711 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 07:41:35,731 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=A2B93F53C3B354BAB0297E5C0C00A79F:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="",results=(0,0,2)
+2020-09-17 07:48:47,757 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=8C4E4EC03A2942F2B22DB5452980FFD0:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=P,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-17 07:48:47,757 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8C4E4EC03A2942F2B22DB5452980FFD0:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 07:55:59,640 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-17 07:55:59,663 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=7068453AC55CECF3BAD25B70B210BDC2:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@18b3843e,query="null",results=(0,0,2)
+2020-09-17 07:57:50,556 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4D4D8E604D03C987CB1C10620D944FA8:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 07:57:50,565 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 07:57:50,577 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 07:57:50,577 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 07:57:50,972 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2006E1BD68C705018764680E036A291B:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 07:57:50,975 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 07:57:50,984 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 07:57:50,984 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 08:03:11,669 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-17 08:03:11,687 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=84BB54ADC92BA6F8701D1899B9FCA8BD:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@18b3843e,query="null",results=(0,0,1)
+2020-09-17 08:10:23,565 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-17 08:10:23,583 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=0EE061345045D98A2384F421B4B4BCC5:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@18b3843e,query="",results=(0,0,1)
+2020-09-17 08:17:35,605 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=8C6351147EABC10EBA6EF21FAE20B586:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=C,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 08:17:35,605 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8C6351147EABC10EBA6EF21FAE20B586:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 08:24:47,617 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=31713D31AE015E8A61AC18A1341AC9EE:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=V,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 08:24:47,618 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=31713D31AE015E8A61AC18A1341AC9EE:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 08:32:25,407 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=C11CDF5A6C4A3A66249DF79F0AE450EF:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=G,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 08:32:25,407 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=C11CDF5A6C4A3A66249DF79F0AE450EF:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 08:39:11,442 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=45D4F9F0C3E61FB436EB3D951AE4FDC2:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=Z,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-17 08:39:11,442 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=45D4F9F0C3E61FB436EB3D951AE4FDC2:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 08:46:23,474 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=7C43535F695F0990026A69F92402645E:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=X,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 08:46:23,474 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7C43535F695F0990026A69F92402645E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 08:53:35,371 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4E97BD46EEF7F19B4BE5996820D68CB7:ip_addr=190.15.128.209:browse:type=dateissued,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=2,community=n/a,collection=123456789/190,level=0,etal=-1
+2020-09-17 08:53:35,372 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4E97BD46EEF7F19B4BE5996820D68CB7:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 08:54:16,136 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=2F39D4AB7FE3250C32F9903DB9F96F13:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 08:54:16,136 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2F39D4AB7FE3250C32F9903DB9F96F13:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 09:00:47,394 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=9271A5DA35C714BA3BD71A304D2703DE:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=I,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 09:00:47,395 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9271A5DA35C714BA3BD71A304D2703DE:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 09:03:01,101 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=28ED61AA47056A10B25A871438406E2C:ip_addr=193.118.53.202:browse_mini:
+2020-09-17 09:03:01,112 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 09:03:01,125 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 09:03:01,125 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 09:07:59,292 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=63D2CD1A9F5D4FB650CD80B8E1FAFDDD:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=H,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 09:07:59,292 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=63D2CD1A9F5D4FB650CD80B8E1FAFDDD:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 09:15:11,350 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=67F7AAEE20C9687A07D53CD99E57E94E:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=R,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 09:15:11,351 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=67F7AAEE20C9687A07D53CD99E57E94E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 09:22:23,210 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=54A6A1FCDF32F96829AC9498566CC3E5:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=J,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 09:22:23,211 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=54A6A1FCDF32F96829AC9498566CC3E5:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 09:29:35,406 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0082C9E9E4501EBE14BCA3C4898D29A8:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=I,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-17 09:29:35,407 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0082C9E9E4501EBE14BCA3C4898D29A8:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 09:36:47,762 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 09:36:47,786 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=8D3B0FE7E71FF9C6AB0C370ED3318EA3:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 09:43:59,185 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 09:43:59,205 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=26150DF47B7090B802E06668A218CA0B:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 09:58:23,111 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=006C23F30FC10525BCE51DBC22C670CC:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=Q,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 09:58:23,111 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=006C23F30FC10525BCE51DBC22C670CC:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 10:02:00,534 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=88FB2C6A33AF28251C8EE4C25B3B686C:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 10:02:00,543 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 10:02:00,555 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 10:02:00,555 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 10:05:04,293 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=41175385C697F82C79B3EF209AE6CFC6:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 10:05:04,302 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 10:05:04,315 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 10:05:04,315 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 10:05:05,134 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B29BB8DE925E8A4556672FE90E4D9D8A:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 10:05:05,138 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 10:05:05,146 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 10:05:05,147 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 10:05:35,005 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=31CB78FB79F311899E181BB7CC407763:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=K,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 10:05:35,005 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=31CB78FB79F311899E181BB7CC407763:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 10:05:49,291 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=09556F7B7C9E39DD926D413A61217A82:ip_addr=190.15.128.209:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-09-17 10:05:49,294 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=09556F7B7C9E39DD926D413A61217A82:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 10:05:49,299 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-09-17 10:05:49,312 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=09556F7B7C9E39DD926D413A61217A82:ip_addr=190.15.128.209:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-09-17 10:12:47,039 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=498763D3ABBA55ADB234511533E31EC0:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=V,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-17 10:12:47,039 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=498763D3ABBA55ADB234511533E31EC0:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 10:19:58,945 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 10:19:58,965 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=9DE040D451C73487F39DEDA138B8B827:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 10:27:10,970 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=7DC6DB06748759BB5CC936A6467C76F5:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=X,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 10:27:10,970 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7DC6DB06748759BB5CC936A6467C76F5:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 10:29:05,962 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=BC4950FEFAAB86437F744B05AE52AEAC:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 10:29:05,971 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 10:29:05,983 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 10:29:05,983 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 10:37:36,816 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 10:37:36,836 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=C69E605CE62809B8870C9341B639D646:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="null",results=(0,0,2)
+2020-09-17 10:41:34,842 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 10:41:34,860 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=DAB4D3489C8C272473A5CFA66DC26F6D:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="",results=(0,0,2)
+2020-09-17 10:48:46,877 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 10:48:46,896 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=FEFBDCB8163C2D033A9C5BF363751BCB:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="",results=(0,0,2)
+2020-09-17 10:55:58,766 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0DCBD7EC3175F4DD5FA35A014CD772C5:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=P,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 10:55:58,766 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0DCBD7EC3175F4DD5FA35A014CD772C5:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 11:03:10,805 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=7C6077811D03A2AACE5647D8035BF765:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=W,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 11:03:10,805 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7C6077811D03A2AACE5647D8035BF765:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 11:10:22,709 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-17 11:10:22,728 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=71EB61576051F70547ED99E1AA9614DC:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@18b3843e,query="null",results=(0,0,3)
+2020-09-17 11:17:34,747 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=19B984AEB0CECEC7A3EFFF022DE66963:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=I,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 11:17:34,747 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=19B984AEB0CECEC7A3EFFF022DE66963:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 11:24:46,629 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=656AA161958145B4401191B8645419FE:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=X,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 11:24:46,629 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=656AA161958145B4401191B8645419FE:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 11:25:20,898 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=93434237E7A9B880FA391810E09617E2:ip_addr=190.15.128.209:view_collection:collection_id=06ae4c86-43ec-4c8e-8737-60e6b6cdc940
+2020-09-17 11:25:20,899 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=93434237E7A9B880FA391810E09617E2:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 11:25:20,908 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 11:25:20,917 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=93434237E7A9B880FA391810E09617E2:ip_addr=190.15.128.209:view_collection:collection_id=06ae4c86-43ec-4c8e-8737-60e6b6cdc940
+2020-09-17 11:26:39,775 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3191CFFB186437BFFFBA6E6CFC18CC45:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 11:26:39,783 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 11:26:39,796 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 11:26:39,796 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 11:26:40,616 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5645ED3CBE60C509ACCE0B555A02410F:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 11:26:40,619 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 11:26:40,636 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 11:26:40,636 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 11:32:22,157 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=782909202F1B1AAF9923830EBF369254:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=R,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 11:32:22,157 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=782909202F1B1AAF9923830EBF369254:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 11:39:10,677 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 11:39:10,700 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B58284C56A230F321E9ABC0C894D5693:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="null",results=(0,0,1)
+2020-09-17 11:44:40,062 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=681823042A7A0C00B9FDEE642764E728:ip_addr=185.39.11.84:browse_mini:
+2020-09-17 11:44:40,070 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 11:44:40,082 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 11:44:40,082 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 12:00:39,106 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=523D6C2270412DD2B664D804FF4429EE:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 12:00:39,115 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 12:00:39,128 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 12:00:39,128 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 12:00:39,595 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7993D17A30591BF7C8939D86875022DE:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 12:00:39,599 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 12:00:39,608 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 12:00:39,608 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 12:04:09,784 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=58CD5906C0E690DD63149249AD7ECE8F:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=M,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 12:04:09,785 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=58CD5906C0E690DD63149249AD7ECE8F:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 12:07:45,473 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=358C27B7E85CE999CA6F5D688B665531:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=S,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 12:07:45,474 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=358C27B7E85CE999CA6F5D688B665531:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 12:10:46,457 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=8A820A8A3751E64DDE50AA476AC95851:ip_addr=190.15.128.209:view_collection:collection_id=a1a5d5e2-376f-4c90-9a9b-4c9fa2e86147
+2020-09-17 12:10:46,458 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8A820A8A3751E64DDE50AA476AC95851:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 12:10:46,465 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@aeba1ac2: 4
+2020-09-17 12:10:46,476 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8A820A8A3751E64DDE50AA476AC95851:ip_addr=190.15.128.209:view_collection:collection_id=a1a5d5e2-376f-4c90-9a9b-4c9fa2e86147
+2020-09-17 12:15:23,157 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=BD1421F80A214C912A51ED58075B289D:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 12:16:14,367 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=95BD81B65CF21011CF33BE61339A386F:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=L,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 12:16:14,367 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=95BD81B65CF21011CF33BE61339A386F:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 12:19:50,717 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=7E074CC2BAA558389AC43F6D8852629E:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/198,level=0,etal=-1
+2020-09-17 12:19:50,717 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7E074CC2BAA558389AC43F6D8852629E:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-17 12:22:25,824 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-17 12:22:25,848 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=A9C4449CA439F424170A45B243C99C27:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@18b3843e,query="null",results=(0,0,10)
+2020-09-17 12:23:05,722 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-17 12:23:05,735 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=6453D2CA91E6353D533135F1E78FF193:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="",results=(0,0,2)
+2020-09-17 12:27:24,271 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=E3A4AE5A206E72EEBA82086EEF468167:ip_addr=190.15.128.209:browse:type=subject,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/198,level=0,etal=-1
+2020-09-17 12:27:24,272 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E3A4AE5A206E72EEBA82086EEF468167:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-17 12:35:42,613 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-17 12:35:42,633 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=323BFF76E18DB3DC8A6BE3D929E83EC7:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@18b3843e,query="",results=(0,0,1)
+2020-09-17 12:47:27,739 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9FD37C4DDD0334524F29DDC5C6E290A6:ip_addr=190.15.128.209:display_statistics:handle=123456789/251, path=/statistics
+2020-09-17 12:51:10,199 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=A186F2DEFA5BCB75EABDBD482909FD47:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=U,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 12:51:10,200 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A186F2DEFA5BCB75EABDBD482909FD47:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 13:10:55,949 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=AA64F2C72D5FF385934BC2E47B272001:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=A,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 13:10:55,950 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=AA64F2C72D5FF385934BC2E47B272001:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 13:11:41,891 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=C193A9988AD293559E4F33A7CCDBFBB1:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=F,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-17 13:11:41,891 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=C193A9988AD293559E4F33A7CCDBFBB1:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 13:12:46,300 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=144A6307C8BBBE14C63AA9695326271C:ip_addr=190.15.128.209:display_statistics:handle=123456789/254, path=/statistics
+2020-09-17 13:13:11,134 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=FFF4935BE1107B210501DDC7EB04B8CC:ip_addr=81.41.145.144:browse_mini:
+2020-09-17 13:13:11,142 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 13:13:11,153 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 13:13:11,153 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 13:27:33,704 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=0FAE6E06D942186D9842AB335D8610ED:ip_addr=190.15.128.209:view_collection:collection_id=64fcb7dc-fd48-460d-acc5-51dd56bdaa73
+2020-09-17 13:27:33,705 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0FAE6E06D942186D9842AB335D8610ED:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 13:27:33,713 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@63cc7097: 4
+2020-09-17 13:27:33,722 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=0FAE6E06D942186D9842AB335D8610ED:ip_addr=190.15.128.209:view_collection:collection_id=64fcb7dc-fd48-460d-acc5-51dd56bdaa73
+2020-09-17 13:29:51,209 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=DBB6C7F82F5D5CF52DA01FCC558B5776:ip_addr=190.15.128.209:view_item:handle=123456789/236
+2020-09-17 13:29:51,226 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=DBB6C7F82F5D5CF52DA01FCC558B5776:ip_addr=190.15.128.209:view_item:handle=123456789/236
+2020-09-17 13:34:18,531 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=56BBD448D52787E37D5DC08BA829D171:ip_addr=190.15.128.209:display_statistics:handle=123456789/244, path=/statistics
+2020-09-17 13:37:57,474 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=17CFA54FC14265ACBF93EE91D68F950A:ip_addr=190.15.128.209:view_item:handle=123456789/218
+2020-09-17 13:37:57,491 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=17CFA54FC14265ACBF93EE91D68F950A:ip_addr=190.15.128.209:view_item:handle=123456789/218
+2020-09-17 13:41:33,967 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=799DB1BB9DAD34795E2E2189E531F459:ip_addr=190.15.128.209:view_item:handle=123456789/218
+2020-09-17 13:41:33,982 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=799DB1BB9DAD34795E2E2189E531F459:ip_addr=190.15.128.209:view_item:handle=123456789/218
+2020-09-17 13:42:46,171 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=44B757A714922BE6B7B10482DA814B6A:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 13:42:46,180 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 13:42:46,193 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 13:42:46,193 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 13:48:17,284 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=152DEDABC2F3BADDFB8D2187359AEDD0:ip_addr=185.39.11.84:browse_mini:
+2020-09-17 13:48:17,292 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 13:48:17,304 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 13:48:17,304 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 13:50:26,039 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=85767861407CFD349FB374DAB6409FB8:ip_addr=37.28.172.100:browse_mini:
+2020-09-17 13:50:26,048 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 13:50:26,060 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 13:50:26,060 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 13:51:11,976 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1DA31FEE283B88C2DDA1E31147245BAD:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 13:51:11,984 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 13:51:11,996 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 13:51:11,996 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 13:52:30,060 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=FCB8ACE1159D72ABE758E827E912DB82:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=Z,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 13:52:30,060 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=FCB8ACE1159D72ABE758E827E912DB82:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 13:59:08,450 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=6F943C0DACBC4F90BBD79A62AE2E95FC:ip_addr=190.15.128.209:view_item:handle=123456789/251
+2020-09-17 13:59:08,466 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=6F943C0DACBC4F90BBD79A62AE2E95FC:ip_addr=190.15.128.209:view_item:handle=123456789/251
+2020-09-17 14:03:09,950 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=95C94B15DF599354599DC20A62393A1A:ip_addr=190.15.128.209:display_statistics:handle=123456789/222, path=/statistics
+2020-09-17 14:09:12,236 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D26F082FC4700F402565CF944D3681F8:ip_addr=185.217.161.172:browse_mini:
+2020-09-17 14:09:12,247 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 14:09:12,261 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 14:09:12,262 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 14:10:21,848 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 14:10:21,864 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=6E433C625CAF5336D4A51274D16857D0:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 14:17:33,870 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=F2BEF0C5650D16BCBDB00540FEA73C15:ip_addr=190.15.128.209:display_statistics:handle=123456789/242, path=/statistics
+2020-09-17 14:24:45,754 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-17 14:24:45,773 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=57DBAE477E5CD9A4B60B2394846DC3B3:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="",results=(0,0,1)
+2020-09-17 14:35:42,864 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-17 14:35:42,888 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=658420B5D4944A3BF0D3F5B85E2F165F:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="",results=(0,0,2)
+2020-09-17 14:39:09,681 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-17 14:39:09,704 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=6CA4D387CC04707DD033E0207FBDF1AC:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="",results=(0,0,2)
+2020-09-17 14:45:08,191 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=258317556E1A5F0B23067B4C2BEE6348:ip_addr=190.15.128.209:view_collection:collection_id=3e2069b8-79f8-4929-acf0-5fe23d292808
+2020-09-17 14:45:08,192 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=258317556E1A5F0B23067B4C2BEE6348:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 14:45:08,199 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@d601bd93: 4
+2020-09-17 14:45:08,208 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=258317556E1A5F0B23067B4C2BEE6348:ip_addr=190.15.128.209:view_collection:collection_id=3e2069b8-79f8-4929-acf0-5fe23d292808
+2020-09-17 14:46:21,664 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-17 14:46:21,682 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=2769710B7CE86117F986E08731182DB4:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="",results=(0,0,8)
+2020-09-17 14:53:33,608 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-17 14:53:33,626 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=DBA3D71C84E44BD01332666AB9A42BD1:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="",results=(0,0,1)
+2020-09-17 15:00:45,660 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-17 15:00:45,680 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=D63EFD8AD5597D4FEE36CFB3E9B53791:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="",results=(0,0,2)
+2020-09-17 15:03:48,478 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D90F689F00E2F323F4F8D62A18A7D976:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 15:03:48,486 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 15:03:48,498 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 15:03:48,498 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 15:06:49,971 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=375D5DD5FCAA7CC17F5E7A68E35C9D7D:ip_addr=190.15.128.209:view_community_list:
+2020-09-17 15:07:57,553 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=812E6D829F4D40D615DE31E30AE2FE9B:ip_addr=190.15.128.209:view_item:handle=123456789/220
+2020-09-17 15:07:57,568 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=812E6D829F4D40D615DE31E30AE2FE9B:ip_addr=190.15.128.209:view_item:handle=123456789/220
+2020-09-17 15:15:09,605 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=77C4217CF67C2397CAA525CBF6E20CBC:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JHONNATAN CARGUAYTONGO,month=null,year=null,starts_with=G,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 15:15:09,605 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=77C4217CF67C2397CAA525CBF6E20CBC:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 15:22:21,545 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2D8319294AECF89912FBDE9ABE215FD7:ip_addr=190.15.128.209:display_statistics:handle=123456789/227, path=/statistics
+2020-09-17 15:23:47,500 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=D9E83824EB82434A00FDB8D96F1EA530:ip_addr=190.15.128.209:browse:type=dateissued,order=DESC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=100,sort_by=2,community=n/a,collection=n/a,level=0,etal=-1
+2020-09-17 15:23:47,500 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D9E83824EB82434A00FDB8D96F1EA530:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 15:29:33,511 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 15:29:33,530 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=2608C082D60EA30B4911829B2604C14F:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 15:36:45,587 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=BFA7203F9D2D5B78980D8F0D2B3A66A4:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-17 15:36:45,587 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=BFA7203F9D2D5B78980D8F0D2B3A66A4:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 15:43:57,451 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=E368D72845851B5EAB0C1990B7ED918D:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=G,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 15:43:57,451 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E368D72845851B5EAB0C1990B7ED918D:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 15:51:09,343 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=AD8BC4F3D00919D24CEDBACD0FD34196:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JHONNATAN CARGUAYTONGO,month=null,year=null,starts_with=N,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 15:51:09,343 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=AD8BC4F3D00919D24CEDBACD0FD34196:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 15:58:21,417 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=2404190092997FE622A3F2FABAFA7BCA:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JHONNATAN CARGUAYTONGO,month=null,year=null,starts_with=P,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 15:58:21,417 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2404190092997FE622A3F2FABAFA7BCA:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 16:05:23,947 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=90DCD99A97A3EFCFFCE0AE1D1A525702:ip_addr=190.15.128.209:view_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-09-17 16:05:23,948 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=90DCD99A97A3EFCFFCE0AE1D1A525702:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 16:05:23,956 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@6bfba71b: 4
+2020-09-17 16:05:23,966 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=90DCD99A97A3EFCFFCE0AE1D1A525702:ip_addr=190.15.128.209:view_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-09-17 16:05:33,281 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=50C7F9AAFF5BF1F72D672FDA31A42E49:ip_addr=190.15.128.209:view_item:handle=123456789/228
+2020-09-17 16:05:33,296 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=50C7F9AAFF5BF1F72D672FDA31A42E49:ip_addr=190.15.128.209:view_item:handle=123456789/228
+2020-09-17 16:05:49,683 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8FB06A051AA7DBF8CB04C09A6D3BF9C5:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 16:05:49,687 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 16:05:49,698 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 16:05:49,698 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 16:08:03,925 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B4AD634CFACA7785728B9261943CEE9A:ip_addr=102.165.30.41:browse_mini:
+2020-09-17 16:08:03,933 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 16:08:03,944 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 16:08:03,945 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 16:16:51,823 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=DDFB621FB64D6F2E3408E828F50C34B4:ip_addr=185.39.11.105:browse_mini:
+2020-09-17 16:16:51,832 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 16:16:51,843 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 16:16:51,843 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 16:19:57,206 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=ED6B4A7EB7EA0B8ADC1D32E618A607C4:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=W,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 16:19:57,206 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=ED6B4A7EB7EA0B8ADC1D32E618A607C4:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 16:27:09,370 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=B6BD5ED25445ECF9AEFA859B04F77726:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=D,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/188,level=0,etal=-1
+2020-09-17 16:27:09,371 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B6BD5ED25445ECF9AEFA859B04F77726:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-17 16:34:21,135 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=F7D07A5A61AB3CA513E5B7B7E35AC0F4:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=A,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/188,level=0,etal=-1
+2020-09-17 16:34:21,135 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F7D07A5A61AB3CA513E5B7B7E35AC0F4:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 16:41:33,287 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=6667CE1067DFB62A0F97C20E18A3C9B8:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=V,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/188,level=0,etal=-1
+2020-09-17 16:41:33,288 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=6667CE1067DFB62A0F97C20E18A3C9B8:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-17 16:48:45,067 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-17 16:48:45,086 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=FDF35154203297E9CD54DFBE0EB0B1CC:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="",results=(0,0,2)
+2020-09-17 16:55:57,090 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=C2BDF5A0110DA4A917D7F6049DB988F5:ip_addr=190.15.128.209:browse:type=subject,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/191,level=0,etal=-1
+2020-09-17 16:55:57,091 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=C2BDF5A0110DA4A917D7F6049DB988F5:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-17 17:03:06,846 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=58520C881CF677997F91A30FF4E9BE69:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 17:03:06,855 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 17:03:06,868 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 17:03:06,868 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 17:03:08,986 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-17 17:03:08,998 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=A5239D01E4B587537EE00736FC90B23D:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="null",results=(0,0,1)
+2020-09-17 17:10:21,035 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-17 17:10:21,052 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=3743F4FBD20002C66BD8FD2F7E814FE9:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,1)
+2020-09-17 17:15:23,989 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9315400B612EE183E1501E7135EEE53D:ip_addr=190.15.128.209:view_community:community_id=c2f80dcf-5a56-4280-b226-b82f2ea33b85
+2020-09-17 17:15:23,990 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9315400B612EE183E1501E7135EEE53D:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 17:15:23,999 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@42bcf5a: 4
+2020-09-17 17:15:24,017 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9315400B612EE183E1501E7135EEE53D:ip_addr=190.15.128.209:view_community:community_id=c2f80dcf-5a56-4280-b226-b82f2ea33b85
+2020-09-17 17:17:32,916 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=525008A93AAE95F28332867F42B0B75B:ip_addr=190.15.128.209:browse:type=dateissued,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=2,community=n/a,collection=123456789/191,level=0,etal=-1
+2020-09-17 17:17:32,916 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=525008A93AAE95F28332867F42B0B75B:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 17:24:44,944 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-17 17:24:44,966 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=005BE7D38A0DA5FF756759DD7AE54A60:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,1)
+2020-09-17 17:31:56,913 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-17 17:31:56,936 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=49461A8996D0DEC46CC254F948AC8E20:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,10)
+2020-09-17 17:39:08,887 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-17 17:39:08,906 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=91956218748B2607118983A8E5E9E1E2:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,2)
+2020-09-17 17:46:20,887 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 17:46:20,907 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=80E702577EC09262FC56C0EF6693291F:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 17:53:32,824 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=9BD8D5A9B4D71B06EDBB73D5CFA5AD1E:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=H,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 17:53:32,825 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9BD8D5A9B4D71B06EDBB73D5CFA5AD1E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 18:04:19,516 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=06E26ABEEC7EB5A35BB83A94C52B78D5:ip_addr=190.15.128.209:browse:type=dateissued,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=2,community=n/a,collection=123456789/187,level=0,etal=-1
+2020-09-17 18:04:19,516 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=06E26ABEEC7EB5A35BB83A94C52B78D5:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 18:12:27,674 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=F8B71B108BB4B2CD16CF1ECC4514358C:ip_addr=190.15.128.209:browse:type=subject,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/190,level=0,etal=-1
+2020-09-17 18:12:27,675 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F8B71B108BB4B2CD16CF1ECC4514358C:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-17 18:17:28,071 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=1EB70D261BB5266ED077BA83991284DB:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=T,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 18:17:28,071 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1EB70D261BB5266ED077BA83991284DB:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 18:21:41,698 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=FFE0F7B96102AF2F298ADF0484AAEF57:ip_addr=185.39.9.34:browse_mini:
+2020-09-17 18:21:41,706 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 18:21:41,727 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 18:21:41,727 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 18:22:35,797 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0C95CAB6A911BFD622675731862EADC8:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=F,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 18:22:35,797 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0C95CAB6A911BFD622675731862EADC8:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 18:32:32,883 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=99A1B90A8E1B090CD8699A1DA3904FC7:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=H,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 18:32:32,883 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=99A1B90A8E1B090CD8699A1DA3904FC7:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 18:40:20,713 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 18:40:20,735 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=008C7DFA722284A5DA54800F46EF3A26:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 18:41:22,265 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=1AB0D220314BAF814A27093FD6098EB4:ip_addr=190.15.128.209:view_item:handle=123456789/200
+2020-09-17 18:41:22,288 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=1AB0D220314BAF814A27093FD6098EB4:ip_addr=190.15.128.209:view_item:handle=123456789/200
+2020-09-17 18:43:56,567 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 18:43:56,589 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=9FE46CEE6B546ABE632778D596FDA96F:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 18:51:08,696 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 18:51:08,715 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=BE502B622C5F4FF78A14A59D03C78CD2:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 19:05:32,391 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-17 19:05:32,410 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=9142ACD135F1A52F94A781FF1108D0A1:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="",results=(0,0,2)
+2020-09-17 19:12:44,448 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=132E91070F2B0D5466CDB530BE69330C:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=V,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 19:12:44,449 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=132E91070F2B0D5466CDB530BE69330C:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 19:19:56,315 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=1537FEC3D4DB06A67CAF275913BAC5CD:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=P,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 19:19:56,315 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1537FEC3D4DB06A67CAF275913BAC5CD:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 19:27:08,336 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=ECD30269190CF6B87E4AFD2CFF0C9D96:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=Y,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 19:27:08,336 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=ECD30269190CF6B87E4AFD2CFF0C9D96:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 19:37:52,322 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=BE1E6C579CE6BF46F65AB05FE7209840:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=B,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 19:37:52,323 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=BE1E6C579CE6BF46F65AB05FE7209840:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 19:41:33,406 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=42F25236A1972AE3009AFE2D8BC8A2E9:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=J,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 19:41:33,406 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=42F25236A1972AE3009AFE2D8BC8A2E9:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 19:48:27,622 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=68330D0D017F86794252106B3F361C91:ip_addr=139.162.111.98:browse_mini:
+2020-09-17 19:48:27,631 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 19:48:27,643 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 19:48:27,643 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 19:48:44,250 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=93EAFC45BDCD1854776CDB5187DFC4CF:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=N,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 19:48:44,251 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=93EAFC45BDCD1854776CDB5187DFC4CF:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 19:51:15,858 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E6729498FAD885089D60C2CD31C1976C:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 19:51:15,866 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 19:51:15,877 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 19:51:15,878 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 19:53:46,324 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9FE4CDE75C83F6C48519D9FC507C1D9D:ip_addr=190.15.128.209:view_community:community_id=18c95404-b808-4e0c-912f-3e34d3f1ba4b
+2020-09-17 19:53:46,326 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9FE4CDE75C83F6C48519D9FC507C1D9D:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 19:53:46,335 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@e21fa0ec: 4
+2020-09-17 19:53:46,349 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9FE4CDE75C83F6C48519D9FC507C1D9D:ip_addr=190.15.128.209:view_community:community_id=18c95404-b808-4e0c-912f-3e34d3f1ba4b
+2020-09-17 19:55:56,155 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-17 19:55:56,176 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=7F1F4926034B03EC2111EE50947C1B8B:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="",results=(0,0,2)
+2020-09-17 20:03:08,299 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0337A7A7124EE90B8E8964F1A41049CC:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=U,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 20:03:08,299 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0337A7A7124EE90B8E8964F1A41049CC:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 20:10:20,075 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=70291F32A73BF390B2167155C46E885E:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=G,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 20:10:20,075 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=70291F32A73BF390B2167155C46E885E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 20:17:32,099 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-17 20:17:32,118 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=063C8BC28F8E1F19FB45BA09FA527EEC:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@18b3843e,query="null",results=(0,0,2)
+2020-09-17 20:24:43,999 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=259EFCE9EEC4D26AE74A646FDF8F86F5:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=H,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 20:24:43,999 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=259EFCE9EEC4D26AE74A646FDF8F86F5:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 20:32:27,498 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=DE8A701E43048391F81110DE6840E69B:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=L,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-17 20:32:27,498 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=DE8A701E43048391F81110DE6840E69B:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 20:38:13,543 INFO  org.dspace.app.webui.servlet.HTMLServlet @ anonymous:session_id=64C6186791FE96D4E6A53AB37B73ED6B:ip_addr=222.249.173.26:view_html:invalid_bitstream_id=public/index.php
+2020-09-17 20:38:18,773 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=673A801AB291A533291D3315B485C058:ip_addr=222.249.173.26:browse_mini:
+2020-09-17 20:38:18,781 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 20:38:18,792 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 20:38:18,792 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 20:39:07,919 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=401954D02842C482AB1670A74F61A773:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=S,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 20:39:07,920 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=401954D02842C482AB1670A74F61A773:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 20:43:27,091 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F10CF475D07567784B56F5580C21FB84:ip_addr=103.78.181.170:browse_mini:
+2020-09-17 20:43:27,099 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 20:43:27,112 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 20:43:27,112 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 20:46:19,966 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=F1123F8C126B0164393C632CA769A6E5:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=X,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-17 20:46:19,966 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F1123F8C126B0164393C632CA769A6E5:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 20:50:54,597 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=44C6217B72E8E55C44A4E27B5905FF45:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 20:50:54,605 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 20:50:54,618 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 20:50:54,618 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 20:53:31,856 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=189AE6D12C217209DA052DD0E4D4227B:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=T,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 20:53:31,857 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=189AE6D12C217209DA052DD0E4D4227B:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 21:00:43,880 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=7CF179A317636152B0D20F1A6214129F:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=B,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 21:00:43,881 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7CF179A317636152B0D20F1A6214129F:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 21:07:55,791 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=ED9D313D62712BF80BCBE4B3A675A311:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=F,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 21:07:55,791 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=ED9D313D62712BF80BCBE4B3A675A311:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 21:15:07,830 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-17 21:15:07,852 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=03C68737DA73AF8EEE8FFF7181AF8119:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="",results=(0,0,2)
+2020-09-17 21:15:23,840 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=067E6D6640DF59DCBF84BC47BE6CCB6B:ip_addr=185.34.22.46:browse_mini:
+2020-09-17 21:15:23,845 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 21:15:23,856 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 21:15:23,856 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 21:17:49,447 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=20691328A98A8DE9A5F05AAF86B1B95E:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 21:17:49,454 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 21:17:49,465 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 21:17:49,465 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 21:29:31,742 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=1ECBC6FC77244040F24D301AFD5CDCFC:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=T,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-17 21:29:31,742 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1ECBC6FC77244040F24D301AFD5CDCFC:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 21:36:43,641 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-17 21:36:43,659 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B83DB39217A9A5BE561997D28CE624B9:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-17 21:43:55,667 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=3034A882021ADA0A687F325D79795D86:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=Q,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 21:43:55,667 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3034A882021ADA0A687F325D79795D86:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 21:51:07,569 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=B06C9E142248940CE9710B058F7CD31D:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=Q,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 21:51:07,569 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B06C9E142248940CE9710B058F7CD31D:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 21:52:13,408 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D1277AE539935426AC055C7F1516B2C6:ip_addr=138.122.20.246:browse_mini:
+2020-09-17 21:52:13,413 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 21:52:13,425 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 21:52:13,425 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 21:58:19,597 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 21:58:19,615 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=4E880ECEB08DC8F10D229BE3287AFA20:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="null",results=(0,0,2)
+2020-09-17 22:05:31,614 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-17 22:05:31,633 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=ECF30A5D7B926E2CE3AA21C119981094:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@74b90fc6,query="",results=(0,0,2)
+2020-09-17 22:12:43,526 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=7991E03CC433F3B98C5BC9EFC60AB60D:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=T,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 22:12:43,526 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7991E03CC433F3B98C5BC9EFC60AB60D:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 22:18:39,643 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=573CD0BF25BFD9E34BE8FDF6F8B19110:ip_addr=58.217.159.82:browse_mini:
+2020-09-17 22:18:39,652 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:18:39,664 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:18:39,664 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:18:40,736 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CB510229D30687C47567B881C88A3049:ip_addr=58.217.159.82:browse_mini:
+2020-09-17 22:18:40,739 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:18:40,748 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:18:40,748 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:19:55,436 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=A6F443661C4037F5EA226D16F2640CDA:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=O,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 22:19:55,436 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A6F443661C4037F5EA226D16F2640CDA:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 22:24:49,016 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=48F5A114FCBF9437651C5345435D97B5:ip_addr=190.15.128.209:view_item:handle=123456789/252
+2020-09-17 22:24:49,034 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=48F5A114FCBF9437651C5345435D97B5:ip_addr=190.15.128.209:view_item:handle=123456789/252
+2020-09-17 22:27:07,385 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=3B30FFC5A3E6A5600EB180C9983FEE11:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=E,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 22:27:07,385 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3B30FFC5A3E6A5600EB180C9983FEE11:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 22:34:19,361 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=3C40BE6D9D6AE75A2A3CFA5DE051392C:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=I,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 22:34:19,361 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3C40BE6D9D6AE75A2A3CFA5DE051392C:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 22:41:31,372 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0691AD4044340BB9EC42679A2DF202E0:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=D,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 22:41:31,372 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0691AD4044340BB9EC42679A2DF202E0:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 22:43:58,807 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=56960461245ADA0218B4E1F1E5E7E26F:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:43:58,815 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:43:58,827 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:43:58,827 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:00,983 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D46713FEBBD802BEB937F9E96DBB4604:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:00,986 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:00,996 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:00,996 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,304 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=78FF90F4D57B07CAF18D5F101B2C07C3:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:01,307 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:01,316 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,316 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,372 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=63CDF30BE932AD0C25A02D632C141325:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:01,374 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:01,383 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,383 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,479 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F0D3E15991742AC3443FFF5313CCEC6F:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:01,482 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:01,491 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,491 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,554 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9065F140D3B5B9D93BB1531A35AE0212:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:01,557 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:01,566 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,566 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,695 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A8BE14CC072F4C525078CA1DC052FA7F:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:01,699 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:01,707 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,707 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,729 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E8FFDDB65B5683B922E9D5835D6B3E7C:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:01,732 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:01,740 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,740 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,871 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=51A3771C735E8D517C0E673AE3C7E592:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:01,874 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:01,882 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:01,882 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,073 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B1D22ECDBE80795BF98E8DBFEC7408CD:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:02,076 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:02,085 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,085 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,402 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=66700A40122EE6F1D100C7F7C61C9B5E:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:02,405 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:02,414 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,414 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,541 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D6A68CBD8DA87705DAB34EE4C933E055:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:02,544 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:02,548 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0BC6FABDEE25C1DD4CA968CF6B63E613:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:02,550 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:02,555 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,556 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,562 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,562 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,685 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3EC28F61C4645E03ABB895541FD8756A:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:02,688 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:02,697 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,697 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,730 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=649690C6B4A3423D9B2387287680835F:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:02,733 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:02,741 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,742 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,772 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D5BF0B26BEF7474F50523CAC56131939:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:02,775 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:02,783 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,783 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,842 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F1DCEEEFFCAD7E5E1485452F44E850D5:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:02,845 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:02,854 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:02,855 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,062 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=036952C20E166E16786B42D1D1410FE0:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:03,065 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:03,074 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,074 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,245 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A1CFE3FFC074B0EBF83A3F3222762644:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:03,248 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:03,257 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,257 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,351 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4D9E27B55B1DD24F7D507B4C93DD2E5C:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:03,355 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:03,363 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,363 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,405 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=FEC99F91F40262816C266BE596E712FD:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:03,408 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:03,417 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,417 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,639 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1463DF42763179E939403170D53017CD:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:03,643 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:03,651 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,651 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,919 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D17545EA1BA0ACDCD6F2F2C4E3B0DA99:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:03,923 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:03,931 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,932 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,968 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=672D827C384D3CCECD8E2818829272E3:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:03,970 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:03,979 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:03,979 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:04,504 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8AD9B90B23BF9055F51385A0A4D3C451:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:04,507 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:04,516 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:04,516 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:04,897 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=6F5ADB4922DED6584D0D9DF065B61D05:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 22:44:04,900 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-17 22:44:04,909 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-17 22:44:04,909 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-17 22:48:43,269 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=67F442CF1832BEF8E88672D212D3DEA8:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=N,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-17 22:48:43,270 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=67F442CF1832BEF8E88672D212D3DEA8:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 22:55:55,360 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=F6790A6B8DBC45C2E91300CB21E24F0F:ip_addr=190.15.128.209:view_item:handle=123456789/234
+2020-09-17 22:55:55,377 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F6790A6B8DBC45C2E91300CB21E24F0F:ip_addr=190.15.128.209:view_item:handle=123456789/234
+2020-09-17 23:03:07,212 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=EB224C86099075C6B4E6D4E8B7938784:ip_addr=190.15.128.209:view_collection:collection_id=c8cd2e18-a089-477f-92d2-57f5635fad7c
+2020-09-17 23:03:07,213 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=EB224C86099075C6B4E6D4E8B7938784:ip_addr=190.15.128.209:browse_by_item:
+2020-09-17 23:03:07,225 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@99c9fa06: 4
+2020-09-17 23:03:07,235 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=EB224C86099075C6B4E6D4E8B7938784:ip_addr=190.15.128.209:view_collection:collection_id=c8cd2e18-a089-477f-92d2-57f5635fad7c
+2020-09-17 23:10:19,351 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F63462774B7B6B2AFCC3682D1669838B:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 23:17:31,129 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=4CB938DEFB369536E7C2E764A224069E:ip_addr=190.15.128.209:view_item:handle=123456789/233
+2020-09-17 23:17:31,146 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=4CB938DEFB369536E7C2E764A224069E:ip_addr=190.15.128.209:view_item:handle=123456789/233
+2020-09-17 23:24:43,199 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2207F1A5F03E45D2ACC1E3F931E116A0:ip_addr=190.15.128.209:view_item:handle=123456789/260
+2020-09-17 23:24:43,216 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2207F1A5F03E45D2ACC1E3F931E116A0:ip_addr=190.15.128.209:view_item:handle=123456789/260
+2020-09-17 23:31:55,131 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=EA52873BFC9B37D1741EB56BF816511E:ip_addr=190.15.128.209:display_statistics:handle=123456789/260, path=/statistics
+2020-09-17 23:35:53,850 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=D82CCD76D5BB8AAA4E43BBC3C874BC12:ip_addr=190.15.128.209:view_community:community_id=286282a3-c2dc-413f-9645-2c7e6a9c25ad
+2020-09-17 23:35:53,852 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D82CCD76D5BB8AAA4E43BBC3C874BC12:ip_addr=190.15.128.209:browse_mini:
+2020-09-17 23:35:53,861 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@1667ccc4: 4
+2020-09-17 23:35:53,877 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=D82CCD76D5BB8AAA4E43BBC3C874BC12:ip_addr=190.15.128.209:view_community:community_id=286282a3-c2dc-413f-9645-2c7e6a9c25ad
+2020-09-17 23:39:07,033 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=C82A87692CB362385E5B095D783E00FA:ip_addr=190.15.128.209:view_item:handle=123456789/223
+2020-09-17 23:39:07,050 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C82A87692CB362385E5B095D783E00FA:ip_addr=190.15.128.209:view_item:handle=123456789/223
+2020-09-17 23:46:19,073 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=8A00B8F2F66827828939BDB7F1F15B7C:ip_addr=190.15.128.209:view_item:handle=123456789/224
+2020-09-17 23:46:19,089 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8A00B8F2F66827828939BDB7F1F15B7C:ip_addr=190.15.128.209:view_item:handle=123456789/224
+2020-09-17 23:53:30,963 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=FBDBFEA30897DFEC010FBB083AA06D72:ip_addr=190.15.128.209:view_item:handle=123456789/243
+2020-09-17 23:53:30,979 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=FBDBFEA30897DFEC010FBB083AA06D72:ip_addr=190.15.128.209:view_item:handle=123456789/243

@@ -44,7 +44,7 @@
 
         <%-- <h1>Submit: Change File Description</h1> --%>
 		<h1><fmt:message key="jsp.submit.change-file-description.heading"/>
-		<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#filedescription\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
+	<%--	<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#filedescription\"%>"><fmt:message key="jsp.morehelp"/> --%></dspace:popup>
 		</h1>
 
         <%-- <p>Here are the details of the file.  </p> --%>

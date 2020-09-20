@@ -1,0 +1,846 @@
+2020-09-15 00:32:27,880 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=859D2BA22240F0E64C2F6947F92A2648:ip_addr=122.228.19.80:browse_mini:
+2020-09-15 00:32:27,891 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 00:32:27,903 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 00:32:27,903 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 00:52:40,447 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=875241329A22C0759BC531CA347AC9D2:ip_addr=190.15.128.209:view_item:handle=123456789/241
+2020-09-15 00:52:40,474 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=875241329A22C0759BC531CA347AC9D2:ip_addr=190.15.128.209:view_item:handle=123456789/241
+2020-09-15 01:00:18,236 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=C878BEC2484D5ADF9609D2BEC585FCE2:ip_addr=190.15.128.209:view_item:handle=123456789/256
+2020-09-15 01:00:18,259 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C878BEC2484D5ADF9609D2BEC585FCE2:ip_addr=190.15.128.209:view_item:handle=123456789/256
+2020-09-15 01:00:55,465 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B7265D1EDD229D09BB38AB95C7F97F1C:ip_addr=109.94.119.154:browse_mini:
+2020-09-15 01:00:55,473 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 01:00:55,485 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 01:00:55,486 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 01:03:25,537 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=28CE155B9E7AC98B911141ABB4D8007C:ip_addr=190.15.128.209:view_item:handle=123456789/242
+2020-09-15 01:03:25,559 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=28CE155B9E7AC98B911141ABB4D8007C:ip_addr=190.15.128.209:view_item:handle=123456789/242
+2020-09-15 01:03:32,792 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=AD7BA33A09D251826682C80B772D7882:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 01:03:32,798 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 01:03:32,809 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 01:03:32,809 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 01:09:01,571 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=D497C1FB11CBA14C61ABA7214A4F1D06:ip_addr=190.15.128.209:view_item:handle=123456789/218
+2020-09-15 01:09:01,591 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=D497C1FB11CBA14C61ABA7214A4F1D06:ip_addr=190.15.128.209:view_item:handle=123456789/218
+2020-09-15 01:10:00,871 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=BD9B8C376DC29CE00EC98F72303E65F5:ip_addr=190.15.128.209:view_item:handle=123456789/232
+2020-09-15 01:10:00,892 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=BD9B8C376DC29CE00EC98F72303E65F5:ip_addr=190.15.128.209:view_item:handle=123456789/232
+2020-09-15 01:12:17,956 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9C9B078FE9C1C4C116F04C7B9AD9FAF4:ip_addr=190.15.128.209:view_item:handle=123456789/257
+2020-09-15 01:12:17,975 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9C9B078FE9C1C4C116F04C7B9AD9FAF4:ip_addr=190.15.128.209:view_item:handle=123456789/257
+2020-09-15 01:17:39,627 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=F7D7D9C690279BC29611BA731DF34040:ip_addr=190.15.128.209:view_item:handle=123456789/230
+2020-09-15 01:17:39,647 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F7D7D9C690279BC29611BA731DF34040:ip_addr=190.15.128.209:view_item:handle=123456789/230
+2020-09-15 01:17:58,252 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=39CC464C48885A5452E3B45BA2165C5C:ip_addr=190.15.128.209:view_item:handle=123456789/224
+2020-09-15 01:17:58,270 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=39CC464C48885A5452E3B45BA2165C5C:ip_addr=190.15.128.209:view_item:handle=123456789/224
+2020-09-15 01:25:20,976 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=E95938FCEDDBC9F03E859CB0B1DECC1C:ip_addr=190.15.128.209:view_item:handle=123456789/233
+2020-09-15 01:25:20,995 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E95938FCEDDBC9F03E859CB0B1DECC1C:ip_addr=190.15.128.209:view_item:handle=123456789/233
+2020-09-15 01:29:08,960 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=982F63BA4E0EEA3B54D259CA726CE046:ip_addr=190.15.128.209:view_item:handle=123456789/240
+2020-09-15 01:29:08,979 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=982F63BA4E0EEA3B54D259CA726CE046:ip_addr=190.15.128.209:view_item:handle=123456789/240
+2020-09-15 01:29:54,013 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=87DCC238F03EE3DDF63B2373D541896A:ip_addr=190.15.128.209:view_item:handle=123456789/229
+2020-09-15 01:29:54,028 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=87DCC238F03EE3DDF63B2373D541896A:ip_addr=190.15.128.209:view_item:handle=123456789/229
+2020-09-15 01:38:28,138 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=48EFE480AFCCC861B7D4ABE4F57737A2:ip_addr=190.15.128.209:view_item:handle=123456789/222
+2020-09-15 01:38:28,154 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=48EFE480AFCCC861B7D4ABE4F57737A2:ip_addr=190.15.128.209:view_item:handle=123456789/222
+2020-09-15 01:38:43,643 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B2A00BAA960E0B6852D1D5BA05B3C60A:ip_addr=190.15.128.209:view_item:handle=123456789/217
+2020-09-15 01:38:43,656 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B2A00BAA960E0B6852D1D5BA05B3C60A:ip_addr=190.15.128.209:view_item:handle=123456789/217
+2020-09-15 01:40:45,712 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=23DCE8A79F8B02C3E5FB0D4D48679144:ip_addr=190.15.128.209:view_item:handle=123456789/243
+2020-09-15 01:40:45,729 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=23DCE8A79F8B02C3E5FB0D4D48679144:ip_addr=190.15.128.209:view_item:handle=123456789/243
+2020-09-15 01:41:01,246 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=0D0BF6AC452080F409D7F1F67460BF5D:ip_addr=190.15.128.209:view_item:handle=123456789/227
+2020-09-15 01:41:01,260 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=0D0BF6AC452080F409D7F1F67460BF5D:ip_addr=190.15.128.209:view_item:handle=123456789/227
+2020-09-15 01:50:44,534 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=474EB0AC208F5B1722C6FF589F8EB993:ip_addr=190.15.128.209:view_item:handle=123456789/212
+2020-09-15 01:50:44,551 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=474EB0AC208F5B1722C6FF589F8EB993:ip_addr=190.15.128.209:view_item:handle=123456789/212
+2020-09-15 01:51:23,156 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=F0AA386FDB8A87B36065EA26001F9BF7:ip_addr=190.15.128.209:view_item:handle=123456789/234
+2020-09-15 01:51:23,169 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F0AA386FDB8A87B36065EA26001F9BF7:ip_addr=190.15.128.209:view_item:handle=123456789/234
+2020-09-15 01:51:31,150 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B094FD2E92477C418BC3B428942F4B43:ip_addr=190.15.128.209:view_item:handle=123456789/253
+2020-09-15 01:51:31,163 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B094FD2E92477C418BC3B428942F4B43:ip_addr=190.15.128.209:view_item:handle=123456789/253
+2020-09-15 01:52:38,554 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=352993EF2D347C235215A737821FBE27:ip_addr=190.15.128.209:invalid_id:path=123456789/9
+2020-09-15 01:55:45,631 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=E418B6B2D63C4DC0C257BD1FE09B090E:ip_addr=190.15.128.209:view_item:handle=123456789/239
+2020-09-15 01:55:45,649 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E418B6B2D63C4DC0C257BD1FE09B090E:ip_addr=190.15.128.209:view_item:handle=123456789/239
+2020-09-15 01:59:01,570 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=399634A1E4DB9AFDB87A6CE1F75A556C:ip_addr=190.15.128.209:view_item:handle=123456789/237
+2020-09-15 01:59:01,587 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=399634A1E4DB9AFDB87A6CE1F75A556C:ip_addr=190.15.128.209:view_item:handle=123456789/237
+2020-09-15 02:01:15,916 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9D62396F0140A70B07EE2380E9D34031:ip_addr=190.15.128.209:invalid_id:path=123456789/89
+2020-09-15 02:07:25,771 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=36B3E4A578EA6D7108BF8FF6A28365DB:ip_addr=190.15.128.209:view_item:handle=123456789/225
+2020-09-15 02:07:25,788 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=36B3E4A578EA6D7108BF8FF6A28365DB:ip_addr=190.15.128.209:view_item:handle=123456789/225
+2020-09-15 02:08:12,042 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9AEDEF75425BD9CA510C9EA0E7FDB764:ip_addr=190.15.128.209:view_item:handle=123456789/250
+2020-09-15 02:08:12,057 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9AEDEF75425BD9CA510C9EA0E7FDB764:ip_addr=190.15.128.209:view_item:handle=123456789/250
+2020-09-15 02:08:40,330 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=76D393BEC926CA1AD0B062AEA4440E8B:ip_addr=190.15.128.209:view_item:handle=123456789/247
+2020-09-15 02:08:40,344 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=76D393BEC926CA1AD0B062AEA4440E8B:ip_addr=190.15.128.209:view_item:handle=123456789/247
+2020-09-15 02:09:22,056 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=91EC2BFE8F18DE450A419E992CF9D591:ip_addr=190.15.128.209:view_item:handle=123456789/251
+2020-09-15 02:09:22,070 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=91EC2BFE8F18DE450A419E992CF9D591:ip_addr=190.15.128.209:view_item:handle=123456789/251
+2020-09-15 02:09:24,374 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=BBCAFAA12BF997B2E8C51865AA59C8D0:ip_addr=190.15.128.209:view_item:handle=123456789/226
+2020-09-15 02:09:24,386 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=BBCAFAA12BF997B2E8C51865AA59C8D0:ip_addr=190.15.128.209:view_item:handle=123456789/226
+2020-09-15 02:13:52,982 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=55D1F2612975D26559D6047E4B68315C:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 02:13:52,991 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 02:13:53,003 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 02:13:53,003 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 02:15:57,753 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=568CF3316FC809CEE55D79A89396AF5D:ip_addr=190.15.128.209:view_item:handle=123456789/231
+2020-09-15 02:15:57,771 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=568CF3316FC809CEE55D79A89396AF5D:ip_addr=190.15.128.209:view_item:handle=123456789/231
+2020-09-15 02:16:13,272 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=354A32880F7A0B85EAB9C1E3FC44CCB5:ip_addr=190.15.128.209:view_item:handle=123456789/245
+2020-09-15 02:16:13,320 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=354A32880F7A0B85EAB9C1E3FC44CCB5:ip_addr=190.15.128.209:view_item:handle=123456789/245
+2020-09-15 02:18:11,956 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=D412D674AB66540B99752D9E04048B06:ip_addr=190.15.128.209:browse:type=dateissued,order=DESC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=100,sort_by=2,community=n/a,collection=n/a,level=0,etal=-1
+2020-09-15 02:18:11,956 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D412D674AB66540B99752D9E04048B06:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 02:21:27,145 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=023503182D830A882394C7699ECDB6B0:ip_addr=190.15.128.209:view_item:handle=123456789/221
+2020-09-15 02:21:27,161 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=023503182D830A882394C7699ECDB6B0:ip_addr=190.15.128.209:view_item:handle=123456789/221
+2020-09-15 02:22:54,008 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=622E436A1F423D0F6398A3900515C952:ip_addr=190.15.128.209:view_item:handle=123456789/215
+2020-09-15 02:22:54,022 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=622E436A1F423D0F6398A3900515C952:ip_addr=190.15.128.209:view_item:handle=123456789/215
+2020-09-15 02:23:16,792 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=F79F264EC3C624A99D21D8792AFB7B87:ip_addr=190.15.128.209:view_item:handle=123456789/219
+2020-09-15 02:23:16,805 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F79F264EC3C624A99D21D8792AFB7B87:ip_addr=190.15.128.209:view_item:handle=123456789/219
+2020-09-15 02:23:32,381 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=328F46B6F655916DD64C04AABDFC2296:ip_addr=190.15.128.209:view_item:handle=123456789/220
+2020-09-15 02:23:32,395 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=328F46B6F655916DD64C04AABDFC2296:ip_addr=190.15.128.209:view_item:handle=123456789/220
+2020-09-15 02:25:04,695 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=025281E18E04875C0704C8AE5D97B571:ip_addr=190.15.128.209:view_item:handle=123456789/248
+2020-09-15 02:25:04,721 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=025281E18E04875C0704C8AE5D97B571:ip_addr=190.15.128.209:view_item:handle=123456789/248
+2020-09-15 02:34:28,087 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=904B25E2EDE3E6BE4EF917A7AAB8C24E:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 02:34:28,099 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 02:34:28,111 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 02:34:28,111 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 02:40:50,152 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=89A568AC3CA8026200C3B62DDB4C58A9:ip_addr=190.15.128.209:view_item:handle=123456789/238
+2020-09-15 02:40:50,169 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=89A568AC3CA8026200C3B62DDB4C58A9:ip_addr=190.15.128.209:view_item:handle=123456789/238
+2020-09-15 02:50:51,971 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2A5D7D6954015E20671CFF84635AFFFE:ip_addr=190.15.128.209:view_item:handle=123456789/228
+2020-09-15 02:50:51,991 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2A5D7D6954015E20671CFF84635AFFFE:ip_addr=190.15.128.209:view_item:handle=123456789/228
+2020-09-15 02:51:45,175 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=A8658AB07FD03610D2A71308187C084F:ip_addr=190.15.128.209:view_item:handle=123456789/260
+2020-09-15 02:51:45,189 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=A8658AB07FD03610D2A71308187C084F:ip_addr=190.15.128.209:view_item:handle=123456789/260
+2020-09-15 02:55:44,211 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=ADDA2572A4BA37FA50E2129BC5CC066A:ip_addr=190.15.128.209:view_item:handle=123456789/235
+2020-09-15 02:55:44,227 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=ADDA2572A4BA37FA50E2129BC5CC066A:ip_addr=190.15.128.209:view_item:handle=123456789/235
+2020-09-15 02:56:45,927 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=8D842E6F4E582039572B3F45B6551239:ip_addr=190.15.128.209:view_item:handle=123456789/249
+2020-09-15 02:56:45,941 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8D842E6F4E582039572B3F45B6551239:ip_addr=190.15.128.209:view_item:handle=123456789/249
+2020-09-15 02:59:11,264 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=70643A43B711B6948E91E973C6CB6DA2:ip_addr=190.15.128.209:view_item:handle=123456789/223
+2020-09-15 02:59:11,280 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=70643A43B711B6948E91E973C6CB6DA2:ip_addr=190.15.128.209:view_item:handle=123456789/223
+2020-09-15 03:01:59,579 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=88AE8011A2B70B2090A715B760592C0A:ip_addr=190.15.128.209:view_community_list:
+2020-09-15 03:06:01,688 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=DAD8BFA30CC94CD919AA075DD2CD4E2E:ip_addr=190.15.128.209:invalid_id:path=123456789/80
+2020-09-15 03:09:41,309 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=DBFC8C1D7D32F4C7348295E4EB63B9E7:ip_addr=190.15.128.209:view_item:handle=123456789/244
+2020-09-15 03:09:41,324 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=DBFC8C1D7D32F4C7348295E4EB63B9E7:ip_addr=190.15.128.209:view_item:handle=123456789/244
+2020-09-15 03:11:55,152 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=1A85D1C4FE943B3B5F238CCBEE597C99:ip_addr=190.15.128.209:view_item:handle=123456789/213
+2020-09-15 03:11:55,168 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=1A85D1C4FE943B3B5F238CCBEE597C99:ip_addr=190.15.128.209:view_item:handle=123456789/213
+2020-09-15 03:15:43,958 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=917E574AC4699FEE4ED7361ED937C70D:ip_addr=190.15.128.209:view_community:community_id=7646e7d0-da24-4a4b-9e2e-de8b049f14cc
+2020-09-15 03:15:43,960 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=917E574AC4699FEE4ED7361ED937C70D:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 03:15:43,968 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@36d36a51: 4
+2020-09-15 03:15:43,981 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=917E574AC4699FEE4ED7361ED937C70D:ip_addr=190.15.128.209:view_community:community_id=7646e7d0-da24-4a4b-9e2e-de8b049f14cc
+2020-09-15 03:16:42,866 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=DDB322B0C7A4EE33844D47F2588FE0E5:ip_addr=190.15.128.209:view_item:handle=123456789/255
+2020-09-15 03:16:42,882 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=DDB322B0C7A4EE33844D47F2588FE0E5:ip_addr=190.15.128.209:view_item:handle=123456789/255
+2020-09-15 03:16:49,703 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=CA5D0C81C5CDC47E6D075BFCD464243F:ip_addr=190.15.128.209:view_item:handle=123456789/259
+2020-09-15 03:16:49,717 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=CA5D0C81C5CDC47E6D075BFCD464243F:ip_addr=190.15.128.209:view_item:handle=123456789/259
+2020-09-15 03:22:22,111 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=7ED93946B860448353B25DAA158C695D:ip_addr=190.15.128.209:view_item:handle=123456789/258
+2020-09-15 03:22:22,127 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=7ED93946B860448353B25DAA158C695D:ip_addr=190.15.128.209:view_item:handle=123456789/258
+2020-09-15 03:39:50,108 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=D7B47348FD1FB583B89F327AD54E70D2:ip_addr=190.15.128.209:view_item:handle=123456789/252
+2020-09-15 03:39:50,125 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=D7B47348FD1FB583B89F327AD54E70D2:ip_addr=190.15.128.209:view_item:handle=123456789/252
+2020-09-15 03:40:41,579 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=82C4E33207D8385CD90762EC5A868D2C:ip_addr=190.15.128.209:view_item:handle=123456789/236
+2020-09-15 03:40:41,593 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=82C4E33207D8385CD90762EC5A868D2C:ip_addr=190.15.128.209:view_item:handle=123456789/236
+2020-09-15 03:42:28,102 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=4D53CB22010574FE876A3535013A5E76:ip_addr=190.15.128.209:view_item:handle=123456789/254
+2020-09-15 03:42:28,119 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=4D53CB22010574FE876A3535013A5E76:ip_addr=190.15.128.209:view_item:handle=123456789/254
+2020-09-15 03:42:39,311 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=7F48E74A79DDEB8C5AA510B4BC3EF98E:ip_addr=190.15.128.209:view_item:handle=123456789/246
+2020-09-15 03:42:39,325 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=7F48E74A79DDEB8C5AA510B4BC3EF98E:ip_addr=190.15.128.209:view_item:handle=123456789/246
+2020-09-15 03:45:47,575 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=7139824030A7F3635165CA35EB366817:ip_addr=190.15.128.209:view_item:handle=123456789/214
+2020-09-15 03:45:47,616 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=7139824030A7F3635165CA35EB366817:ip_addr=190.15.128.209:view_item:handle=123456789/214
+2020-09-15 03:47:03,143 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=BD351FBC68FC273E47A76E37F216CD43:ip_addr=190.15.128.209:view_item:handle=123456789/216
+2020-09-15 03:47:03,157 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=BD351FBC68FC273E47A76E37F216CD43:ip_addr=190.15.128.209:view_item:handle=123456789/216
+2020-09-15 04:23:16,293 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E35D8C2088D76C8F84404D6CECD8C13B:ip_addr=177.190.66.228:browse_mini:
+2020-09-15 04:23:16,302 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 04:23:16,315 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 04:23:16,315 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 04:28:01,498 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8859D0655CB53804016AF66F140180B4:ip_addr=78.187.59.99:browse_mini:
+2020-09-15 04:28:01,506 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 04:28:01,518 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 04:28:01,518 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 04:28:40,992 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=74D263D2A903048442F59B88F95913D2:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 04:28:40,997 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 04:28:41,007 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 04:28:41,007 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 04:28:41,413 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=AD61415244AF31BD158E120B37815DAB:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 04:28:41,416 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 04:28:41,425 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 04:28:41,425 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 04:35:57,177 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=64E5984E39A31AEC109A7596FB0D983C:ip_addr=190.15.128.209:view_community_list:
+2020-09-15 04:35:58,177 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=EAA11C6FE6D3BFF830C00956E698CEC8:ip_addr=190.15.128.209:view_collection:collection_id=717ae212-5072-4b0a-82b1-10ce9a13339e
+2020-09-15 04:35:58,178 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=EAA11C6FE6D3BFF830C00956E698CEC8:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 04:35:58,185 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@39aaf060: 4
+2020-09-15 04:35:58,195 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=EAA11C6FE6D3BFF830C00956E698CEC8:ip_addr=190.15.128.209:view_collection:collection_id=717ae212-5072-4b0a-82b1-10ce9a13339e
+2020-09-15 04:36:57,553 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=A4DD6B3C6BDBB314EE298E5708B10FBF:ip_addr=190.15.128.209:view_community:community_id=d0c63b92-f6cb-4ba7-8436-b16b0be04554
+2020-09-15 04:36:57,555 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A4DD6B3C6BDBB314EE298E5708B10FBF:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 04:36:57,560 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@a9db867f: 4
+2020-09-15 04:36:57,572 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=A4DD6B3C6BDBB314EE298E5708B10FBF:ip_addr=190.15.128.209:view_community:community_id=d0c63b92-f6cb-4ba7-8436-b16b0be04554
+2020-09-15 04:42:18,305 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F87FCB16E50AC22FE2583CD2BB19DC1C:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 04:42:18,314 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 04:42:18,344 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 04:42:18,345 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 05:07:07,833 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=176DAB29CDC848845643BFECF77DD993:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=0,etal=-1
+2020-09-15 05:07:07,834 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=176DAB29CDC848845643BFECF77DD993:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 05:32:35,769 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=68F307A18CF5D2C8823B9E159DD94A27:ip_addr=192.35.169.48:browse_mini:
+2020-09-15 05:32:35,779 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 05:32:35,791 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 05:32:35,791 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 05:37:16,919 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=93C46D0B348BAA7E070BB05334DD8077:ip_addr=190.15.128.209:browse:type=dateissued,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=2,community=n/a,collection=n/a,level=0,etal=-1
+2020-09-15 05:37:16,920 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=93C46D0B348BAA7E070BB05334DD8077:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 06:22:40,811 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0FF248E6A327807442FE7549CAAE96C4:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=0,etal=-1
+2020-09-15 06:22:40,811 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0FF248E6A327807442FE7549CAAE96C4:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-15 06:54:22,897 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=159A115459D7152422C10CC1A7806732:ip_addr=190.15.128.209:view_community_list:
+2020-09-15 07:19:42,020 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=02D384E40FB7D30246B5758FF09755D5:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 07:19:42,031 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 07:19:42,043 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 07:19:42,043 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 07:24:07,201 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0CCC39A1093209EA6194078D995CE547:ip_addr=66.240.205.34:browse_mini:
+2020-09-15 07:24:07,210 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 07:24:07,223 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 07:24:07,223 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 07:54:29,069 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=D25F5F665080A792E6F34C99D66193BA:ip_addr=190.15.128.209:display_statistics:handle=123456789/211, path=/statistics
+2020-09-15 07:54:34,593 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=DF14EE90FB26349A1DB3ED860A79714C:ip_addr=190.15.128.209:view_collection:collection_id=0d4868d8-543b-4697-8686-f247d0a07bb9
+2020-09-15 07:54:34,594 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=DF14EE90FB26349A1DB3ED860A79714C:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:54:34,610 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-15 07:54:34,621 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=DF14EE90FB26349A1DB3ED860A79714C:ip_addr=190.15.128.209:view_collection:collection_id=0d4868d8-543b-4697-8686-f247d0a07bb9
+2020-09-15 07:54:35,211 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=7F3FB809082632614988BD9652288EAF:ip_addr=190.15.128.209:display_statistics:handle=123456789/203, path=/statistics
+2020-09-15 07:54:39,546 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=16270D9B76F5984EC1F6E60B7711EFC8:ip_addr=190.15.128.209:view_item:handle=123456789/200
+2020-09-15 07:54:39,562 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=16270D9B76F5984EC1F6E60B7711EFC8:ip_addr=190.15.128.209:view_item:handle=123456789/200
+2020-09-15 07:54:44,311 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=251B1C0616EEA7D1F0EC8639E2686FCB:ip_addr=190.15.128.209:view_item:handle=123456789/206
+2020-09-15 07:54:44,325 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=251B1C0616EEA7D1F0EC8639E2686FCB:ip_addr=190.15.128.209:view_item:handle=123456789/206
+2020-09-15 07:54:50,538 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=EA76BCCA272E5D6B5134D4B19C686345:ip_addr=190.15.128.209:view_item:handle=123456789/211
+2020-09-15 07:54:50,552 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=EA76BCCA272E5D6B5134D4B19C686345:ip_addr=190.15.128.209:view_item:handle=123456789/211
+2020-09-15 07:54:52,627 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=353164E1B9649AEAA1F23B3868B8E6EA:ip_addr=190.15.128.209:view_item:handle=123456789/203
+2020-09-15 07:54:52,641 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=353164E1B9649AEAA1F23B3868B8E6EA:ip_addr=190.15.128.209:view_item:handle=123456789/203
+2020-09-15 07:54:57,204 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=BB31E46D2FA2D071FBAB9E16B7815423:ip_addr=190.15.128.209:view_item:handle=123456789/208
+2020-09-15 07:54:57,218 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=BB31E46D2FA2D071FBAB9E16B7815423:ip_addr=190.15.128.209:view_item:handle=123456789/208
+2020-09-15 07:55:01,339 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=823D0D7CCBA624DBB8B2CF96EF7F344B:ip_addr=190.15.128.209:view_item:handle=123456789/209
+2020-09-15 07:55:01,352 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=823D0D7CCBA624DBB8B2CF96EF7F344B:ip_addr=190.15.128.209:view_item:handle=123456789/209
+2020-09-15 07:55:05,930 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=95BFA87578E7289E578E87775E3EAE3C:ip_addr=190.15.128.209:view_item:handle=123456789/204
+2020-09-15 07:55:05,943 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=95BFA87578E7289E578E87775E3EAE3C:ip_addr=190.15.128.209:view_item:handle=123456789/204
+2020-09-15 07:55:10,366 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=FB75AA332E9A9F38290BFCFAACA84373:ip_addr=190.15.128.209:view_bitstream:bitstream_id=74cdad8a-f1b4-4242-899d-428472ac3644
+2020-09-15 07:55:10,366 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=FB75AA332E9A9F38290BFCFAACA84373:ip_addr=190.15.128.209:view_bitstream:bitstream_id=74cdad8a-f1b4-4242-899d-428472ac3644
+2020-09-15 07:55:14,606 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=6EA20BE0D41292594A025DDDBB0E528E:ip_addr=190.15.128.209:view_bitstream:bitstream_id=56d723ef-ddaf-488f-a5bc-ea0345a74ae1
+2020-09-15 07:55:14,606 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=6EA20BE0D41292594A025DDDBB0E528E:ip_addr=190.15.128.209:view_bitstream:bitstream_id=56d723ef-ddaf-488f-a5bc-ea0345a74ae1
+2020-09-15 07:55:19,076 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=32AA9FD22BE5328C1689FEF03892266F:ip_addr=190.15.128.209:view_bitstream:bitstream_id=e933e4a6-0f44-46e8-b9fe-3a9a1481840f
+2020-09-15 07:55:19,076 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=32AA9FD22BE5328C1689FEF03892266F:ip_addr=190.15.128.209:view_bitstream:bitstream_id=e933e4a6-0f44-46e8-b9fe-3a9a1481840f
+2020-09-15 07:55:25,419 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=25FA5906D82DD4E9143834C313CF2740:ip_addr=190.15.128.209:view_bitstream:bitstream_id=a4d087bd-bd22-4c83-9a45-c9de2e90a805
+2020-09-15 07:55:25,419 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=25FA5906D82DD4E9143834C313CF2740:ip_addr=190.15.128.209:view_bitstream:bitstream_id=a4d087bd-bd22-4c83-9a45-c9de2e90a805
+2020-09-15 07:55:29,522 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=957B787231D58EF762B204104368102E:ip_addr=190.15.128.209:view_bitstream:bitstream_id=e2114fdb-1d61-4d1c-ae91-9174a52a5419
+2020-09-15 07:55:29,523 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=957B787231D58EF762B204104368102E:ip_addr=190.15.128.209:view_bitstream:bitstream_id=e2114fdb-1d61-4d1c-ae91-9174a52a5419
+2020-09-15 07:55:33,980 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=4405E295933B62E58A5DB54B5CCD6890:ip_addr=190.15.128.209:view_bitstream:bitstream_id=33078e0b-5af7-4d5d-8b2e-ec65e46adf35
+2020-09-15 07:55:33,980 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=4405E295933B62E58A5DB54B5CCD6890:ip_addr=190.15.128.209:view_bitstream:bitstream_id=33078e0b-5af7-4d5d-8b2e-ec65e46adf35
+2020-09-15 07:55:38,534 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=11448338759BE81FEDFDDC57C544E2D2:ip_addr=190.15.128.209:view_bitstream:bitstream_id=123700f5-9efa-494e-9786-7d87e28f5712
+2020-09-15 07:55:38,534 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=11448338759BE81FEDFDDC57C544E2D2:ip_addr=190.15.128.209:view_bitstream:bitstream_id=123700f5-9efa-494e-9786-7d87e28f5712
+2020-09-15 07:55:42,941 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=8CC71F3B4D2912BEEF7D572F268AA3C0:ip_addr=190.15.128.209:view_item:handle=123456789/248
+2020-09-15 07:55:42,957 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8CC71F3B4D2912BEEF7D572F268AA3C0:ip_addr=190.15.128.209:view_item:handle=123456789/248
+2020-09-15 07:55:47,301 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=D2DFC193FE963B078EDC14CFDB44DD91:ip_addr=190.15.128.209:view_item:handle=123456789/209
+2020-09-15 07:55:47,314 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=D2DFC193FE963B078EDC14CFDB44DD91:ip_addr=190.15.128.209:view_item:handle=123456789/209
+2020-09-15 07:55:51,385 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2E8A0218A9FCE685CF7BCCE4C3FF6739:ip_addr=190.15.128.209:view_item:handle=123456789/215
+2020-09-15 07:55:51,397 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2E8A0218A9FCE685CF7BCCE4C3FF6739:ip_addr=190.15.128.209:view_item:handle=123456789/215
+2020-09-15 07:55:55,941 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=77F3E82B2DD90452E77D37BD654C9C66:ip_addr=190.15.128.209:view_item:handle=123456789/203
+2020-09-15 07:55:55,954 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=77F3E82B2DD90452E77D37BD654C9C66:ip_addr=190.15.128.209:view_item:handle=123456789/203
+2020-09-15 07:56:00,247 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2EE7CAAC5FA92F79F1D96E27C034D349:ip_addr=190.15.128.209:view_item:handle=123456789/227
+2020-09-15 07:56:00,260 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2EE7CAAC5FA92F79F1D96E27C034D349:ip_addr=190.15.128.209:view_item:handle=123456789/227
+2020-09-15 07:56:06,658 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=F96023BA60636D61845C4A1959F7811B:ip_addr=190.15.128.209:view_item:handle=123456789/239
+2020-09-15 07:56:06,675 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F96023BA60636D61845C4A1959F7811B:ip_addr=190.15.128.209:view_item:handle=123456789/239
+2020-09-15 07:56:10,798 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=3E3B5B3720189D341567E817D932C2DB:ip_addr=190.15.128.209:view_item:handle=123456789/256
+2020-09-15 07:56:10,811 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=3E3B5B3720189D341567E817D932C2DB:ip_addr=190.15.128.209:view_item:handle=123456789/256
+2020-09-15 07:56:15,425 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=775436D09C2AB0FE57B5F41BDF0F3A18:ip_addr=190.15.128.209:view_item:handle=123456789/217
+2020-09-15 07:56:15,438 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=775436D09C2AB0FE57B5F41BDF0F3A18:ip_addr=190.15.128.209:view_item:handle=123456789/217
+2020-09-15 07:56:20,022 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=947D86450D8AA2BB07251E0793A6FFFF:ip_addr=190.15.128.209:view_item:handle=123456789/237
+2020-09-15 07:56:20,038 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=947D86450D8AA2BB07251E0793A6FFFF:ip_addr=190.15.128.209:view_item:handle=123456789/237
+2020-09-15 07:56:24,421 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=6B1B81025C39F557FF3D7A9C24817952:ip_addr=190.15.128.209:view_item:handle=123456789/214
+2020-09-15 07:56:24,434 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=6B1B81025C39F557FF3D7A9C24817952:ip_addr=190.15.128.209:view_item:handle=123456789/214
+2020-09-15 07:56:28,817 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=AF4112DA720A53B851A6D14E2529D768:ip_addr=190.15.128.209:view_item:handle=123456789/228
+2020-09-15 07:56:28,831 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=AF4112DA720A53B851A6D14E2529D768:ip_addr=190.15.128.209:view_item:handle=123456789/228
+2020-09-15 07:56:35,359 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=33B842BDDE9CCD6CCD33C54D29E80238:ip_addr=190.15.128.209:view_item:handle=123456789/247
+2020-09-15 07:56:35,374 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=33B842BDDE9CCD6CCD33C54D29E80238:ip_addr=190.15.128.209:view_item:handle=123456789/247
+2020-09-15 07:56:37,731 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=D529A1A04C37107FC9A8BC3E2FA2D282:ip_addr=190.15.128.209:view_item:handle=123456789/211
+2020-09-15 07:56:37,745 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=D529A1A04C37107FC9A8BC3E2FA2D282:ip_addr=190.15.128.209:view_item:handle=123456789/211
+2020-09-15 07:56:44,124 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=7C0006759C0A0E131700FF3BEB57FC9E:ip_addr=190.15.128.209:view_item:handle=123456789/204
+2020-09-15 07:56:44,138 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=7C0006759C0A0E131700FF3BEB57FC9E:ip_addr=190.15.128.209:view_item:handle=123456789/204
+2020-09-15 07:56:46,396 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=C8EB8BD5CDBC4C0C73E4D699FF8731B7:ip_addr=190.15.128.209:view_item:handle=123456789/238
+2020-09-15 07:56:46,408 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C8EB8BD5CDBC4C0C73E4D699FF8731B7:ip_addr=190.15.128.209:view_item:handle=123456789/238
+2020-09-15 07:56:50,995 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=41B460869BC61508D364E6403E06D87B:ip_addr=190.15.128.209:view_item:handle=123456789/249
+2020-09-15 07:56:51,007 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=41B460869BC61508D364E6403E06D87B:ip_addr=190.15.128.209:view_item:handle=123456789/249
+2020-09-15 07:56:57,243 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=5C402CC977FAE32CA25C9150329C33B3:ip_addr=190.15.128.209:view_item:handle=123456789/207
+2020-09-15 07:56:57,257 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5C402CC977FAE32CA25C9150329C33B3:ip_addr=190.15.128.209:view_item:handle=123456789/207
+2020-09-15 07:57:01,284 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=907B5828EB3B161B9789305F40DAE178:ip_addr=190.15.128.209:view_item:handle=123456789/206
+2020-09-15 07:57:01,297 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=907B5828EB3B161B9789305F40DAE178:ip_addr=190.15.128.209:view_item:handle=123456789/206
+2020-09-15 07:57:05,702 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=F3FEFC0095211DE6D4B7316A726D7F87:ip_addr=190.15.128.209:view_item:handle=123456789/257
+2020-09-15 07:57:05,714 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F3FEFC0095211DE6D4B7316A726D7F87:ip_addr=190.15.128.209:view_item:handle=123456789/257
+2020-09-15 07:57:10,245 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=40ED4A30F277C4AE71807EAAA456976A:ip_addr=190.15.128.209:view_item:handle=123456789/200
+2020-09-15 07:57:10,258 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=40ED4A30F277C4AE71807EAAA456976A:ip_addr=190.15.128.209:view_item:handle=123456789/200
+2020-09-15 07:57:16,381 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0E74C92FE1CEF5F6FBBB9C06E9E97EE1:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 07:57:20,352 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9ADE29D73BDF37C4ABE9709866F3440E:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 07:57:41,900 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=7672E8D5C84D628C587DEBA252F2B9CA:ip_addr=190.15.128.209:display_statistics:handle=123456789/188, path=/statistics
+2020-09-15 07:57:45,954 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=8743F9A3EE4D2150EEA3CB97D097C3E4:ip_addr=190.15.128.209:display_statistics:handle=123456789/189, path=/statistics
+2020-09-15 07:57:50,177 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=6DCF8A8DF389DF462353A683BC99E4D6:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:57:50,177 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=6DCF8A8DF389DF462353A683BC99E4D6:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:57:54,638 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=ECA272D0C054721150294439031308F5:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MANUEL GARCIA,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:57:54,638 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=ECA272D0C054721150294439031308F5:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:57:58,648 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=736FD90E5FD590A65F8CB43CA56214B8:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:57:58,648 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=736FD90E5FD590A65F8CB43CA56214B8:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:58:05,139 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=8D732D7D29632F4F41025298C2AFC0FD:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:58:05,139 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8D732D7D29632F4F41025298C2AFC0FD:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:58:09,157 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=44B5C7D0273E81185FD429A7FE32662A:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:58:09,157 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=44B5C7D0273E81185FD429A7FE32662A:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:58:13,557 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=9E447C61A5D135EA252B5E9AE1635B70:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JHONNATAN CARGUAYTONGO,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:58:13,557 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9E447C61A5D135EA252B5E9AE1635B70:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:58:17,758 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=22476EE834AEED4394631C497E4DBBC4:ip_addr=190.15.128.209:view_item:handle=123456789/201
+2020-09-15 07:58:17,773 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=22476EE834AEED4394631C497E4DBBC4:ip_addr=190.15.128.209:view_item:handle=123456789/201
+2020-09-15 07:58:22,157 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-15 07:58:22,171 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=576A442430F6DACF85BE1D5FB419A488:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="null",results=(0,0,2)
+2020-09-15 07:58:26,226 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-15 07:58:26,238 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=5D86692D056F116C0F30AB79AD632736:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="null",results=(0,0,1)
+2020-09-15 07:58:30,815 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-15 07:58:30,829 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=69FD0DE01E61EA61B4C2CC954EB526C5:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="null",results=(0,0,8)
+2020-09-15 07:58:34,847 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-15 07:58:34,858 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=3BF57D25906D96A97BA4FCEACE7B2E13:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="null",results=(0,0,2)
+2020-09-15 07:58:39,536 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-15 07:58:39,551 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=1C6453A530D853ABDDF1E6F86D96955E:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="null",results=(0,0,8)
+2020-09-15 07:58:43,254 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@f560dc9: 4
+2020-09-15 07:58:43,266 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=5858930FFE990815B9ED5CEF9AE4BD36:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@f560dc9,query="null",results=(0,0,1)
+2020-09-15 07:58:47,725 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-15 07:58:47,736 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=03070FF22A3B2DCA847D42A714ED01C7:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="null",results=(0,0,2)
+2020-09-15 07:58:51,916 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0DF6F9C8C1126B64B143DBCFF292C328:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=W,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:58:51,916 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0DF6F9C8C1126B64B143DBCFF292C328:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:58:56,232 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=5E196B7F91DF0501FC0DA67DDBAE21CC:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 07:58:56,232 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5E196B7F91DF0501FC0DA67DDBAE21CC:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:00,259 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9C0A9554C76239A4CB8D18B0468F0743:ip_addr=190.15.128.209:display_statistics:handle=123456789/238, path=/statistics
+2020-09-15 07:59:04,512 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=92A1C97D2EBA686B7566E29A9829D65D:ip_addr=190.15.128.209:view_bitstream:bitstream_id=a06e064b-db44-4c24-9c8f-04cc1b9e412c
+2020-09-15 07:59:04,512 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=92A1C97D2EBA686B7566E29A9829D65D:ip_addr=190.15.128.209:view_bitstream:bitstream_id=a06e064b-db44-4c24-9c8f-04cc1b9e412c
+2020-09-15 07:59:08,908 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=638F2BE0F6B1AFCB600DBF6CA60C7791:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=M,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:59:08,909 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=638F2BE0F6B1AFCB600DBF6CA60C7791:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:13,013 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=10AAAB7C9FA791F4F2D3C19E37C91F04:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=I,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:59:13,013 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10AAAB7C9FA791F4F2D3C19E37C91F04:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:15,216 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=F6CE4A6A7ACBFD07DBDA7BBBC05AE561:ip_addr=190.15.128.209:browse:type=subject,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/188,level=0,etal=-1
+2020-09-15 07:59:15,216 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F6CE4A6A7ACBFD07DBDA7BBBC05AE561:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-15 07:59:19,697 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=AB16A92EFD62D481310493CBFA41614E:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/188,level=0,etal=-1
+2020-09-15 07:59:19,697 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=AB16A92EFD62D481310493CBFA41614E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:23,797 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4F871F14F1BE0B870D53AC518C4FBB17:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=F,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:59:23,798 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4F871F14F1BE0B870D53AC518C4FBB17:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:28,383 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=1280136294196F98A45EA934A35E92CC:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=J,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:59:28,384 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1280136294196F98A45EA934A35E92CC:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:32,438 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=FE8400B1F776C79698CDF33880C80CD8:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=P,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:59:32,438 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=FE8400B1F776C79698CDF33880C80CD8:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:36,850 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0966AB1A3F6A7BC450E7C6AC528B6E31:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=T,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:59:36,850 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0966AB1A3F6A7BC450E7C6AC528B6E31:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:41,370 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=BD920EC7DBA0512DA6B70F208AC0517E:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=R,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:59:41,370 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=BD920EC7DBA0512DA6B70F208AC0517E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:45,401 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=F28CEBC2608E96F6468285A528BA8DFD:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=O,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:59:45,401 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F28CEBC2608E96F6468285A528BA8DFD:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:49,833 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=7BF47436265F567D1E6CD57B91DDF948:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=H,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:59:49,834 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7BF47436265F567D1E6CD57B91DDF948:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 07:59:53,957 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-15 07:59:53,970 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=1770EA5064A8AF7BE9D777F9EE174FDB:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="null",results=(0,0,8)
+2020-09-15 07:59:58,407 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=81EA66A169F1A9FBF9648685CE04B460:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=U,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 07:59:58,407 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=81EA66A169F1A9FBF9648685CE04B460:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:00:02,902 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-15 08:00:02,917 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=5DD53BB475CF37AC2A4C92F8ECA062FA:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="null",results=(0,0,2)
+2020-09-15 08:00:04,799 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=562D5DB0FCFB4791A1FDE69BAEDB618F:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/188,level=0,etal=-1
+2020-09-15 08:00:04,799 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=562D5DB0FCFB4791A1FDE69BAEDB618F:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-15 08:00:09,189 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=36ED9ABE77C586B2FB67D6C64D3CBCDB:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=C,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:00:09,189 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=36ED9ABE77C586B2FB67D6C64D3CBCDB:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:00:13,620 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-15 08:00:13,634 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=7C2FEFF359E3DD3FEDD472D4A4F911EF:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="null",results=(0,0,8)
+2020-09-15 08:00:17,631 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=90E6D665EE18865EB6A5E5CAD9D42A29:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=NAPOLEON RAMOS,month=null,year=null,starts_with=Z,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:00:17,631 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=90E6D665EE18865EB6A5E5CAD9D42A29:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:00:22,029 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B9E4E97B299D05BB01081AEED5A740B6:ip_addr=190.15.128.209:display_statistics:handle=123456789/237, path=/statistics
+2020-09-15 08:00:26,079 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=93EA3FFDCAB8CC7CCFB0C2E778886FDC:ip_addr=190.15.128.209:view_item:handle=123456789/209
+2020-09-15 08:00:26,094 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=93EA3FFDCAB8CC7CCFB0C2E778886FDC:ip_addr=190.15.128.209:view_item:handle=123456789/209
+2020-09-15 08:00:28,436 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=05DBCBD14C4EAFFEF3C06D56FC62DB4C:ip_addr=190.15.128.209:view_item:handle=123456789/237
+2020-09-15 08:00:28,449 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=05DBCBD14C4EAFFEF3C06D56FC62DB4C:ip_addr=190.15.128.209:view_item:handle=123456789/237
+2020-09-15 08:00:32,790 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=7ADC01804FCAE51B014C8CF3252B62E9:ip_addr=190.15.128.209:view_bitstream:bitstream_id=fec2893f-938e-4336-b42d-a90364443112
+2020-09-15 08:00:32,791 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=7ADC01804FCAE51B014C8CF3252B62E9:ip_addr=190.15.128.209:view_bitstream:bitstream_id=fec2893f-938e-4336-b42d-a90364443112
+2020-09-15 08:00:36,822 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=B03246D53C8057842A837C74E38FFF1A:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:00:36,822 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B03246D53C8057842A837C74E38FFF1A:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:00:41,292 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=8785B4F9BB72919BBECAF6271AF3E871:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=D,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:00:41,292 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8785B4F9BB72919BBECAF6271AF3E871:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:00:45,228 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84F4777D958E245C4A55563476FBD5CE:ip_addr=190.15.128.209:view_item:handle=123456789/244
+2020-09-15 08:00:45,242 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84F4777D958E245C4A55563476FBD5CE:ip_addr=190.15.128.209:view_item:handle=123456789/244
+2020-09-15 08:00:47,416 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=8254917C5BCE30A6C94821DCE9C186BB:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=C,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:00:47,416 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8254917C5BCE30A6C94821DCE9C186BB:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:00:51,614 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=2AB3E44F81FAB13A8725F71A60FFF1E4:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=ZULIA MONTERO,month=null,year=null,starts_with=J,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:00:51,614 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2AB3E44F81FAB13A8725F71A60FFF1E4:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:00:56,015 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=1A5D5EBD04452E96E69B8ADC84F417E4:ip_addr=190.15.128.209:browse:type=subject,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:00:56,015 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1A5D5EBD04452E96E69B8ADC84F417E4:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-15 08:00:58,100 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=99D9DC5CC8C6CF49C10AB99FAE5EAF5D:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=G,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:00:58,100 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=99D9DC5CC8C6CF49C10AB99FAE5EAF5D:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:02,776 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=354D7FE86ED6EFF71DCECB819DD9C2D7:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=Q,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:02,776 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=354D7FE86ED6EFF71DCECB819DD9C2D7:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:07,087 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=A13D8E551D15510971786ADA00FA0599:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=L,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:07,087 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A13D8E551D15510971786ADA00FA0599:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:09,190 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=3D2FEC4A267E130AFEA6A20A127FDE72:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=0,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:09,190 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3D2FEC4A267E130AFEA6A20A127FDE72:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:13,703 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=13398279F856F4E2F1CCA5C31D451C36:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=Y,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:13,704 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=13398279F856F4E2F1CCA5C31D451C36:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:17,801 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-15 08:01:17,817 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=85567D4B188CB331A0178A4A142255F3:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="null",results=(0,0,2)
+2020-09-15 08:01:20,109 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=C3C21C8124C2013A9ED4198F2F1D99AE:ip_addr=190.15.128.209:view_item:handle=123456789/252
+2020-09-15 08:01:20,123 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C3C21C8124C2013A9ED4198F2F1D99AE:ip_addr=190.15.128.209:view_item:handle=123456789/252
+2020-09-15 08:01:22,487 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=739153BCDC4E2EBA1A81358605ABBAC4:ip_addr=190.15.128.209:view_item:handle=123456789/251
+2020-09-15 08:01:22,500 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=739153BCDC4E2EBA1A81358605ABBAC4:ip_addr=190.15.128.209:view_item:handle=123456789/251
+2020-09-15 08:01:24,888 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=CD909D9293463927FAA1CE49070F5668:ip_addr=190.15.128.209:view_item:handle=123456789/254
+2020-09-15 08:01:24,902 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=CD909D9293463927FAA1CE49070F5668:ip_addr=190.15.128.209:view_item:handle=123456789/254
+2020-09-15 08:01:31,503 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=0E0EF325E9580A9C5DD9597C2E52BB1F:ip_addr=190.15.128.209:view_item:handle=123456789/246
+2020-09-15 08:01:31,520 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=0E0EF325E9580A9C5DD9597C2E52BB1F:ip_addr=190.15.128.209:view_item:handle=123456789/246
+2020-09-15 08:01:33,604 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=01585E9894F422E5A7A1BF3B3C971E19:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=W,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:33,605 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=01585E9894F422E5A7A1BF3B3C971E19:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:35,923 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=29C404DC4C816652EE81F22B24F60C66:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=0,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:35,923 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=29C404DC4C816652EE81F22B24F60C66:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:38,197 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=27CEA25282A888F34FA1FECB4A067FFD:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=A,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:38,197 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=27CEA25282A888F34FA1FECB4A067FFD:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:42,589 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=80B05D6A8517A7A1EB3E475BF25F5585:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=L,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:42,589 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=80B05D6A8517A7A1EB3E475BF25F5585:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:44,714 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=63D9EC8A545A62BC52FE1BDF51C810A0:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=M,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:44,714 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=63D9EC8A545A62BC52FE1BDF51C810A0:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:50,950 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=1802ADE55AF7B39019D9D9CCAD4532A9:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=Q,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:50,950 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1802ADE55AF7B39019D9D9CCAD4532A9:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:52,919 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4B63FBDC407F71D6742CD43E7552072E:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=C,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:52,920 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4B63FBDC407F71D6742CD43E7552072E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:55,050 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=BE15150B1A161B1F6FFA6DFAB9A65AD0:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=D,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:55,050 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=BE15150B1A161B1F6FFA6DFAB9A65AD0:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:01:59,496 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4F69EE77069CE957C394EF1248A54A59:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=Y,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:01:59,496 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4F69EE77069CE957C394EF1248A54A59:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:02:01,508 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=3F4F22B3DFA41676173C7A4F18BBB052:ip_addr=190.15.128.209:view_item:handle=123456789/248
+2020-09-15 08:02:01,522 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=3F4F22B3DFA41676173C7A4F18BBB052:ip_addr=190.15.128.209:view_item:handle=123456789/248
+2020-09-15 08:02:06,115 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9C7307B992F8CE4397918240C124FABE:ip_addr=190.15.128.209:view_item:handle=123456789/211
+2020-09-15 08:02:06,128 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9C7307B992F8CE4397918240C124FABE:ip_addr=190.15.128.209:view_item:handle=123456789/211
+2020-09-15 08:02:08,127 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=9B40A4CD91E0F78B6F502889DF4EBEA6:ip_addr=190.15.128.209:view_bitstream:bitstream_id=39fc6187-1525-428e-8a4d-76777e18fa8d
+2020-09-15 08:02:08,127 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9B40A4CD91E0F78B6F502889DF4EBEA6:ip_addr=190.15.128.209:view_bitstream:bitstream_id=39fc6187-1525-428e-8a4d-76777e18fa8d
+2020-09-15 08:02:10,303 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=3C4EC12BA07814E8C79FF587CE0BBAC4:ip_addr=190.15.128.209:view_bitstream:bitstream_id=451d3e8d-78e5-4a1e-ae27-a3bf2ed61750
+2020-09-15 08:02:10,303 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=3C4EC12BA07814E8C79FF587CE0BBAC4:ip_addr=190.15.128.209:view_bitstream:bitstream_id=451d3e8d-78e5-4a1e-ae27-a3bf2ed61750
+2020-09-15 08:02:12,888 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=2A02EBCE3E1E56E609BDA6A8FAE2A268:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=Y,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:02:12,888 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2A02EBCE3E1E56E609BDA6A8FAE2A268:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:02:15,888 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=05EE7521934810C7C73205F7DD674552:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=S,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:02:15,888 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=05EE7521934810C7C73205F7DD674552:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:02:17,199 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=2C3C0FA264E0406A7B078151859D0BBA:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=M,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:02:17,199 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2C3C0FA264E0406A7B078151859D0BBA:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:02:19,887 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=B163DD71F8D32B468A238451335B1F20:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=A,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:02:19,887 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B163DD71F8D32B468A238451335B1F20:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:02:23,508 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=46AA6FC0FD33C318677BB5B470F9D483:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=E,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:02:23,508 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=46AA6FC0FD33C318677BB5B470F9D483:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:02:24,283 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=16872C86351B070BB961B6E37459109C:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=P,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:02:24,283 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=16872C86351B070BB961B6E37459109C:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:02:28,091 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=3CDAC1B799B4FB12F3462098A766B293:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=I,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:02:28,091 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3CDAC1B799B4FB12F3462098A766B293:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:02:29,384 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=257C8AAE63E3FFB47DC5BE316713131D:ip_addr=190.15.128.209:view_item:handle=123456789/203
+2020-09-15 08:02:29,398 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=257C8AAE63E3FFB47DC5BE316713131D:ip_addr=190.15.128.209:view_item:handle=123456789/203
+2020-09-15 08:02:52,777 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=021A647A2B25AD25596E7D7DD76C8970:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=C,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:02:52,777 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=021A647A2B25AD25596E7D7DD76C8970:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:03:00,574 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=91939A33331488C42A37F5C9B7859C8D:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=H,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:03:00,574 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=91939A33331488C42A37F5C9B7859C8D:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:03:06,366 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=F906471781D22E0AA02C4B003C065252:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=B,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:03:06,366 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F906471781D22E0AA02C4B003C065252:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:03:13,676 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=1209E33328C4BEBBAD734183015C267F:ip_addr=190.15.128.209:view_item:handle=123456789/245
+2020-09-15 08:03:13,696 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=1209E33328C4BEBBAD734183015C267F:ip_addr=190.15.128.209:view_item:handle=123456789/245
+2020-09-15 08:03:17,180 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=01A5BFA7B51CDD073F6A7398120590D7:ip_addr=190.15.128.209:view_item:handle=123456789/253
+2020-09-15 08:03:17,194 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=01A5BFA7B51CDD073F6A7398120590D7:ip_addr=190.15.128.209:view_item:handle=123456789/253
+2020-09-15 08:03:20,278 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=76ACE5D97DBF7B5431081C83C9BB423D:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=B,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:03:20,278 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=76ACE5D97DBF7B5431081C83C9BB423D:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:03:23,977 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=D93633FF046B1A7DE44EDB379902B69A:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=K,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:03:23,977 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D93633FF046B1A7DE44EDB379902B69A:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:03:25,994 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=C487815390AC9A49393FDB6A9CD6034D:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=G,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:03:25,994 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=C487815390AC9A49393FDB6A9CD6034D:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:03:28,882 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=23CCD4D9F944A0F6E16EA73E7225C4F1:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=0,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:03:28,883 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=23CCD4D9F944A0F6E16EA73E7225C4F1:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:03:32,677 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=7803E8094F8EAFAEA20C9C633EDEF069:ip_addr=190.15.128.209:display_statistics:handle=123456789/217, path=/statistics
+2020-09-15 08:03:36,380 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=C960F8A31EF254E050B8C810363A1E39:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=MONICA LEON,month=null,year=null,starts_with=N,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:03:36,380 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=C960F8A31EF254E050B8C810363A1E39:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:03:41,681 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=0839E84992DFF49EE91249EF4CDEDE4A:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=O,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:03:41,681 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=0839E84992DFF49EE91249EF4CDEDE4A:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:03:44,392 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4775D89D57ED2B8C541FBAB8502D8424:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=J,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:03:44,392 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4775D89D57ED2B8C541FBAB8502D8424:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:03:47,587 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=E79C499DD6ED11ED07E588D1BBD95A6B:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=D,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 08:03:47,587 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E79C499DD6ED11ED07E588D1BBD95A6B:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:04:20,976 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2B4B2A8682473AA345FF81A361C1BD2B:ip_addr=190.15.128.209:view_item:handle=123456789/206
+2020-09-15 08:04:20,995 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2B4B2A8682473AA345FF81A361C1BD2B:ip_addr=190.15.128.209:view_item:handle=123456789/206
+2020-09-15 08:04:58,459 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4BCD8947D6028FBE9348DA6248D02553:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=TERESA ARTIAGA,month=null,year=null,starts_with=O,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:04:58,460 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4BCD8947D6028FBE9348DA6248D02553:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 08:05:11,753 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=F0CBE0F21F5E78CC3B3E2C432C37A7D5:ip_addr=190.15.128.209:view_item:handle=123456789/221
+2020-09-15 08:05:11,767 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F0CBE0F21F5E78CC3B3E2C432C37A7D5:ip_addr=190.15.128.209:view_item:handle=123456789/221
+2020-09-15 08:05:27,499 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84A49065745CEB45DB40E4BD6AEB4640:ip_addr=190.15.128.209:view_item:handle=123456789/213
+2020-09-15 08:05:27,515 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84A49065745CEB45DB40E4BD6AEB4640:ip_addr=190.15.128.209:view_item:handle=123456789/213
+2020-09-15 08:05:47,170 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=C430446D8A63AEB6A6EDCCC669AF79C1:ip_addr=190.15.128.209:view_item:handle=123456789/242
+2020-09-15 08:05:47,184 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C430446D8A63AEB6A6EDCCC669AF79C1:ip_addr=190.15.128.209:view_item:handle=123456789/242
+2020-09-15 08:06:05,278 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=94C2360AC705B628FC25203D0E0C4C61:ip_addr=190.15.128.209:view_item:handle=123456789/255
+2020-09-15 08:06:05,291 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=94C2360AC705B628FC25203D0E0C4C61:ip_addr=190.15.128.209:view_item:handle=123456789/255
+2020-09-15 08:06:23,360 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=6081910ED7C4A8C4AB1337E76272EDC8:ip_addr=190.15.128.209:view_item:handle=123456789/212
+2020-09-15 08:06:23,373 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=6081910ED7C4A8C4AB1337E76272EDC8:ip_addr=190.15.128.209:view_item:handle=123456789/212
+2020-09-15 08:06:43,318 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=961696B08555D22EFC57EA5542DC0BCF:ip_addr=190.15.128.209:view_item:handle=123456789/236
+2020-09-15 08:06:43,331 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=961696B08555D22EFC57EA5542DC0BCF:ip_addr=190.15.128.209:view_item:handle=123456789/236
+2020-09-15 08:07:00,765 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=128710E10D6EBF10CFC7A348C2F2AAB9:ip_addr=190.15.128.209:view_item:handle=123456789/222
+2020-09-15 08:07:00,779 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=128710E10D6EBF10CFC7A348C2F2AAB9:ip_addr=190.15.128.209:view_item:handle=123456789/222
+2020-09-15 08:07:16,429 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=C551F2754488D3AF790AEC074B3EB9B7:ip_addr=190.15.128.209:view_item:handle=123456789/219
+2020-09-15 08:07:16,442 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C551F2754488D3AF790AEC074B3EB9B7:ip_addr=190.15.128.209:view_item:handle=123456789/219
+2020-09-15 08:07:34,530 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=BFA1EA0E7B1138A9F34032E1381C3682:ip_addr=190.15.128.209:view_item:handle=123456789/240
+2020-09-15 08:07:34,545 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=BFA1EA0E7B1138A9F34032E1381C3682:ip_addr=190.15.128.209:view_item:handle=123456789/240
+2020-09-15 08:07:54,411 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=44C03C2A67740F8185FB80907CB3BEC6:ip_addr=190.15.128.209:view_item:handle=123456789/218
+2020-09-15 08:07:54,424 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=44C03C2A67740F8185FB80907CB3BEC6:ip_addr=190.15.128.209:view_item:handle=123456789/218
+2020-09-15 08:08:10,541 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=563E4A08CBE00665F8FC8FA009E3F805:ip_addr=190.15.128.209:view_item:handle=123456789/235
+2020-09-15 08:08:10,555 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=563E4A08CBE00665F8FC8FA009E3F805:ip_addr=190.15.128.209:view_item:handle=123456789/235
+2020-09-15 08:08:28,167 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=5C6AE56E3E47EEE6B543ECADEA47137C:ip_addr=190.15.128.209:view_item:handle=123456789/225
+2020-09-15 08:08:28,180 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5C6AE56E3E47EEE6B543ECADEA47137C:ip_addr=190.15.128.209:view_item:handle=123456789/225
+2020-09-15 08:08:44,147 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=838C852FA3355CDCB8290532341214AF:ip_addr=190.15.128.209:view_item:handle=123456789/241
+2020-09-15 08:08:44,161 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=838C852FA3355CDCB8290532341214AF:ip_addr=190.15.128.209:view_item:handle=123456789/241
+2020-09-15 08:10:38,748 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=F61020E8C2427D200E01FDB9F3EB8716:ip_addr=190.15.128.209:view_item:handle=123456789/226
+2020-09-15 08:10:38,764 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F61020E8C2427D200E01FDB9F3EB8716:ip_addr=190.15.128.209:view_item:handle=123456789/226
+2020-09-15 08:17:50,745 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=EE941E8567563405F0167DDA67D45D2A:ip_addr=190.15.128.209:display_statistics:handle=123456789/212, path=/statistics
+2020-09-15 08:25:01,809 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=A234C073E52848FE50F18B2936B04F85:ip_addr=190.15.128.209:view_bitstream:bitstream_id=680216a2-87a2-406e-a247-d1639d6a3b48
+2020-09-15 08:25:01,809 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=A234C073E52848FE50F18B2936B04F85:ip_addr=190.15.128.209:view_bitstream:bitstream_id=680216a2-87a2-406e-a247-d1639d6a3b48
+2020-09-15 08:33:17,640 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-15 08:33:17,663 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=107A1694B55D78BB29168B7CA3CFAA4C:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="null",results=(0,0,2)
+2020-09-15 08:39:25,747 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-15 08:39:25,766 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=67DBCAA575DEBB6519549DA8C22774C0:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="null",results=(0,0,2)
+2020-09-15 08:46:38,942 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-15 08:46:38,962 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=AB5BCA01256A3F066AA0EAF9DF39DB50:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="",results=(0,0,2)
+2020-09-15 08:53:49,945 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=952812F258D0660D248E202F3EC04E9E:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=S,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 08:53:49,946 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=952812F258D0660D248E202F3EC04E9E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 09:08:13,598 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-15 09:08:13,619 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=424B8BBF584AA48B9DA027DBF7C9D3AB:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="null",results=(0,0,2)
+2020-09-15 09:15:25,952 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=F32EABF23D1C6787B15DECEB0B1CAFE1:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=X,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 09:15:25,952 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F32EABF23D1C6787B15DECEB0B1CAFE1:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 09:23:11,700 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=4F1CEBBEFA7E1768C39965F3ABD5749C:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=Z,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 09:23:11,701 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4F1CEBBEFA7E1768C39965F3ABD5749C:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 09:29:49,560 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-15 09:29:49,584 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=58E9D7EBB5996582CD17821DF00AB15B:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="null",results=(0,0,10)
+2020-09-15 09:37:01,707 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=860B6B34E65B5A82DE696AB0186870C7:ip_addr=190.15.128.209:browse:type=dateissued,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=2,community=n/a,collection=123456789/189,level=0,etal=-1
+2020-09-15 09:37:01,708 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=860B6B34E65B5A82DE696AB0186870C7:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 09:44:13,487 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-15 09:44:13,515 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=AE907638FC0E1F8079B569695B1CC414:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="null",results=(0,0,2)
+2020-09-15 09:51:25,441 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-15 09:51:25,466 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=FD1A2DDB90E6C070B5C2FFD3D30C5962:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,2)
+2020-09-15 09:58:37,404 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=D96A008CF1D087A5AC485B19AA2EF5F1:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=V,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 09:58:37,404 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D96A008CF1D087A5AC485B19AA2EF5F1:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 10:05:49,416 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-15 10:05:49,436 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=19F72D59B677369D52EB3B46EDB2D945:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="null",results=(0,0,1)
+2020-09-15 10:09:26,980 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7041A0E41602640425DABEAB5833A9D7:ip_addr=184.105.139.70:browse_mini:
+2020-09-15 10:09:26,988 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 10:09:27,001 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 10:09:27,002 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 10:13:17,350 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=A4EC941F07B31458E5DDCB0BEF3C899E:ip_addr=190.15.128.209:browse:type=dateissued,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=2,community=n/a,collection=123456789/188,level=0,etal=-1
+2020-09-15 10:13:17,350 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A4EC941F07B31458E5DDCB0BEF3C899E:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 10:20:13,242 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=163D9DD24CAE0800A22E8E5A20658AB8:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=N,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 10:20:13,242 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=163D9DD24CAE0800A22E8E5A20658AB8:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 10:27:25,270 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-15 10:27:25,291 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=5EBA30C38F2E512E5166894D7CFF77C7:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="null",results=(0,0,2)
+2020-09-15 10:31:50,267 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E2A6CE1BF166A609309D566FA2C8E970:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 10:31:50,276 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 10:31:50,301 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 10:31:50,301 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 10:31:54,635 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2D9DCCD8D2E4838A8FE6E0152BD61C69:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 10:31:54,638 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 10:31:54,647 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 10:31:54,647 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 10:32:17,558 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=E2A6CE1BF166A609309D566FA2C8E970:ip_addr=190.15.128.209:authenticate:attempting password auth of user=devaluacion@ueb.edu.ec
+2020-09-15 10:32:17,561 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=E2A6CE1BF166A609309D566FA2C8E970:ip_addr=190.15.128.209:failed_login:email=devaluacion@ueb.edu.ec, result=2
+2020-09-15 10:32:48,175 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=E2A6CE1BF166A609309D566FA2C8E970:ip_addr=190.15.128.209:authenticate:attempting password auth of user=devaluacion@ueb.edu.ec
+2020-09-15 10:32:48,178 INFO  org.dspace.authenticate.PasswordAuthentication @ devaluacion@ueb.edu.ec:session_id=E2A6CE1BF166A609309D566FA2C8E970:ip_addr=190.15.128.209:authenticate:type=PasswordAuthentication
+2020-09-15 10:32:48,178 INFO  org.dspace.eperson.EPersonServiceImpl @ devaluacion@ueb.edu.ec:session_id=E2A6CE1BF166A609309D566FA2C8E970:ip_addr=190.15.128.209:update_eperson:eperson_id=5c115cff-4edd-4f59-bf2a-6d842e65f856
+2020-09-15 10:32:48,212 INFO  org.dspace.app.webui.servlet.PasswordServlet @ devaluacion@ueb.edu.ec:session_id=E2A6CE1BF166A609309D566FA2C8E970:ip_addr=190.15.128.209:login:type=explicit
+2020-09-15 10:32:48,265 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:view_mydspace:
+2020-09-15 10:33:10,331 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:view_community_list:
+2020-09-15 10:33:21,636 INFO  org.dspace.app.webui.servlet.HandleServlet @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:view_community:community_id=7646e7d0-da24-4a4b-9e2e-de8b049f14cc
+2020-09-15 10:33:21,637 INFO  org.dspace.browse.BrowseEngine @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 10:33:21,644 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@36d36a51: 4
+2020-09-15 10:33:21,655 INFO  org.dspace.usage.LoggerUsageEventListener @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:view_community:community_id=7646e7d0-da24-4a4b-9e2e-de8b049f14cc
+2020-09-15 10:33:40,010 INFO  org.dspace.app.webui.servlet.HandleServlet @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:view_community:community_id=b2641c97-b54b-4b81-8eee-393e24810601
+2020-09-15 10:33:40,012 INFO  org.dspace.browse.BrowseEngine @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 10:33:40,017 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@ad406a9e: 4
+2020-09-15 10:33:40,027 INFO  org.dspace.usage.LoggerUsageEventListener @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:view_community:community_id=b2641c97-b54b-4b81-8eee-393e24810601
+2020-09-15 10:34:37,171 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=D68BDFC381A87DAEF690A369D266AACE:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=A,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 10:34:37,171 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D68BDFC381A87DAEF690A369D266AACE:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 10:35:04,780 INFO  org.dspace.app.webui.servlet.HandleServlet @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:view_collection:collection_id=06ae4c86-43ec-4c8e-8737-60e6b6cdc940
+2020-09-15 10:35:04,781 INFO  org.dspace.browse.BrowseEngine @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 10:35:04,799 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-15 10:35:04,811 INFO  org.dspace.usage.LoggerUsageEventListener @ devaluacion@ueb.edu.ec:session_id=F9887EB34CBF2D26183AE94643C65535:ip_addr=190.15.128.209:view_collection:collection_id=06ae4c86-43ec-4c8e-8737-60e6b6cdc940
+2020-09-15 10:41:49,212 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-15 10:41:49,235 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=F724B2EB82D71691553B6FE82A23EE28:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="null",results=(0,0,1)
+2020-09-15 10:49:01,116 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-15 10:49:01,139 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=C6E910F180F8ED704874BF0E47B8CAA3:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="",results=(0,0,1)
+2020-09-15 10:56:13,125 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=BD897BD8A806C01D5AC3D4B901CE1288:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=K,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 10:56:13,126 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=BD897BD8A806C01D5AC3D4B901CE1288:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 11:03:25,073 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-15 11:03:25,093 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=288BE6CED2FB47F06A8165E1D2D8457D:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="null",results=(0,0,1)
+2020-09-15 11:07:39,649 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4F9F014D49F95BB33774E62551D95C1C:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 11:07:39,658 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 11:07:39,670 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 11:07:39,670 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 11:14:05,949 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@eb6a361e: 4
+2020-09-15 11:14:05,967 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=F99EF6AAF9082E429D062F3EE9C34598:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@eb6a361e,query="",results=(0,0,1)
+2020-09-15 11:25:00,972 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=B3E53B4D5B89C2CDEC6A08D81FBF06AF:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=E,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 11:25:00,972 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B3E53B4D5B89C2CDEC6A08D81FBF06AF:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 11:33:08,580 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=2D3C009D1AAAD72714EE1B7D77501212:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=JORGE GOYES,month=null,year=null,starts_with=B,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=1,etal=-1
+2020-09-15 11:33:08,581 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2D3C009D1AAAD72714EE1B7D77501212:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 11:39:24,923 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@794053b9: 4
+2020-09-15 11:39:24,958 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=F9A3559D4389D56A57501663DEA36641:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@794053b9,query="null",results=(0,0,10)
+2020-09-15 11:46:36,803 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=060769546475E2338F9E15A018DFE5D8:ip_addr=190.15.128.209:view_collection:collection_id=06ae4c86-43ec-4c8e-8737-60e6b6cdc940
+2020-09-15 11:46:36,804 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=060769546475E2338F9E15A018DFE5D8:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 11:46:36,815 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@74b90fc6: 4
+2020-09-15 11:46:36,824 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=060769546475E2338F9E15A018DFE5D8:ip_addr=190.15.128.209:view_collection:collection_id=06ae4c86-43ec-4c8e-8737-60e6b6cdc940
+2020-09-15 11:53:48,898 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=509842E3B3B929B79C410B7423BC0F32:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 11:54:57,590 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=C9443960615561079B6CA35941B9D9D4:ip_addr=190.15.128.209:view_bitstream:bitstream_id=53f3a6fe-246d-4158-96b3-10f2d2bf33fd
+2020-09-15 11:54:57,591 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C9443960615561079B6CA35941B9D9D4:ip_addr=190.15.128.209:view_bitstream:bitstream_id=53f3a6fe-246d-4158-96b3-10f2d2bf33fd
+2020-09-15 11:55:00,491 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=A8284D32E4618700E53ED18A72E1E825:ip_addr=190.15.128.209:view_bitstream:bitstream_id=5195a84d-d588-42b5-a442-0b0991e4968b
+2020-09-15 11:55:00,491 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=A8284D32E4618700E53ED18A72E1E825:ip_addr=190.15.128.209:view_bitstream:bitstream_id=5195a84d-d588-42b5-a442-0b0991e4968b
+2020-09-15 11:55:16,173 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=866C46E4F2F0FDEB53377C5E12CA4931:ip_addr=190.15.128.209:view_bitstream:bitstream_id=ee1cddaf-b32e-4c61-9f35-f8f4050bd778
+2020-09-15 11:55:16,173 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=866C46E4F2F0FDEB53377C5E12CA4931:ip_addr=190.15.128.209:view_bitstream:bitstream_id=ee1cddaf-b32e-4c61-9f35-f8f4050bd778
+2020-09-15 11:55:29,472 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=971BA078F7CB7EE290FEA9ABDD9CB8A8:ip_addr=190.15.128.209:view_community:community_id=8e20e5a9-e739-4d90-9997-60f4a349bf45
+2020-09-15 11:55:29,473 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=971BA078F7CB7EE290FEA9ABDD9CB8A8:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 11:55:29,481 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@53c779fd: 4
+2020-09-15 11:55:29,493 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=971BA078F7CB7EE290FEA9ABDD9CB8A8:ip_addr=190.15.128.209:view_community:community_id=8e20e5a9-e739-4d90-9997-60f4a349bf45
+2020-09-15 11:56:12,541 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=DB61065D0E26E9261B3F22DC0ADC80BF:ip_addr=190.15.128.209:view_bitstream:bitstream_id=5008d88c-d3f9-4a33-bc5b-45b5188d32e0
+2020-09-15 11:56:12,542 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=DB61065D0E26E9261B3F22DC0ADC80BF:ip_addr=190.15.128.209:view_bitstream:bitstream_id=5008d88c-d3f9-4a33-bc5b-45b5188d32e0
+2020-09-15 11:56:30,012 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=C8877DE9E01EA0EAE8ABA1B11CAF4005:ip_addr=190.15.128.209:view_bitstream:bitstream_id=532f8c18-4627-4d2f-b7ad-c3d0fadbfc9d
+2020-09-15 11:56:30,012 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C8877DE9E01EA0EAE8ABA1B11CAF4005:ip_addr=190.15.128.209:view_bitstream:bitstream_id=532f8c18-4627-4d2f-b7ad-c3d0fadbfc9d
+2020-09-15 11:56:40,255 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=AE57CD1865D29EBA224FCE218C7906D7:ip_addr=190.15.128.209:view_bitstream:bitstream_id=d856821f-d210-4128-8d30-a4fc3cfc9c70
+2020-09-15 11:56:40,255 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=AE57CD1865D29EBA224FCE218C7906D7:ip_addr=190.15.128.209:view_bitstream:bitstream_id=d856821f-d210-4128-8d30-a4fc3cfc9c70
+2020-09-15 11:58:36,131 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=CA429CDED1B7BB247F734F78085E3D6A:ip_addr=190.15.128.209:view_bitstream:bitstream_id=2a6211e9-4734-481d-ba83-afc1a2785780
+2020-09-15 11:58:36,132 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=CA429CDED1B7BB247F734F78085E3D6A:ip_addr=190.15.128.209:view_bitstream:bitstream_id=2a6211e9-4734-481d-ba83-afc1a2785780
+2020-09-15 12:00:58,971 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=FF5628E0C5F1D30B825F7154E599665A:ip_addr=162.142.125.33:browse_mini:
+2020-09-15 12:00:58,979 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 12:00:58,991 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 12:00:58,991 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 12:00:59,239 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=40E8151925E8A2D615E8D76DFFAFC914:ip_addr=162.142.125.33:browse_mini:
+2020-09-15 12:00:59,243 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 12:00:59,253 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 12:00:59,253 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 12:01:27,463 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=643485F1B74D80A8956515E23BF05466:ip_addr=190.15.128.209:view_bitstream:bitstream_id=2ca3086e-a506-4ef6-bf54-1cd94eb324fb
+2020-09-15 12:01:27,464 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=643485F1B74D80A8956515E23BF05466:ip_addr=190.15.128.209:view_bitstream:bitstream_id=2ca3086e-a506-4ef6-bf54-1cd94eb324fb
+2020-09-15 12:01:54,628 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=F03BD84B3C630CB4D33350512E324839:ip_addr=190.15.128.209:view_bitstream:bitstream_id=fec2893f-938e-4336-b42d-a90364443112
+2020-09-15 12:01:54,629 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F03BD84B3C630CB4D33350512E324839:ip_addr=190.15.128.209:view_bitstream:bitstream_id=fec2893f-938e-4336-b42d-a90364443112
+2020-09-15 12:03:49,991 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=A9AAEC2674580013F6675A6271D0A925:ip_addr=190.15.128.209:view_bitstream:bitstream_id=94cea936-7c76-4183-b702-f10c4a85c1c0
+2020-09-15 12:03:49,991 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=A9AAEC2674580013F6675A6271D0A925:ip_addr=190.15.128.209:view_bitstream:bitstream_id=94cea936-7c76-4183-b702-f10c4a85c1c0
+2020-09-15 12:08:12,706 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9A5FFA32ACBF2CFBC1B4B06B195D0290:ip_addr=190.15.128.209:view_collection:collection_id=227a2a4f-a636-46f3-a120-a3dda20a1853
+2020-09-15 12:08:12,707 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=9A5FFA32ACBF2CFBC1B4B06B195D0290:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 12:08:12,723 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-15 12:08:12,735 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9A5FFA32ACBF2CFBC1B4B06B195D0290:ip_addr=190.15.128.209:view_collection:collection_id=227a2a4f-a636-46f3-a120-a3dda20a1853
+2020-09-15 12:11:06,820 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=22850EC6ED19471DD8A3DBAE9E8ABFDE:ip_addr=190.15.128.209:view_bitstream:bitstream_id=5574728d-952c-4950-b795-79fb802645b3
+2020-09-15 12:11:06,820 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=22850EC6ED19471DD8A3DBAE9E8ABFDE:ip_addr=190.15.128.209:view_bitstream:bitstream_id=5574728d-952c-4950-b795-79fb802645b3
+2020-09-15 12:11:14,034 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=877E77EBF088B0B038EAC881B23C5F2A:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 12:11:14,042 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 12:11:14,054 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 12:11:14,054 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 12:13:52,809 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=2C2FF1F8E304176338CC6FD63E304140:ip_addr=190.15.128.209:view_bitstream:bitstream_id=19df4f62-2fc1-4357-aec5-1071ded4b7e7
+2020-09-15 12:13:52,809 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2C2FF1F8E304176338CC6FD63E304140:ip_addr=190.15.128.209:view_bitstream:bitstream_id=19df4f62-2fc1-4357-aec5-1071ded4b7e7
+2020-09-15 12:14:08,441 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=54D08CDB400C1EA8A395E4FBEBC9F049:ip_addr=190.15.128.209:view_bitstream:bitstream_id=edf86dad-5354-4c87-8958-bc3ebc419765
+2020-09-15 12:14:08,441 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=54D08CDB400C1EA8A395E4FBEBC9F049:ip_addr=190.15.128.209:view_bitstream:bitstream_id=edf86dad-5354-4c87-8958-bc3ebc419765
+2020-09-15 12:14:25,155 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=2C441BFFB7D077626CE282F1EDE80ED9:ip_addr=190.15.128.209:view_bitstream:bitstream_id=ceea8d8a-4b9a-44e5-ba0f-b0b48a11c991
+2020-09-15 12:14:25,156 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2C441BFFB7D077626CE282F1EDE80ED9:ip_addr=190.15.128.209:view_bitstream:bitstream_id=ceea8d8a-4b9a-44e5-ba0f-b0b48a11c991
+2020-09-15 12:15:24,675 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=BCC29F60CEE53C5C54128FF94ED6EFB0:ip_addr=190.15.128.209:view_collection:collection_id=60e878b0-96aa-44a1-97d0-2ff579210dc2
+2020-09-15 12:15:24,677 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=BCC29F60CEE53C5C54128FF94ED6EFB0:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 12:15:24,692 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@18b3843e: 4
+2020-09-15 12:15:24,702 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=BCC29F60CEE53C5C54128FF94ED6EFB0:ip_addr=190.15.128.209:view_collection:collection_id=60e878b0-96aa-44a1-97d0-2ff579210dc2
+2020-09-15 12:15:55,610 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=F0E7A906B10D589A1451ECFB59BC4DB8:ip_addr=190.15.128.209:view_item:handle=123456789/202
+2020-09-15 12:15:55,627 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F0E7A906B10D589A1451ECFB59BC4DB8:ip_addr=190.15.128.209:view_item:handle=123456789/202
+2020-09-15 12:23:00,610 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=56C22C0200C07AA5F4E2B4BF08E639B3:ip_addr=190.15.128.209:display_statistics:handle=123456789/199, path=/statistics
+2020-09-15 12:29:48,698 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=D667C58E9D74B05E4190CBCDC522AC28:ip_addr=190.15.128.209:display_statistics:handle=123456789/210, path=/statistics
+2020-09-15 12:37:00,573 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=A14A31EF1293BBB82FC91B9B2A915E16:ip_addr=190.15.128.209:display_statistics:handle=123456789/216, path=/statistics
+2020-09-15 12:37:25,581 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=EEF3CC4D7883BAF096C7B28E5FC8C767:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=0,etal=-1
+2020-09-15 12:37:25,581 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=EEF3CC4D7883BAF096C7B28E5FC8C767:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 12:40:40,671 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=5EC45CD47A2E4F13A25DD8D8B36463DB:ip_addr=190.15.128.209:view_item:handle=123456789/244
+2020-09-15 12:40:40,690 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5EC45CD47A2E4F13A25DD8D8B36463DB:ip_addr=190.15.128.209:view_item:handle=123456789/244
+2020-09-15 12:44:12,814 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=C6CBDE915222A501265C73F78C2ECD3D:ip_addr=190.15.128.209:display_statistics:handle=123456789/202, path=/statistics
+2020-09-15 12:51:24,538 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=21FCEDDFE7D8FB0B478E62BF5C3EB210:ip_addr=190.15.128.209:display_statistics:handle=123456789/250, path=/statistics
+2020-09-15 12:53:53,853 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=AC8AA3E21248503A2B48D06AD1E73E25:ip_addr=190.15.128.209:view_bitstream:bitstream_id=8aae7322-4d73-4433-bd11-c79ea2a39fed
+2020-09-15 12:53:53,853 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=AC8AA3E21248503A2B48D06AD1E73E25:ip_addr=190.15.128.209:view_bitstream:bitstream_id=8aae7322-4d73-4433-bd11-c79ea2a39fed
+2020-09-15 12:58:36,528 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=5CB7C4AD935530C669D97D69FE9887A9:ip_addr=190.15.128.209:view_item:handle=123456789/199
+2020-09-15 12:58:36,544 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5CB7C4AD935530C669D97D69FE9887A9:ip_addr=190.15.128.209:view_item:handle=123456789/199
+2020-09-15 13:00:50,653 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=AD6B635A7D9097C233A3579D02C31DA9:ip_addr=190.15.128.209:view_bitstream:bitstream_id=a4f64e82-cb4f-496e-ab91-8aa4776dc46f
+2020-09-15 13:00:50,654 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=AD6B635A7D9097C233A3579D02C31DA9:ip_addr=190.15.128.209:view_bitstream:bitstream_id=a4f64e82-cb4f-496e-ab91-8aa4776dc46f
+2020-09-15 13:01:06,937 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=96E7EFE915C259F1FB14D6666B478294:ip_addr=190.15.128.209:view_bitstream:bitstream_id=8462a265-09d7-483a-88c4-705e4076d11a
+2020-09-15 13:01:06,937 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=96E7EFE915C259F1FB14D6666B478294:ip_addr=190.15.128.209:view_bitstream:bitstream_id=8462a265-09d7-483a-88c4-705e4076d11a
+2020-09-15 13:03:46,026 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=0DA15D11AC85E641058F149775E018CB:ip_addr=190.15.128.209:view_bitstream:bitstream_id=281d07c1-eda5-408d-be89-b00ebc237e75
+2020-09-15 13:03:46,026 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=0DA15D11AC85E641058F149775E018CB:ip_addr=190.15.128.209:view_bitstream:bitstream_id=281d07c1-eda5-408d-be89-b00ebc237e75
+2020-09-15 13:05:48,414 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=19036C8E0CE3F5702E9D948CE820057A:ip_addr=190.15.128.209:view_item:handle=123456789/202
+2020-09-15 13:05:48,431 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=19036C8E0CE3F5702E9D948CE820057A:ip_addr=190.15.128.209:view_item:handle=123456789/202
+2020-09-15 13:12:49,086 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D84CC76DEFD6D102690B501240F01DBB:ip_addr=167.248.133.50:browse_mini:
+2020-09-15 13:12:49,095 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 13:12:49,108 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 13:12:49,108 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 13:12:49,347 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F806317B5ABDA1CE9439402FE321AE01:ip_addr=167.248.133.50:browse_mini:
+2020-09-15 13:12:49,351 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 13:12:49,360 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 13:12:49,360 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 13:13:13,330 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B22A419130D7DDB88B06DEA400C25C8D:ip_addr=190.15.128.209:view_item:handle=123456789/210
+2020-09-15 13:13:13,347 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B22A419130D7DDB88B06DEA400C25C8D:ip_addr=190.15.128.209:view_item:handle=123456789/210
+2020-09-15 13:16:45,014 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CC3B5CC9C7E34A14A36AAD113D7F0E85:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 13:16:45,021 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 13:16:45,034 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 13:16:45,034 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 13:18:09,163 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=8E76C7E51A533F7A2147CE1AF7ECA8AF:ip_addr=190.15.128.209:view_bitstream:bitstream_id=96db76cf-60d6-4dd4-b533-7f196c5a2b25
+2020-09-15 13:18:09,164 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8E76C7E51A533F7A2147CE1AF7ECA8AF:ip_addr=190.15.128.209:view_bitstream:bitstream_id=96db76cf-60d6-4dd4-b533-7f196c5a2b25
+2020-09-15 13:18:22,512 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=DB5BD061772A542AE2B0601B39D3684D:ip_addr=190.15.128.209:view_bitstream:bitstream_id=2bb47d3e-848a-48a2-945e-ffca53f73490
+2020-09-15 13:18:22,512 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=DB5BD061772A542AE2B0601B39D3684D:ip_addr=190.15.128.209:view_bitstream:bitstream_id=2bb47d3e-848a-48a2-945e-ffca53f73490
+2020-09-15 13:19:17,660 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=886B05E1F707637232597C1F3C86234F:ip_addr=190.15.128.209:view_bitstream:bitstream_id=9b6d8694-9e3e-47c6-9667-b688ddf4194a
+2020-09-15 13:19:17,661 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=886B05E1F707637232597C1F3C86234F:ip_addr=190.15.128.209:view_bitstream:bitstream_id=9b6d8694-9e3e-47c6-9667-b688ddf4194a
+2020-09-15 13:20:12,348 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=3F9CF805F1FB0F3ED2451DCFA960527D:ip_addr=190.15.128.209:view_item:handle=123456789/210
+2020-09-15 13:20:12,365 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=3F9CF805F1FB0F3ED2451DCFA960527D:ip_addr=190.15.128.209:view_item:handle=123456789/210
+2020-09-15 13:27:24,394 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=158AAEB29CE41A17018284087AC1C3FF:ip_addr=190.15.128.209:view_item:handle=123456789/250
+2020-09-15 13:27:24,411 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=158AAEB29CE41A17018284087AC1C3FF:ip_addr=190.15.128.209:view_item:handle=123456789/250
+2020-09-15 13:30:06,428 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=E69CFF8A09D0E5486431E255C9305AF5:ip_addr=190.15.128.209:view_bitstream:bitstream_id=3c004e5f-76e3-4f41-a0d7-78937f1c0c25
+2020-09-15 13:30:06,429 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E69CFF8A09D0E5486431E255C9305AF5:ip_addr=190.15.128.209:view_bitstream:bitstream_id=3c004e5f-76e3-4f41-a0d7-78937f1c0c25
+2020-09-15 13:34:36,292 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=89059EE4929887ED47B8045F3BC2BB07:ip_addr=190.15.128.209:view_item:handle=123456789/216
+2020-09-15 13:34:36,310 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=89059EE4929887ED47B8045F3BC2BB07:ip_addr=190.15.128.209:view_item:handle=123456789/216
+2020-09-15 13:35:35,798 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=E707171CCE64105D2989DB3939A4503A:ip_addr=190.15.128.209:view_bitstream:bitstream_id=efe02b0a-98d3-44c8-bbf9-4f6f76f3edc4
+2020-09-15 13:35:35,799 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E707171CCE64105D2989DB3939A4503A:ip_addr=190.15.128.209:view_bitstream:bitstream_id=efe02b0a-98d3-44c8-bbf9-4f6f76f3edc4
+2020-09-15 13:35:51,431 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=37CA72D66A2788FBD104344F7B93F1FD:ip_addr=190.15.128.209:view_bitstream:bitstream_id=e1891152-bdc3-4d49-ad9a-6f4ce92a318a
+2020-09-15 13:35:51,432 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=37CA72D66A2788FBD104344F7B93F1FD:ip_addr=190.15.128.209:view_bitstream:bitstream_id=e1891152-bdc3-4d49-ad9a-6f4ce92a318a
+2020-09-15 13:36:07,490 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=4CBF89DED8EF947F04836D1F22DC5E53:ip_addr=190.15.128.209:view_bitstream:bitstream_id=6fc45f0f-79a1-42c1-a5a7-d8213ae4041d
+2020-09-15 13:36:07,490 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=4CBF89DED8EF947F04836D1F22DC5E53:ip_addr=190.15.128.209:view_bitstream:bitstream_id=6fc45f0f-79a1-42c1-a5a7-d8213ae4041d
+2020-09-15 13:37:00,045 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=4F895B4F1957D4D54B7F7B4C39FBE7E3:ip_addr=190.15.128.209:view_bitstream:bitstream_id=c859114a-26d7-4899-9f65-d5a13a104987
+2020-09-15 13:37:00,046 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=4F895B4F1957D4D54B7F7B4C39FBE7E3:ip_addr=190.15.128.209:view_bitstream:bitstream_id=c859114a-26d7-4899-9f65-d5a13a104987
+2020-09-15 13:38:01,801 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=3815B5C67D37E9FB630994DAB260FBFE:ip_addr=190.15.128.209:view_bitstream:bitstream_id=a1f8a5e6-deb5-411d-a8ac-b7ddb8de49de
+2020-09-15 13:38:01,802 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=3815B5C67D37E9FB630994DAB260FBFE:ip_addr=190.15.128.209:view_bitstream:bitstream_id=a1f8a5e6-deb5-411d-a8ac-b7ddb8de49de
+2020-09-15 13:39:13,620 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=8FEC5B9DE0883D5811B5DF7C03C8117E:ip_addr=190.15.128.209:view_bitstream:bitstream_id=d6151bb2-7dc2-4b1c-a2b7-8561bf565f81
+2020-09-15 13:39:13,620 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8FEC5B9DE0883D5811B5DF7C03C8117E:ip_addr=190.15.128.209:view_bitstream:bitstream_id=d6151bb2-7dc2-4b1c-a2b7-8561bf565f81
+2020-09-15 13:39:17,496 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=4FEB7BA0C86B52FBF03713BF06A3B3F9:ip_addr=190.15.128.209:view_bitstream:bitstream_id=d4ae3ca0-4e62-434b-a52f-f2ffd31aa27a
+2020-09-15 13:39:17,497 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=4FEB7BA0C86B52FBF03713BF06A3B3F9:ip_addr=190.15.128.209:view_bitstream:bitstream_id=d4ae3ca0-4e62-434b-a52f-f2ffd31aa27a
+2020-09-15 13:41:23,672 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=FFF0ED810E39190ADEFB32C4D24BCCE4:ip_addr=190.15.128.209:view_bitstream:bitstream_id=ec178a5e-924c-4798-b9bd-755dfc998c37
+2020-09-15 13:41:23,673 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=FFF0ED810E39190ADEFB32C4D24BCCE4:ip_addr=190.15.128.209:view_bitstream:bitstream_id=ec178a5e-924c-4798-b9bd-755dfc998c37
+2020-09-15 13:41:48,241 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=C2231E2D18A122EC24644E6805514547:ip_addr=190.15.128.209:view_item:handle=123456789/216
+2020-09-15 13:41:48,258 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C2231E2D18A122EC24644E6805514547:ip_addr=190.15.128.209:view_item:handle=123456789/216
+2020-09-15 13:46:54,347 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=035D6F4CEDCAE6175AC3EFFF51E9BB18:ip_addr=190.15.128.209:view_bitstream:bitstream_id=405a6b4b-17b2-4da9-a392-350901d94de2
+2020-09-15 13:46:54,347 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=035D6F4CEDCAE6175AC3EFFF51E9BB18:ip_addr=190.15.128.209:view_bitstream:bitstream_id=405a6b4b-17b2-4da9-a392-350901d94de2
+2020-09-15 13:49:00,290 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=208AB2E2102F3A777F7E4395878D9F90:ip_addr=190.15.128.209:view_bitstream:bitstream_id=f7302acd-d0df-48b7-829f-8f210a073300
+2020-09-15 13:49:00,290 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=208AB2E2102F3A777F7E4395878D9F90:ip_addr=190.15.128.209:view_bitstream:bitstream_id=f7302acd-d0df-48b7-829f-8f210a073300
+2020-09-15 13:49:05,752 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=434DA44E1F1BF9DF3105442D276A8B3D:ip_addr=190.15.128.209:view_bitstream:bitstream_id=cc266cdc-8dc1-4885-b3d9-15a71d5315b4
+2020-09-15 13:49:05,752 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=434DA44E1F1BF9DF3105442D276A8B3D:ip_addr=190.15.128.209:view_bitstream:bitstream_id=cc266cdc-8dc1-4885-b3d9-15a71d5315b4
+2020-09-15 13:51:47,933 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=A0E04BD1096E968BBFEF22D52E8F5138:ip_addr=190.15.128.209:view_bitstream:bitstream_id=f7302acd-d0df-48b7-829f-8f210a073300
+2020-09-15 13:51:47,933 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=A0E04BD1096E968BBFEF22D52E8F5138:ip_addr=190.15.128.209:view_bitstream:bitstream_id=f7302acd-d0df-48b7-829f-8f210a073300
+2020-09-15 13:53:05,102 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=8AD52BD08FE0DF9466F126F029D3319A:ip_addr=190.15.128.209:view_bitstream:bitstream_id=7bdbc40f-58cf-4808-8cd3-24ae45187437
+2020-09-15 13:53:05,103 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=8AD52BD08FE0DF9466F126F029D3319A:ip_addr=190.15.128.209:view_bitstream:bitstream_id=7bdbc40f-58cf-4808-8cd3-24ae45187437
+2020-09-15 13:53:20,842 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=C36C00F7830D122C9BD3CAF60EF9A4D1:ip_addr=190.15.128.209:view_bitstream:bitstream_id=6a0dd2aa-9101-43b6-854a-d8d5a44b3e00
+2020-09-15 13:53:20,842 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C36C00F7830D122C9BD3CAF60EF9A4D1:ip_addr=190.15.128.209:view_bitstream:bitstream_id=6a0dd2aa-9101-43b6-854a-d8d5a44b3e00
+2020-09-15 13:56:12,176 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=11A5B75C6BEDBA8DB2A22774D097B01F:ip_addr=190.15.128.209:view_bitstream:bitstream_id=9b4317b3-caf5-467a-9d5c-5d2fcf9e2d75
+2020-09-15 13:56:12,176 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=11A5B75C6BEDBA8DB2A22774D097B01F:ip_addr=190.15.128.209:view_bitstream:bitstream_id=9b4317b3-caf5-467a-9d5c-5d2fcf9e2d75
+2020-09-15 13:57:25,507 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2B50B3EBD9BD2C00102CB75F306BF7BF:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 13:57:25,515 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 13:57:25,527 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 13:57:25,527 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 13:59:04,648 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=1C0C7567F96E6257B8054DBCA8676FC0:ip_addr=190.15.128.209:view_bitstream:bitstream_id=680216a2-87a2-406e-a247-d1639d6a3b48
+2020-09-15 13:59:04,649 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=1C0C7567F96E6257B8054DBCA8676FC0:ip_addr=190.15.128.209:view_bitstream:bitstream_id=680216a2-87a2-406e-a247-d1639d6a3b48
+2020-09-15 14:02:44,680 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=14D2986BFE144F1E1C0823922312EA00:ip_addr=190.15.128.209:view_bitstream:bitstream_id=25d61b7d-9192-49d7-92c3-4cd3b951579c
+2020-09-15 14:02:44,681 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14D2986BFE144F1E1C0823922312EA00:ip_addr=190.15.128.209:view_bitstream:bitstream_id=25d61b7d-9192-49d7-92c3-4cd3b951579c
+2020-09-15 14:03:00,622 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=0A819A2ECB1559C6AAE4E455D8484851:ip_addr=190.15.128.209:view_bitstream:bitstream_id=be75739f-ba11-427c-aeec-3cb6f88bc390
+2020-09-15 14:03:00,622 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=0A819A2ECB1559C6AAE4E455D8484851:ip_addr=190.15.128.209:view_bitstream:bitstream_id=be75739f-ba11-427c-aeec-3cb6f88bc390
+2020-09-15 14:03:24,130 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=1C9A74A48B7DB4D6DD09B53C2100FE7E:ip_addr=190.15.128.209:view_bitstream:bitstream_id=f37ca61c-9a04-4890-91e1-718e0ca9c0ba
+2020-09-15 14:03:24,131 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=1C9A74A48B7DB4D6DD09B53C2100FE7E:ip_addr=190.15.128.209:view_bitstream:bitstream_id=f37ca61c-9a04-4890-91e1-718e0ca9c0ba
+2020-09-15 14:10:36,168 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=BF63E9C52B958E45B7A4CC1F896ED714:ip_addr=190.15.128.209:view_bitstream:bitstream_id=d856821f-d210-4128-8d30-a4fc3cfc9c70
+2020-09-15 14:10:36,169 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=BF63E9C52B958E45B7A4CC1F896ED714:ip_addr=190.15.128.209:view_bitstream:bitstream_id=d856821f-d210-4128-8d30-a4fc3cfc9c70
+2020-09-15 14:11:32,105 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=F295A4337A384DBE384D9685437C84AC:ip_addr=190.15.128.209:view_bitstream:bitstream_id=ad039193-b52b-4b00-8806-bfbb96f2d851
+2020-09-15 14:11:32,106 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F295A4337A384DBE384D9685437C84AC:ip_addr=190.15.128.209:view_bitstream:bitstream_id=ad039193-b52b-4b00-8806-bfbb96f2d851
+2020-09-15 14:13:28,728 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=D6A08D9A81988BE4D81D0E9386111E38:ip_addr=190.15.128.209:view_bitstream:bitstream_id=03020433-f40f-4687-af7b-aa6954440829
+2020-09-15 14:13:28,728 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=D6A08D9A81988BE4D81D0E9386111E38:ip_addr=190.15.128.209:view_bitstream:bitstream_id=03020433-f40f-4687-af7b-aa6954440829
+2020-09-15 14:17:48,066 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=12015D1E3A545ECEE837E4E25EAF1780:ip_addr=190.15.128.209:view_bitstream:bitstream_id=53bbc237-5890-467e-80c7-2aeaf36d575e
+2020-09-15 14:17:48,067 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=12015D1E3A545ECEE837E4E25EAF1780:ip_addr=190.15.128.209:view_bitstream:bitstream_id=53bbc237-5890-467e-80c7-2aeaf36d575e
+2020-09-15 14:18:34,945 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=AA87E0E5793F5CCA1CC2B089C12E8EDF:ip_addr=190.15.128.209:view_bitstream:bitstream_id=227fbaa7-13e2-4583-a7de-97fbe5c57cb8
+2020-09-15 14:18:34,945 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=AA87E0E5793F5CCA1CC2B089C12E8EDF:ip_addr=190.15.128.209:view_bitstream:bitstream_id=227fbaa7-13e2-4583-a7de-97fbe5c57cb8
+2020-09-15 14:19:01,113 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=45E5A8108358D5C77212942DA2740AEF:ip_addr=89.248.174.166:browse_mini:
+2020-09-15 14:19:01,122 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 14:19:01,135 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 14:19:01,135 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 14:22:34,480 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB64F5A3B4AA77C1FEF43E99E7964BA:ip_addr=78.171.167.168:browse_mini:
+2020-09-15 14:22:34,488 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 14:22:34,500 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 14:22:34,500 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 14:25:00,093 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=60CD9931517616F756949E80E040315C:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/110,level=0,etal=-1
+2020-09-15 14:25:00,093 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=60CD9931517616F756949E80E040315C:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 14:32:43,269 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=F8A29E1E7DD4036C505FE4DDF1A16ABF:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=123456789/128,level=0,etal=-1
+2020-09-15 14:32:43,269 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F8A29E1E7DD4036C505FE4DDF1A16ABF:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-15 14:33:32,851 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=E5F56EFB611165FE4B3176A052B81673:ip_addr=190.15.128.209:view_bitstream:bitstream_id=38c54a69-b5eb-442d-851b-432c32575c19
+2020-09-15 14:33:32,852 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E5F56EFB611165FE4B3176A052B81673:ip_addr=190.15.128.209:view_bitstream:bitstream_id=38c54a69-b5eb-442d-851b-432c32575c19
+2020-09-15 14:39:24,016 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=5C293FC2D6D440254FDEE928E5BC6886:ip_addr=190.15.128.209:browse:type=dateissued,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=2,community=n/a,collection=123456789/110,level=0,etal=-1
+2020-09-15 14:39:24,016 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5C293FC2D6D440254FDEE928E5BC6886:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 14:43:05,198 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=D359E290939E7158BE67B419558DC447:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=0,etal=-1
+2020-09-15 14:43:05,198 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D359E290939E7158BE67B419558DC447:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-15 14:46:35,937 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=EBA27E036A6532BBE2FFCCCF7F1A0509:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=123456789/128,level=0,etal=-1
+2020-09-15 14:46:35,937 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=EBA27E036A6532BBE2FFCCCF7F1A0509:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 15:30:11,296 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=B7A8CFD4EFE59B98A617A872DA097AFC:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=123456789/156,collection=n/a,level=0,etal=-1
+2020-09-15 15:30:11,296 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B7A8CFD4EFE59B98A617A872DA097AFC:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-15 15:32:43,854 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=645AC2181C02573A941A3021AA10A687:ip_addr=190.15.128.209:browse:type=title,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=123456789/156,collection=n/a,level=0,etal=-1
+2020-09-15 15:32:43,854 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=645AC2181C02573A941A3021AA10A687:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 15:33:56,468 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=9FF321BB052F3F24EC48A9DD14B8B51F:ip_addr=190.15.128.209:view_bitstream:bitstream_id=39fc6187-1525-428e-8a4d-76777e18fa8d
+2020-09-15 15:33:56,468 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9FF321BB052F3F24EC48A9DD14B8B51F:ip_addr=190.15.128.209:view_bitstream:bitstream_id=39fc6187-1525-428e-8a4d-76777e18fa8d
+2020-09-15 15:35:54,905 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=A47CD948739EB2DD9A45D707C46A3BD9:ip_addr=190.15.128.209:view_bitstream:bitstream_id=518f0c09-52f8-4ee5-88fc-2c1142891cdf
+2020-09-15 15:35:54,905 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=A47CD948739EB2DD9A45D707C46A3BD9:ip_addr=190.15.128.209:view_bitstream:bitstream_id=518f0c09-52f8-4ee5-88fc-2c1142891cdf
+2020-09-15 15:37:44,311 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=78D558244E7A5D7AA1C43C9040CDFCC7:ip_addr=190.15.128.209:browse:type=author,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=123456789/161,collection=n/a,level=0,etal=-1
+2020-09-15 15:37:44,312 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=78D558244E7A5D7AA1C43C9040CDFCC7:ip_addr=190.15.128.209:browse_by_value:focus=null
+2020-09-15 15:40:04,732 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=D07D545ED7573732B964ED8E63F97833:ip_addr=190.15.128.209:view_bitstream:bitstream_id=6b0ce937-81b8-4141-8f41-a75c2920c5e4
+2020-09-15 15:40:04,733 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=D07D545ED7573732B964ED8E63F97833:ip_addr=190.15.128.209:view_bitstream:bitstream_id=6b0ce937-81b8-4141-8f41-a75c2920c5e4
+2020-09-15 15:40:45,557 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=0CAE7E357555D7990092AFF98A348525:ip_addr=190.15.128.209:view_bitstream:bitstream_id=d62acab1-ace7-44d5-a876-13dcdd89a039
+2020-09-15 15:40:45,558 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=0CAE7E357555D7990092AFF98A348525:ip_addr=190.15.128.209:view_bitstream:bitstream_id=d62acab1-ace7-44d5-a876-13dcdd89a039
+2020-09-15 15:41:26,071 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=5C713953288E6DC37FC0D3D1DBAD3DAB:ip_addr=190.15.128.209:view_bitstream:bitstream_id=3cf8a690-1872-4b09-a745-ba67177f1ee0
+2020-09-15 15:41:26,071 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5C713953288E6DC37FC0D3D1DBAD3DAB:ip_addr=190.15.128.209:view_bitstream:bitstream_id=3cf8a690-1872-4b09-a745-ba67177f1ee0
+2020-09-15 15:41:34,632 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=5C7F1F559262AC39105DD16417E92F41:ip_addr=190.15.128.209:view_bitstream:bitstream_id=ba200e8f-08ff-4310-9f7a-7e14db56b7ee
+2020-09-15 15:41:34,633 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5C7F1F559262AC39105DD16417E92F41:ip_addr=190.15.128.209:view_bitstream:bitstream_id=ba200e8f-08ff-4310-9f7a-7e14db56b7ee
+2020-09-15 15:48:11,062 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ anonymous:session_id=895C7ACFE933F7A6B534BA23CF482E2C:ip_addr=190.15.128.209:browse:type=dateissued,order=DESC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=100,sort_by=2,community=n/a,collection=n/a,level=0,etal=-1
+2020-09-15 15:48:11,063 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=895C7ACFE933F7A6B534BA23CF482E2C:ip_addr=190.15.128.209:browse_by_item:
+2020-09-15 15:49:15,997 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=501388E03A724CF8E1E98B74BA65AC57:ip_addr=190.15.128.209:view_bitstream:bitstream_id=198a5350-1a1e-41ca-853f-ca759d8a447f
+2020-09-15 15:49:15,997 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=501388E03A724CF8E1E98B74BA65AC57:ip_addr=190.15.128.209:view_bitstream:bitstream_id=198a5350-1a1e-41ca-853f-ca759d8a447f
+2020-09-15 15:50:10,297 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ anonymous:session_id=C6EE27E201774432709D02AF764C40FD:ip_addr=190.15.128.209:view_bitstream:bitstream_id=bd178b45-ae03-492d-9c3d-bd8078b53dc3
+2020-09-15 15:50:10,298 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C6EE27E201774432709D02AF764C40FD:ip_addr=190.15.128.209:view_bitstream:bitstream_id=bd178b45-ae03-492d-9c3d-bd8078b53dc3
+2020-09-15 15:50:12,876 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8945BE38E53A8EE64C728A5A89118740:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 15:50:12,883 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 15:50:12,895 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 15:50:12,895 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 16:33:51,224 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-15 16:33:51,257 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B4031051D3EB07CEC7AE2AA619744646:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="null",results=(0,0,10)
+2020-09-15 16:34:19,901 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-15 16:34:19,913 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=6257705D0B42A33B116862D747E66386:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,1)
+2020-09-15 16:34:53,000 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-15 16:34:53,015 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=01A05B59242B0E8F04B008A524B14128:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,10)
+2020-09-15 16:36:57,637 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-15 16:36:57,654 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=1AEA47585E22CF3E2CD1B184C8C37EC3:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,1)
+2020-09-15 16:37:56,103 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-15 16:37:56,116 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=724CBBD743DCBBBAF3C72C82ACB6F047:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,2)
+2020-09-15 16:40:04,671 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-15 16:40:04,690 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=408C7180DBD6B67C330BE0087605FD92:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,1)
+2020-09-15 16:40:59,119 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-15 16:40:59,138 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=A0F50CD03959435832A7F7B297CF0270:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,1)
+2020-09-15 16:41:47,332 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@87673d4a: 4
+2020-09-15 16:41:47,344 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=C1A97B7169FC53803837255244FFBC41:ip_addr=190.15.128.209:search:scope=org.dspace.content.Collection@87673d4a,query="",results=(0,0,1)
+2020-09-15 17:16:43,908 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=5F804FE6677BEDF384B8C2A41C4DCFC4:ip_addr=190.15.128.209:view_community:community_id=8e20e5a9-e739-4d90-9997-60f4a349bf45
+2020-09-15 17:16:43,909 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5F804FE6677BEDF384B8C2A41C4DCFC4:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 17:16:43,917 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@53c779fd: 4
+2020-09-15 17:16:43,928 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5F804FE6677BEDF384B8C2A41C4DCFC4:ip_addr=190.15.128.209:view_community:community_id=8e20e5a9-e739-4d90-9997-60f4a349bf45
+2020-09-15 17:18:43,026 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=09C7F626F23A8667F75FAECB68749B5C:ip_addr=190.15.128.209:view_item:handle=123456789/207
+2020-09-15 17:18:43,044 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=09C7F626F23A8667F75FAECB68749B5C:ip_addr=190.15.128.209:view_item:handle=123456789/207
+2020-09-15 18:34:11,274 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=D1372C605CB419D163520E096F3DAAFF:ip_addr=190.15.128.209:view_community:community_id=7646e7d0-da24-4a4b-9e2e-de8b049f14cc
+2020-09-15 18:34:11,276 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D1372C605CB419D163520E096F3DAAFF:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 18:34:11,285 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@36d36a51: 4
+2020-09-15 18:34:11,299 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=D1372C605CB419D163520E096F3DAAFF:ip_addr=190.15.128.209:view_community:community_id=7646e7d0-da24-4a4b-9e2e-de8b049f14cc
+2020-09-15 18:38:21,140 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=4E4B081BC99369C9A403D6D42AB5083B:ip_addr=139.162.111.98:browse_mini:
+2020-09-15 18:38:21,148 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 18:38:21,160 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 18:38:21,160 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 19:25:01,550 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CA9158F868166EF05F137FBEC06EF0C2:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 19:25:01,560 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 19:25:01,573 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 19:25:01,573 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 19:41:12,487 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=734FC84500D01076CDAD212CBEA1EB08:ip_addr=185.39.11.175:browse_mini:
+2020-09-15 19:41:12,496 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 19:41:12,509 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 19:41:12,509 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 19:43:36,150 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=C36BB15C1B1A9DEBB9D75D16A2ACB9E4:ip_addr=190.15.128.209:view_item:handle=123456789/226
+2020-09-15 19:43:36,167 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C36BB15C1B1A9DEBB9D75D16A2ACB9E4:ip_addr=190.15.128.209:view_item:handle=123456789/226
+2020-09-15 21:07:26,782 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=490F7BFA5A0665B9F256002EFBD6D261:ip_addr=190.15.128.209:view_item:handle=123456789/199
+2020-09-15 21:07:26,800 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=490F7BFA5A0665B9F256002EFBD6D261:ip_addr=190.15.128.209:view_item:handle=123456789/199
+2020-09-15 21:34:33,223 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7335366114A3E1E19309FB562099344D:ip_addr=180.149.125.168:browse_mini:
+2020-09-15 21:34:33,234 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 21:34:33,247 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 21:34:33,247 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 21:35:41,839 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7A80201A67267234CA755FAC9949876F:ip_addr=196.52.43.105:browse_mini:
+2020-09-15 21:35:41,845 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 21:35:41,856 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 21:35:41,856 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 21:39:30,377 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=833D02D10AA303FF1D4567D3D2C973B4:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 21:39:30,386 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 21:39:30,399 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 21:39:30,399 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 22:12:11,167 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=14967F29906472207BE9834D04634E4B:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 22:12:11,175 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 22:12:11,187 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 22:12:11,187 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 22:17:59,137 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=C3A6609B4BD0334F52D8EC4ADA491E80:ip_addr=190.15.128.209:view_item:handle=123456789/245
+2020-09-15 22:17:59,154 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=C3A6609B4BD0334F52D8EC4ADA491E80:ip_addr=190.15.128.209:view_item:handle=123456789/245
+2020-09-15 22:22:26,767 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=14536EF7D8570F5169E6D9AC06AC6422:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 22:22:26,775 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 22:22:26,787 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 22:22:26,787 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 22:23:59,037 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=FD015B0067207FB007438719C2CE5F41:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 22:23:59,045 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 22:23:59,058 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 22:23:59,058 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 22:36:12,481 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=D75F1A0F1C9EBEF7ACF7902FAEF04C21:ip_addr=171.244.68.14:browse_mini:
+2020-09-15 22:36:12,491 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 22:36:12,504 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 22:36:12,504 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 22:57:23,909 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=221EC8ECFC283F5D8E34A973DA2E06B1:ip_addr=190.15.128.209:browse_mini:
+2020-09-15 22:57:23,918 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 22:57:23,931 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 22:57:23,931 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-15 23:32:39,973 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=74014B1DD253BA496936C158FD83228E:ip_addr=190.15.128.209:view_item:handle=123456789/248
+2020-09-15 23:32:39,990 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=74014B1DD253BA496936C158FD83228E:ip_addr=190.15.128.209:view_item:handle=123456789/248
+2020-09-15 23:40:21,667 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3D65D578B32F1D1C3B64F767EDF53E77:ip_addr=46.0.206.163:browse_mini:
+2020-09-15 23:40:21,676 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-15 23:40:21,688 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-15 23:40:21,689 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)

@@ -47,8 +47,7 @@
 
     <%-- <h1>Administer EPeople</h1> --%>
     <h1><fmt:message key="jsp.dspace-admin.eperson-main.heading"/>
-    <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.site-admin\") + \"epeople\"%>"><fmt:message key="jsp.help"/></dspace:popup>
-    </h1>
+</h1>
   
     <%-- <h3>Choose an action:</h3> --%>
     <h3><fmt:message key="jsp.dspace-admin.eperson-main.choose"/></h3>

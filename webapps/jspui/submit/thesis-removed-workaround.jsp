@@ -31,7 +31,7 @@
 
 <dspace:layout titlekey="jsp.submit.thesis-removed-workaround.title">
     <%-- <h1>Submission Stopped: Theses Not Accepted in DSpace</h1> --%>
-	<h1><fmt:message key="jsp.submit.thesis-removed-workaround.heading"/></h1>
+	<h1>kskskksskskkskssksk<fmt:message key="jsp.submit.thesis-removed-workaround.heading"/></h1>
 
     <%-- <p>Since DSpace does not accept theses, your submission has been stopped.
     To start submitting something else click below.</p> --%>

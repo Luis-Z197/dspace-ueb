@@ -1,0 +1,1050 @@
+2020-08-21 12:31:35,949 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl @ HHH000010: On release of batch it still contained JDBC statements
+2020-08-21 12:31:46,775 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/home/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2020-08-21 12:31:46,798 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2020-08-21 12:31:46,816 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 12.3)
+2020-08-21 12:31:46,919 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2020-08-21 12:31:46,935 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2020-08-21 12:31:47,073 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2020-08-21 12:31:47,080 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2020-08-21 12:31:47,083 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2020-08-21 12:31:47,084 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2020-08-21 12:31:47,110 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:/home/dspace/config/hibernate.cfg.xml
+2020-08-21 12:31:47,162 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2020-08-21 12:31:47,343 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2020-08-21 12:31:47,358 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-08-21 12:31:47,367 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@5d102c09
+2020-08-21 12:31:47,367 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@69126368
+2020-08-21 12:31:47,642 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-08-21 12:31:47,648 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2020-08-21 12:31:47,721 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "/opt/tomcat/temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$URLConfigurationSource@4793b32b.
+The diskStore path for this CacheManager will be set to /opt/tomcat/temp/ehcache_auto_created_1598031107721.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2020-08-21 12:31:47,752 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2020-08-21 12:31:47,758 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2020-08-21 12:31:48,098 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2020-08-21 12:31:48,098 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2020-08-21 12:31:48,112 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2020-08-21 12:31:48,113 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2020-08-21 12:31:48,118 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2020-08-21 12:31:48,118 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2020-08-21 12:31:48,123 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2020-08-21 12:31:48,123 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2020-08-21 12:31:48,129 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2020-08-21 12:31:48,129 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2020-08-21 12:31:48,134 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2020-08-21 12:31:48,134 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2020-08-21 12:31:48,139 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2020-08-21 12:31:48,139 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2020-08-21 12:31:48,144 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2020-08-21 12:31:48,144 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2020-08-21 12:31:48,149 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2020-08-21 12:31:48,149 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2020-08-21 12:31:48,154 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2020-08-21 12:31:48,154 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2020-08-21 12:31:48,158 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2020-08-21 12:31:48,158 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2020-08-21 12:31:48,163 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2020-08-21 12:31:48,163 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2020-08-21 12:31:48,167 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2020-08-21 12:31:48,167 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2020-08-21 12:31:48,171 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2020-08-21 12:31:48,171 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-21 12:31:48,176 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2020-08-21 12:31:48,176 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2020-08-21 12:31:48,181 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2020-08-21 12:31:48,181 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2020-08-21 12:31:48,185 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2020-08-21 12:31:48,185 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2020-08-21 12:31:48,190 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2020-08-21 12:31:48,190 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2020-08-21 12:31:48,194 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2020-08-21 12:31:48,194 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2020-08-21 12:31:48,199 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2020-08-21 12:31:48,199 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-21 12:31:48,203 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2020-08-21 12:31:48,203 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-21 12:31:48,207 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2020-08-21 12:31:48,207 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2020-08-21 12:31:48,212 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2020-08-21 12:31:48,212 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2020-08-21 12:31:48,216 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2020-08-21 12:31:48,217 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2020-08-21 12:31:48,221 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2020-08-21 12:31:48,221 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2020-08-21 12:31:48,225 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2020-08-21 12:31:48,225 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2020-08-21 12:31:48,229 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2020-08-21 12:31:48,229 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2020-08-21 12:31:48,233 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2020-08-21 12:31:48,233 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2020-08-21 12:31:48,238 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2020-08-21 12:31:48,238 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2020-08-21 12:31:48,242 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2020-08-21 12:31:48,242 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2020-08-21 12:31:48,246 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2020-08-21 12:31:48,246 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2020-08-21 12:31:48,251 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2020-08-21 12:31:48,251 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2020-08-21 12:31:48,255 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2020-08-21 12:31:48,255 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2020-08-21 12:31:48,259 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2020-08-21 12:31:48,259 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-21 12:31:48,263 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2020-08-21 12:31:48,263 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2020-08-21 12:31:48,266 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2020-08-21 12:31:48,266 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2020-08-21 12:31:48,270 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2020-08-21 12:31:48,270 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2020-08-21 12:31:48,274 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2020-08-21 12:31:48,274 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2020-08-21 12:31:48,278 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2020-08-21 12:31:48,278 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2020-08-21 12:31:48,282 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2020-08-21 12:31:48,282 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2020-08-21 12:31:48,286 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2020-08-21 12:31:48,286 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2020-08-21 12:31:48,551 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2020-08-21 12:31:48,551 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2020-08-21 12:31:48,551 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:/home/dspace/config/GeoLite2-City.mmdb
+2020-08-21 12:31:48,595 ERROR org.dspace.statistics.SolrLoggerServiceImpl @ The GeoLite Database file is missing (/home/dspace/config/GeoLite2-City.mmdb)! Solr Statistics cannot generate location based reports! Please see the DSpace installation instructions for instructions to install this file.
+java.io.FileNotFoundException: /home/dspace/config/GeoLite2-City.mmdb (No existe el fichero o el directorio)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:116)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160)
+	at org.dspace.statistics.SolrLoggerServiceImpl.afterPropertiesSet(SolrLoggerServiceImpl.java:170)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1127)
+	at org.dspace.servicemanager.spring.SpringServiceManager.getServiceByName(SpringServiceManager.java:103)
+	at org.dspace.servicemanager.DSpaceServiceManager.getServiceByName(DSpaceServiceManager.java:284)
+	at org.dspace.statistics.factory.StatisticsServiceFactoryImpl.getSolrLoggerService(StatisticsServiceFactoryImpl.java:26)
+	at org.dspace.statistics.SolrLoggerUsageEventListener.<init>(SolrLoggerUsageEventListener.java:35)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1032)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:985)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4678)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1830)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+2020-08-21 12:31:48,597 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2020-08-21 12:31:58,014 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/home/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2020-08-21 12:31:58,037 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2020-08-21 12:31:58,055 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 12.3)
+2020-08-21 12:31:58,146 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2020-08-21 12:31:58,162 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2020-08-21 12:31:58,312 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2020-08-21 12:31:58,319 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2020-08-21 12:31:58,322 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2020-08-21 12:31:58,323 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2020-08-21 12:31:58,351 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:/home/dspace/config/hibernate.cfg.xml
+2020-08-21 12:31:58,408 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2020-08-21 12:31:58,610 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2020-08-21 12:31:58,627 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-08-21 12:31:58,636 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@6d9f866c
+2020-08-21 12:31:58,637 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@35214835
+2020-08-21 12:31:58,884 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-08-21 12:31:58,890 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2020-08-21 12:31:58,943 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "/opt/tomcat/temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$URLConfigurationSource@6469681c.
+The diskStore path for this CacheManager will be set to /opt/tomcat/temp/ehcache_auto_created_1598031118943.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2020-08-21 12:31:58,972 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2020-08-21 12:31:58,978 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2020-08-21 12:31:59,308 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2020-08-21 12:31:59,309 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2020-08-21 12:31:59,324 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2020-08-21 12:31:59,324 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2020-08-21 12:31:59,329 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2020-08-21 12:31:59,329 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2020-08-21 12:31:59,334 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2020-08-21 12:31:59,334 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2020-08-21 12:31:59,338 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2020-08-21 12:31:59,338 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2020-08-21 12:31:59,342 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2020-08-21 12:31:59,342 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2020-08-21 12:31:59,347 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2020-08-21 12:31:59,347 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2020-08-21 12:31:59,351 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2020-08-21 12:31:59,351 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2020-08-21 12:31:59,355 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2020-08-21 12:31:59,356 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2020-08-21 12:31:59,360 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2020-08-21 12:31:59,360 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2020-08-21 12:31:59,364 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2020-08-21 12:31:59,364 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2020-08-21 12:31:59,368 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2020-08-21 12:31:59,368 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2020-08-21 12:31:59,372 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2020-08-21 12:31:59,372 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2020-08-21 12:31:59,376 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2020-08-21 12:31:59,376 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-21 12:31:59,381 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2020-08-21 12:31:59,381 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2020-08-21 12:31:59,385 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2020-08-21 12:31:59,385 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2020-08-21 12:31:59,389 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2020-08-21 12:31:59,390 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2020-08-21 12:31:59,394 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2020-08-21 12:31:59,394 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2020-08-21 12:31:59,398 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2020-08-21 12:31:59,398 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2020-08-21 12:31:59,402 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2020-08-21 12:31:59,402 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-21 12:31:59,407 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2020-08-21 12:31:59,407 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-21 12:31:59,412 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2020-08-21 12:31:59,412 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2020-08-21 12:31:59,417 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2020-08-21 12:31:59,417 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2020-08-21 12:31:59,421 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2020-08-21 12:31:59,421 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2020-08-21 12:31:59,425 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2020-08-21 12:31:59,426 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2020-08-21 12:31:59,430 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2020-08-21 12:31:59,430 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2020-08-21 12:31:59,434 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2020-08-21 12:31:59,434 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2020-08-21 12:31:59,438 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2020-08-21 12:31:59,438 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2020-08-21 12:31:59,442 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2020-08-21 12:31:59,442 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2020-08-21 12:31:59,446 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2020-08-21 12:31:59,446 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2020-08-21 12:31:59,450 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2020-08-21 12:31:59,450 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2020-08-21 12:31:59,454 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2020-08-21 12:31:59,454 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2020-08-21 12:31:59,458 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2020-08-21 12:31:59,458 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2020-08-21 12:31:59,462 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2020-08-21 12:31:59,462 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-21 12:31:59,466 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2020-08-21 12:31:59,466 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2020-08-21 12:31:59,469 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2020-08-21 12:31:59,470 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2020-08-21 12:31:59,473 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2020-08-21 12:31:59,473 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2020-08-21 12:31:59,477 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2020-08-21 12:31:59,477 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2020-08-21 12:31:59,481 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2020-08-21 12:31:59,481 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2020-08-21 12:31:59,485 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2020-08-21 12:31:59,485 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2020-08-21 12:31:59,488 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2020-08-21 12:31:59,489 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2020-08-21 12:32:00,735 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2020-08-21 12:32:00,735 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2020-08-21 12:32:00,735 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:/home/dspace/config/GeoLite2-City.mmdb
+2020-08-21 12:32:00,780 ERROR org.dspace.statistics.SolrLoggerServiceImpl @ The GeoLite Database file is missing (/home/dspace/config/GeoLite2-City.mmdb)! Solr Statistics cannot generate location based reports! Please see the DSpace installation instructions for instructions to install this file.
+java.io.FileNotFoundException: /home/dspace/config/GeoLite2-City.mmdb (No existe el fichero o el directorio)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:116)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160)
+	at org.dspace.statistics.SolrLoggerServiceImpl.afterPropertiesSet(SolrLoggerServiceImpl.java:170)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1127)
+	at org.dspace.servicemanager.spring.SpringServiceManager.getServiceByName(SpringServiceManager.java:103)
+	at org.dspace.servicemanager.DSpaceServiceManager.getServiceByName(DSpaceServiceManager.java:284)
+	at org.dspace.statistics.factory.StatisticsServiceFactoryImpl.getSolrLoggerService(StatisticsServiceFactoryImpl.java:26)
+	at org.dspace.statistics.SolrLoggerUsageEventListener.<init>(SolrLoggerUsageEventListener.java:35)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1032)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:985)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4678)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1830)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+2020-08-21 12:32:00,783 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2020-08-21 12:32:00,815 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /home/dspace/config/xmlui.xconf
+2020-08-21 12:32:00,919 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2020-08-21 12:32:00,920 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2020-08-21 12:32:00,920 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2020-08-21 12:32:00,920 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2020-08-21 12:32:00,920 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2020-08-21 12:32:00,920 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2020-08-21 12:32:00,920 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2020-08-21 12:32:00,920 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2020-08-21 12:32:00,920 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2020-08-21 12:32:15,201 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/home/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2020-08-21 12:32:15,222 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2020-08-21 12:32:15,237 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 12.3)
+2020-08-21 12:32:15,318 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2020-08-21 12:32:15,332 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2020-08-21 12:32:15,487 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2020-08-21 12:32:15,494 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2020-08-21 12:32:15,496 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2020-08-21 12:32:15,497 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2020-08-21 12:32:15,522 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:/home/dspace/config/hibernate.cfg.xml
+2020-08-21 12:32:15,574 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2020-08-21 12:32:15,747 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2020-08-21 12:32:15,763 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-08-21 12:32:15,773 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@2f7b85c2
+2020-08-21 12:32:15,774 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7642520d
+2020-08-21 12:32:16,036 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-08-21 12:32:16,042 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2020-08-21 12:32:16,095 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "/opt/tomcat/temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$URLConfigurationSource@227bcd1.
+The diskStore path for this CacheManager will be set to /opt/tomcat/temp/ehcache_auto_created_1598031136095.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2020-08-21 12:32:16,125 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2020-08-21 12:32:16,131 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2020-08-21 12:32:16,513 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2020-08-21 12:32:16,513 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2020-08-21 12:32:16,528 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2020-08-21 12:32:16,528 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2020-08-21 12:32:16,533 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2020-08-21 12:32:16,534 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2020-08-21 12:32:16,538 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2020-08-21 12:32:16,538 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2020-08-21 12:32:16,543 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2020-08-21 12:32:16,543 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2020-08-21 12:32:16,572 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2020-08-21 12:32:16,572 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2020-08-21 12:32:16,576 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2020-08-21 12:32:16,576 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2020-08-21 12:32:16,581 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2020-08-21 12:32:16,581 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2020-08-21 12:32:16,585 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2020-08-21 12:32:16,585 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2020-08-21 12:32:16,589 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2020-08-21 12:32:16,589 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2020-08-21 12:32:16,593 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2020-08-21 12:32:16,593 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2020-08-21 12:32:16,597 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2020-08-21 12:32:16,597 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2020-08-21 12:32:16,601 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2020-08-21 12:32:16,601 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2020-08-21 12:32:16,605 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2020-08-21 12:32:16,605 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-21 12:32:16,609 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2020-08-21 12:32:16,609 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2020-08-21 12:32:16,613 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2020-08-21 12:32:16,613 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2020-08-21 12:32:16,617 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2020-08-21 12:32:16,617 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2020-08-21 12:32:16,621 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2020-08-21 12:32:16,621 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2020-08-21 12:32:16,625 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2020-08-21 12:32:16,626 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2020-08-21 12:32:16,630 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2020-08-21 12:32:16,630 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-21 12:32:16,634 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2020-08-21 12:32:16,634 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-21 12:32:16,638 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2020-08-21 12:32:16,638 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2020-08-21 12:32:16,642 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2020-08-21 12:32:16,642 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2020-08-21 12:32:16,647 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2020-08-21 12:32:16,647 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2020-08-21 12:32:16,651 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2020-08-21 12:32:16,651 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2020-08-21 12:32:16,655 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2020-08-21 12:32:16,655 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2020-08-21 12:32:16,659 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2020-08-21 12:32:16,659 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2020-08-21 12:32:16,662 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2020-08-21 12:32:16,663 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2020-08-21 12:32:16,666 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2020-08-21 12:32:16,666 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2020-08-21 12:32:16,670 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2020-08-21 12:32:16,670 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2020-08-21 12:32:16,674 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2020-08-21 12:32:16,674 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2020-08-21 12:32:16,678 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2020-08-21 12:32:16,678 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2020-08-21 12:32:16,682 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2020-08-21 12:32:16,682 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2020-08-21 12:32:16,685 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2020-08-21 12:32:16,685 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-21 12:32:16,689 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2020-08-21 12:32:16,689 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2020-08-21 12:32:16,692 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2020-08-21 12:32:16,692 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2020-08-21 12:32:16,696 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2020-08-21 12:32:16,696 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2020-08-21 12:32:16,699 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2020-08-21 12:32:16,699 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2020-08-21 12:32:16,703 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2020-08-21 12:32:16,703 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2020-08-21 12:32:16,707 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2020-08-21 12:32:16,707 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2020-08-21 12:32:16,710 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2020-08-21 12:32:16,710 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2020-08-21 12:32:16,971 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2020-08-21 12:32:16,971 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2020-08-21 12:32:16,971 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:/home/dspace/config/GeoLite2-City.mmdb
+2020-08-21 12:32:17,025 ERROR org.dspace.statistics.SolrLoggerServiceImpl @ The GeoLite Database file is missing (/home/dspace/config/GeoLite2-City.mmdb)! Solr Statistics cannot generate location based reports! Please see the DSpace installation instructions for instructions to install this file.
+java.io.FileNotFoundException: /home/dspace/config/GeoLite2-City.mmdb (No existe el fichero o el directorio)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:116)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160)
+	at org.dspace.statistics.SolrLoggerServiceImpl.afterPropertiesSet(SolrLoggerServiceImpl.java:170)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1127)
+	at org.dspace.servicemanager.spring.SpringServiceManager.getServiceByName(SpringServiceManager.java:103)
+	at org.dspace.servicemanager.DSpaceServiceManager.getServiceByName(DSpaceServiceManager.java:284)
+	at org.dspace.statistics.factory.StatisticsServiceFactoryImpl.getSolrLoggerService(StatisticsServiceFactoryImpl.java:26)
+	at org.dspace.statistics.SolrLoggerUsageEventListener.<init>(SolrLoggerUsageEventListener.java:35)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1032)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:985)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4678)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1866)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+2020-08-21 12:32:17,027 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2020-08-21 12:54:38,976 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=405A0809D0FC031A0B52F0F2A66DCFEF:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 12:54:39,247 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 12:54:39,371 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 12:54:39,371 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 12:56:00,377 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A8813FBD1977AC8FC6238210F1B1B525:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 12:56:00,395 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 12:56:00,441 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 12:56:00,442 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 18:38:39,076 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=3AAF12324E8A4A081027199B1039E2C2:ip_addr=179.49.13.43:browse_mini:
+2020-08-21 18:38:39,102 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 18:38:39,149 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 18:38:39,149 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 21:40:43,698 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2959D28AD43979E21CFFF2268604F0B5:ip_addr=181.39.211.12:browse_mini:
+2020-08-21 21:40:43,717 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 21:40:43,750 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 21:40:43,750 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 21:41:34,344 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2959D28AD43979E21CFFF2268604F0B5:ip_addr=181.39.211.12:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 21:41:34,371 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2959D28AD43979E21CFFF2268604F0B5:ip_addr=181.39.211.12:browse_mini:
+2020-08-21 21:41:34,386 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 21:41:34,445 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2959D28AD43979E21CFFF2268604F0B5:ip_addr=181.39.211.12:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:19:03,262 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F58DB8CE4351A8387E61D1FEECE61680:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:19:03,281 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:19:03,311 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:19:03,311 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:19:11,639 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=F58DB8CE4351A8387E61D1FEECE61680:ip_addr=181.198.172.161:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-21 23:19:11,655 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=F58DB8CE4351A8387E61D1FEECE61680:ip_addr=181.198.172.161:authenticate:type=PasswordAuthentication
+2020-08-21 23:19:11,656 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=F58DB8CE4351A8387E61D1FEECE61680:ip_addr=181.198.172.161:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-21 23:19:11,725 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=F58DB8CE4351A8387E61D1FEECE61680:ip_addr=181.198.172.161:login:type=explicit
+2020-08-21 23:19:11,775 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_mydspace:
+2020-08-21 23:22:11,343 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:22:11,360 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:22:11,383 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:22:11,384 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:22:13,385 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:22:15,646 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:22:15,651 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:22:15,657 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:22:15,687 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:22:27,180 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-21 23:22:27,187 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:22:27,195 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-21 23:22:27,230 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-21 23:22:29,681 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:22:29,683 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:22:29,696 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@b6945eb4: 4
+2020-08-21 23:22:29,716 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:22:31,556 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,580 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:create_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,580 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:create_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,581 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,594 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,599 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,605 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,611 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,628 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,628 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:create_workspace_item:workspace_item_id=36item_id=a0c23137-13a8-4ce9-a27a-4d542093f96acollection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:22:31,644 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:22:31,654 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,654 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:22:31,664 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:31,664 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:22:31,674 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:22:54,713 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:22:54,714 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:23:06,824 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=227
+2020-08-21 23:23:06,830 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=228
+2020-08-21 23:23:06,843 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:23:06,843 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:23:06,850 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:23:06,860 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:23:10,188 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:23:10,189 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:23:10,193 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:23:10,194 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:23:19,202 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A0E1A7D14B378144B80BB8B4102180C5:ip_addr=179.49.13.43:browse_mini:
+2020-08-21 23:23:19,210 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:23:19,234 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:23:19,234 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:23:30,938 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:add_bundle:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a,bundle_id=c40aca64-e5a3-4ccf-ba8c-41e066cbbbe0
+2020-08-21 23:23:30,950 INFO  org.dspace.content.Bundle @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:create_bundle:bundle_id=c40aca64-e5a3-4ccf-ba8c-41e066cbbbe0
+2020-08-21 23:23:30,959 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=1ca85f02-dd93-454c-a138-04d2192252bf
+2020-08-21 23:23:30,960 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:create_bitstream:bitstream_id=1ca85f02-dd93-454c-a138-04d2192252bf
+2020-08-21 23:23:30,973 INFO  org.dspace.content.Bundle @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:add_bitstream:bundle_id=c40aca64-e5a3-4ccf-ba8c-41e066cbbbe0,bitstream_id=1ca85f02-dd93-454c-a138-04d2192252bf
+2020-08-21 23:23:30,976 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:23:30,978 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:23:30,989 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=1ca85f02-dd93-454c-a138-04d2192252bf
+2020-08-21 23:23:30,993 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:add_bundle:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a,bundle_id=c40aca64-e5a3-4ccf-ba8c-41e066cbbbe0
+2020-08-21 23:23:31,031 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=1ca85f02-dd93-454c-a138-04d2192252bf
+2020-08-21 23:23:31,035 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:23:31,039 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=1ca85f02-dd93-454c-a138-04d2192252bf
+2020-08-21 23:23:34,771 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=1ca85f02-dd93-454c-a138-04d2192252bf
+2020-08-21 23:23:43,100 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:23:43,101 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:23:47,954 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:23:47,955 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:08,935 INFO  org.dspace.submit.step.LicenseStep @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:accept_license:workspace_item_id36
+2020-08-21 23:24:08,944 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:add_bundle:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a,bundle_id=67393f98-e3e1-4a40-891a-5ef912135f4b
+2020-08-21 23:24:08,954 INFO  org.dspace.content.Bundle @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:create_bundle:bundle_id=67393f98-e3e1-4a40-891a-5ef912135f4b
+2020-08-21 23:24:08,957 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=f3e03c13-e77c-4476-892b-b8b0a0e567c1
+2020-08-21 23:24:08,957 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:create_bitstream:bitstream_id=f3e03c13-e77c-4476-892b-b8b0a0e567c1
+2020-08-21 23:24:08,964 INFO  org.dspace.content.Bundle @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:add_bitstream:bundle_id=67393f98-e3e1-4a40-891a-5ef912135f4b,bitstream_id=f3e03c13-e77c-4476-892b-b8b0a0e567c1
+2020-08-21 23:24:08,968 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:08,972 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:08,982 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=f3e03c13-e77c-4476-892b-b8b0a0e567c1
+2020-08-21 23:24:08,989 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:add_bundle:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a,bundle_id=67393f98-e3e1-4a40-891a-5ef912135f4b
+2020-08-21 23:24:08,997 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=f3e03c13-e77c-4476-892b-b8b0a0e567c1
+2020-08-21 23:24:08,999 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workspace_item:workspace_item_id=36
+2020-08-21 23:24:09,000 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,003 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=f3e03c13-e77c-4476-892b-b8b0a0e567c1
+2020-08-21 23:24:09,004 INFO  org.dspace.submit.step.CompleteStep @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:submission_complete:Completed submission with id=36
+2020-08-21 23:24:09,005 INFO  org.dspace.workflowbasic.BasicWorkflowServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:start_workflow:workspace_item_id=36item_id=a0c23137-13a8-4ce9-a27a-4d542093f96acollection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:24:09,018 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,023 INFO  org.dspace.workflowbasic.BasicWorkflowItem @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_workflow_item:workflow_item_id=3
+2020-08-21 23:24:09,025 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,030 INFO  org.dspace.content.WorkspaceItemServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:delete_workspace_item:workspace_item_id=36item_id=a0c23137-13a8-4ce9-a27a-4d542093f96acollection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:24:09,052 INFO  org.dspace.workflowbasic.BasicWorkflowServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:archive_item:workflow_item_id=3item_id=a0c23137-13a8-4ce9-a27a-4d542093f96acollection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:24:09,059 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-21 23:24:09,065 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,073 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,078 INFO  org.dspace.content.MetadataValueServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:delete_metadata_value: metadata_value_id=231
+2020-08-21 23:24:09,083 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:add_item:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39,item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,091 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,111 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,115 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,127 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,184 INFO  org.dspace.workflowbasic.BasicWorkflowServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:install_item:workflow_id=3, item_id=a0c23137-13a8-4ce9-a27a-4d542093f96ahandle=FIXME
+2020-08-21 23:24:09,349 WARN  org.dspace.workflowbasic.BasicWorkflowServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:notifyOfArchive:cannot email user; item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a\colon;  Send failure (javax.mail.MessagingException\colon; Unknown SMTP host\colon; smtp.example.com (java.net.UnknownHostException\colon; smtp.example.com))
+2020-08-21 23:24:09,353 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,356 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:workflow_item:handle=123456789/35
+2020-08-21 23:24:09,476 INFO  org.dspace.workflowbasic.BasicWorkflowServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:advance_workflow:workflow_item_id=3,item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a,collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39,old_state=6,new_state=6
+2020-08-21 23:24:09,479 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,482 INFO  org.dspace.workflowbasic.BasicWorkflowServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:advance_workflow:workflow_item_id=3,item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a,collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39,old_state=4,new_state=6
+2020-08-21 23:24:09,490 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,494 INFO  org.dspace.workflowbasic.BasicWorkflowServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:advance_workflow:workflow_item_id=3,item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a,collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39,old_state=2,new_state=6
+2020-08-21 23:24:09,496 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:24:09,499 INFO  org.dspace.workflowbasic.BasicWorkflowServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:advance_workflow:workflow_item_id=3,item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a,collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39,old_state=0,new_state=6
+2020-08-21 23:24:09,657 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/35 to Index
+2020-08-21 23:24:11,713 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:24:15,133 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:24:15,134 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:24:15,144 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@b6945eb4: 4
+2020-08-21 23:24:15,158 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:24:19,085 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:24:19,090 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:24:19,106 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:24:19,106 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:24:22,129 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:24:22,133 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:24:22,145 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:24:22,171 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:24:25,959 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-21 23:24:25,965 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:24:25,970 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-21 23:24:25,992 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-21 23:24:28,653 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5
+2020-08-21 23:24:28,655 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:24:28,662 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@937c7cf0: 4
+2020-08-21 23:24:28,677 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5
+2020-08-21 23:24:30,948 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:24:30,953 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:24:30,972 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:24:30,973 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:24:33,674 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:24:33,701 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:search:scope=null,query="null",results=(0,0,1)
+2020-08-21 23:24:38,666 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse:type=author,order=ASC,value=Franklin, Rochina,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=1,etal=-1
+2020-08-21 23:24:38,666 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:24:42,503 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse:type=author,order=ASC,value=Franklin, Rochina,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=0,community=n/a,collection=n/a,level=1,etal=-1
+2020-08-21 23:24:42,503 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:24:44,659 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/35
+2020-08-21 23:24:44,679 INFO  org.dspace.app.util.GoogleMetadata @ Using [/home/dspace/config/crosswalks/google-metadata.properties] for Google Metadata configuration
+2020-08-21 23:24:44,724 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/35
+2020-08-21 23:24:56,429 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:24:59,265 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:24:59,266 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:24:59,276 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@b6945eb4: 4
+2020-08-21 23:24:59,292 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:25:25,219 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:25:28,168 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:25:28,169 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:25:28,180 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@b6945eb4: 4
+2020-08-21 23:25:28,194 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:25:30,898 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/35
+2020-08-21 23:25:30,918 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/35
+2020-08-21 23:26:57,930 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:delete_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:26:57,931 INFO  org.dspace.content.Bundle @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:delete_bundle:bundle_id=c40aca64-e5a3-4ccf-ba8c-41e066cbbbe0
+2020-08-21 23:26:57,934 INFO  org.dspace.content.Bundle @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:remove_bitstream:bundle_id=c40aca64-e5a3-4ccf-ba8c-41e066cbbbe0,bitstream_id=1ca85f02-dd93-454c-a138-04d2192252bf
+2020-08-21 23:26:57,937 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:26:57,940 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:26:57,942 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:delete_bitstream:bitstream_id=1ca85f02-dd93-454c-a138-04d2192252bf
+2020-08-21 23:26:57,945 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=1ca85f02-dd93-454c-a138-04d2192252bf
+2020-08-21 23:26:57,950 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:remove_bundle:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a,bundle_id=c40aca64-e5a3-4ccf-ba8c-41e066cbbbe0
+2020-08-21 23:26:57,958 INFO  org.dspace.content.Bundle @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:delete_bundle:bundle_id=67393f98-e3e1-4a40-891a-5ef912135f4b
+2020-08-21 23:26:57,962 INFO  org.dspace.content.Bundle @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:remove_bitstream:bundle_id=67393f98-e3e1-4a40-891a-5ef912135f4b,bitstream_id=f3e03c13-e77c-4476-892b-b8b0a0e567c1
+2020-08-21 23:26:57,964 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:26:57,965 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_item:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a
+2020-08-21 23:26:57,967 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:delete_bitstream:bitstream_id=f3e03c13-e77c-4476-892b-b8b0a0e567c1
+2020-08-21 23:26:57,969 INFO  org.dspace.content.BitstreamServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:update_bitstream:bitstream_id=f3e03c13-e77c-4476-892b-b8b0a0e567c1
+2020-08-21 23:26:57,970 INFO  org.dspace.content.Item @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:remove_bundle:item_id=a0c23137-13a8-4ce9-a27a-4d542093f96a,bundle_id=67393f98-e3e1-4a40-891a-5ef912135f4b
+2020-08-21 23:26:57,987 WARN  org.dspace.discovery.IndexEventConsumer @ MODIFY event, could not get object for ITEM id=a0c23137-13a8-4ce9-a27a-4d542093f96a, perhaps it has been deleted.
+2020-08-21 23:26:57,988 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for BUNDLE id=c40aca64-e5a3-4ccf-ba8c-41e066cbbbe0, perhaps it has been deleted.
+2020-08-21 23:26:57,989 WARN  org.dspace.discovery.IndexEventConsumer @ MODIFY event, could not get object for ITEM id=a0c23137-13a8-4ce9-a27a-4d542093f96a, perhaps it has been deleted.
+2020-08-21 23:26:57,990 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for BUNDLE id=67393f98-e3e1-4a40-891a-5ef912135f4b, perhaps it has been deleted.
+2020-08-21 23:27:01,026 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:27:01,033 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:27:01,056 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:27:01,056 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:27:04,644 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:27:04,647 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:27:04,654 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:27:04,679 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:27:08,157 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-21 23:27:08,161 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:27:08,167 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@d2a6db51: 4
+2020-08-21 23:27:08,183 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=95eeaf26-bb3e-42a8-a848-8d7f543eb82d
+2020-08-21 23:27:10,682 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:27:10,683 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:27:10,688 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@b6945eb4: 4
+2020-08-21 23:27:10,702 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=e7e42087-1df5-4900-9f3f-ac22d3bd3d39
+2020-08-21 23:27:14,993 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5
+2020-08-21 23:27:14,993 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:27:14,998 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@937c7cf0: 4
+2020-08-21 23:27:15,011 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=a2e3c1a9-f74d-4eb1-b855-ad257e8734e5
+2020-08-21 23:27:22,111 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:27:25,110 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-21 23:27:25,111 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:27:25,121 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@6bfba71b: 4
+2020-08-21 23:27:25,135 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-21 23:27:29,434 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:27:31,362 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:27:31,368 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:27:31,391 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:27:31,391 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:27:33,567 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:27:33,597 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:search:scope=null,query="null",results=(0,0,1)
+2020-08-21 23:27:35,861 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-21 23:27:35,879 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-21 23:28:58,424 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:28:58,436 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:28:58,457 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:28:58,457 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:29:00,538 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:29:00,560 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:search:scope=null,query="null",results=(0,0,1)
+2020-08-21 23:29:03,266 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-21 23:29:03,279 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-21 23:30:29,298 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse:type=null,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=0,etal=-1
+2020-08-21 23:30:29,299 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:30:34,727 INFO  org.dspace.app.webui.servlet.AbstractBrowserServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse:type=null,order=ASC,value=null,month=null,year=null,starts_with=null,vfocus=null,focus=-1,rpp=20,sort_by=1,community=n/a,collection=n/a,level=0,etal=-1
+2020-08-21 23:30:34,728 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:30:47,632 INFO  org.dspace.app.webui.servlet.admin.MetadataSchemaRegistryServlet @ Showing Schemas
+2020-08-21 23:31:21,252 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:31:21,258 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:31:21,276 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:31:21,276 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:31:24,065 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:31:24,081 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:search:scope=null,query="null",results=(0,0,1)
+2020-08-21 23:31:26,607 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-21 23:31:26,620 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-21 23:33:56,563 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-21 23:33:56,576 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-21 23:34:09,088 INFO  org.dspace.app.webui.servlet.BitstreamServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_bitstream:bitstream_id=35618bcf-b39e-4c0f-a160-5ce904dda899
+2020-08-21 23:34:09,088 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_bitstream:bitstream_id=35618bcf-b39e-4c0f-a160-5ce904dda899
+2020-08-21 23:34:20,111 WARN  org.dspace.app.itemexport.ItemExportServiceImpl @ anonymous::emailSuccessMessage:cannot notify user of export
+javax.mail.SendFailedException: Send failure (javax.mail.MessagingException: Unknown SMTP host: smtp.example.com (java.net.UnknownHostException: smtp.example.com))
+	at javax.mail.Transport.send(Transport.java:163)
+	at javax.mail.Transport.send(Transport.java:48)
+	at org.dspace.core.Email.send(Email.java:360)
+	at org.dspace.app.itemexport.ItemExportServiceImpl.emailSuccessMessage(ItemExportServiceImpl.java:1046)
+	at org.dspace.app.itemexport.ItemExportServiceImpl$1.run(ItemExportServiceImpl.java:741)
+Caused by: javax.mail.MessagingException: Unknown SMTP host: smtp.example.com (java.net.UnknownHostException: smtp.example.com)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1959)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:654)
+	at javax.mail.Service.connect(Service.java:274)
+	at javax.mail.Service.connect(Service.java:91)
+	at javax.mail.Service.connect(Service.java:76)
+	at javax.mail.Transport.send(Transport.java:94)
+	... 4 more
+Caused by: java.net.UnknownHostException: smtp.example.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at java.net.Socket.connect(Socket.java:556)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:321)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:237)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1927)
+	... 9 more
+2020-08-21 23:34:26,638 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_mydspace:
+2020-08-21 23:35:36,799 INFO  org.dspace.app.webui.servlet.admin.MetadataSchemaRegistryServlet @ Showing Schemas
+2020-08-21 23:35:41,831 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:35:41,838 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:35:41,856 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:35:41,856 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:35:50,647 INFO  org.dspace.app.webui.servlet.EditProfileServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_profile:
+2020-08-21 23:35:53,084 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:35:53,089 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:35:53,106 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:35:53,107 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:35:57,766 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:35:57,784 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:search:scope=null,query="null",results=(0,0,1)
+2020-08-21 23:36:00,915 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-21 23:36:00,938 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_item:handle=123456789/18
+2020-08-21 23:41:58,628 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:41:58,639 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:41:58,661 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:41:58,661 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:42:00,457 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:42:03,175 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-21 23:42:03,176 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_by_item:
+2020-08-21 23:42:03,198 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Collection@6bfba71b: 4
+2020-08-21 23:42:03,240 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_collection:collection_id=005fa87c-733d-451f-aa2a-217bb2b38d1b
+2020-08-21 23:43:50,375 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:43:53,397 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=bf27444b-7de3-40aa-99e5-5a226154b5f7
+2020-08-21 23:43:53,398 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:43:53,407 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@3a75eda9: 4
+2020-08-21 23:43:53,424 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=bf27444b-7de3-40aa-99e5-5a226154b5f7
+2020-08-21 23:46:15,219 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:46:15,227 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:46:15,243 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:46:15,244 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:46:17,643 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:46:17,648 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:46:17,652 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:46:17,677 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:46:20,215 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=bf27444b-7de3-40aa-99e5-5a226154b5f7
+2020-08-21 23:46:20,216 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:46:20,220 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@3a75eda9: 4
+2020-08-21 23:46:20,235 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=62AC41595377F5F20BA7C219F1CE15D1:ip_addr=181.198.172.161:view_community:community_id=bf27444b-7de3-40aa-99e5-5a226154b5f7
+2020-08-21 23:46:59,328 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F63A9C4A2DAD889D1430CE5FA0669CB9:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:46:59,339 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:46:59,359 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:46:59,359 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:47:17,721 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=F63A9C4A2DAD889D1430CE5FA0669CB9:ip_addr=181.198.172.161:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-21 23:47:17,731 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=F63A9C4A2DAD889D1430CE5FA0669CB9:ip_addr=181.198.172.161:authenticate:type=PasswordAuthentication
+2020-08-21 23:47:17,731 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=F63A9C4A2DAD889D1430CE5FA0669CB9:ip_addr=181.198.172.161:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-21 23:47:17,753 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=F63A9C4A2DAD889D1430CE5FA0669CB9:ip_addr=181.198.172.161:login:type=explicit
+2020-08-21 23:47:17,789 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_mydspace:
+2020-08-21 23:47:22,330 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:47:22,338 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:47:22,353 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:47:22,353 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:47:23,405 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:47:25,027 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=348960bf-c5ee-4a18-a20c-d0485587f913
+2020-08-21 23:47:25,028 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:47:25,034 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@6ec0671: 4
+2020-08-21 23:47:25,046 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=348960bf-c5ee-4a18-a20c-d0485587f913
+2020-08-21 23:49:23,885 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:49:23,894 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:49:23,912 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:49:23,912 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:49:26,312 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:49:26,315 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:49:26,321 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:49:26,335 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:49:35,306 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:add_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=5bc4eec9-f63c-4077-9aa0-38f7e9aebce5
+2020-08-21 23:49:35,312 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-21 23:49:35,330 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:create_collection:collection_id=5bc4eec9-f63c-4077-9aa0-38f7e9aebce5,handle=123456789/36
+2020-08-21 23:49:35,412 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/36 to Index
+2020-08-21 23:55:19,679 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:add_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=8fd1cd2d-255c-4999-a3e2-942c8c73c433
+2020-08-21 23:55:19,687 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-21 23:55:19,702 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:create_collection:collection_id=8fd1cd2d-255c-4999-a3e2-942c8c73c433,handle=123456789/37
+2020-08-21 23:55:19,749 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/37 to Index
+2020-08-21 23:55:23,781 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:add_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=e5fafc93-6b9b-4b5a-ac67-50399995211c
+2020-08-21 23:55:23,783 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-21 23:55:23,801 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:create_collection:collection_id=e5fafc93-6b9b-4b5a-ac67-50399995211c,handle=123456789/38
+2020-08-21 23:55:23,831 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/38 to Index
+2020-08-21 23:55:25,849 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:add_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=2342581e-4404-442c-ac6c-bcb631905bdd
+2020-08-21 23:55:25,852 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-21 23:55:25,858 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:create_collection:collection_id=2342581e-4404-442c-ac6c-bcb631905bdd,handle=123456789/39
+2020-08-21 23:55:25,883 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/39 to Index
+2020-08-21 23:55:28,287 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:add_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=3853df2c-a679-47df-a86e-5a3f98654320
+2020-08-21 23:55:28,290 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-08-21 23:55:28,296 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:create_collection:collection_id=3853df2c-a679-47df-a86e-5a3f98654320,handle=123456789/40
+2020-08-21 23:55:28,325 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Collection: 123456789/40 to Index
+2020-08-21 23:57:40,135 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:57:40,147 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:57:40,173 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:57:40,174 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:57:44,356 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:57:44,359 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:57:44,365 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:57:44,390 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:57:48,739 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:57:48,744 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:57:48,756 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:57:48,757 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:57:50,777 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:57:50,781 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:57:50,785 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:57:50,798 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:58:58,018 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:59:05,900 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:59:05,909 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-21 23:59:05,926 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-21 23:59:05,926 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-21 23:59:07,423 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:59:11,907 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:11,911 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:59:11,917 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:59:11,940 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:18,424 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:delete_collection:collection_id=8fd1cd2d-255c-4999-a3e2-942c8c73c433
+2020-08-21 23:59:18,440 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_logo:collection_id=8fd1cd2d-255c-4999-a3e2-942c8c73c433
+2020-08-21 23:59:18,444 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=8fd1cd2d-255c-4999-a3e2-942c8c73c433
+2020-08-21 23:59:18,445 WARN  org.dspace.discovery.IndexEventConsumer @ MODIFY event, could not get object for COLLECTION id=8fd1cd2d-255c-4999-a3e2-942c8c73c433, perhaps it has been deleted.
+2020-08-21 23:59:18,445 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COLLECTION id=8fd1cd2d-255c-4999-a3e2-942c8c73c433, perhaps it has been deleted.
+2020-08-21 23:59:18,517 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:18,521 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:59:18,527 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:59:18,551 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:22,250 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:delete_collection:collection_id=e5fafc93-6b9b-4b5a-ac67-50399995211c
+2020-08-21 23:59:22,253 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_logo:collection_id=e5fafc93-6b9b-4b5a-ac67-50399995211c
+2020-08-21 23:59:22,256 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=e5fafc93-6b9b-4b5a-ac67-50399995211c
+2020-08-21 23:59:22,256 WARN  org.dspace.discovery.IndexEventConsumer @ MODIFY event, could not get object for COLLECTION id=e5fafc93-6b9b-4b5a-ac67-50399995211c, perhaps it has been deleted.
+2020-08-21 23:59:22,257 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COLLECTION id=e5fafc93-6b9b-4b5a-ac67-50399995211c, perhaps it has been deleted.
+2020-08-21 23:59:22,310 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:22,313 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:59:22,319 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:59:22,338 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:25,626 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:delete_collection:collection_id=2aaaea38-3e6e-4f40-bb01-f34d3a5d4aa6
+2020-08-21 23:59:25,630 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_logo:collection_id=2aaaea38-3e6e-4f40-bb01-f34d3a5d4aa6
+2020-08-21 23:59:25,632 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=2aaaea38-3e6e-4f40-bb01-f34d3a5d4aa6
+2020-08-21 23:59:25,636 WARN  org.dspace.discovery.IndexEventConsumer @ MODIFY event, could not get object for COLLECTION id=2aaaea38-3e6e-4f40-bb01-f34d3a5d4aa6, perhaps it has been deleted.
+2020-08-21 23:59:25,636 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COLLECTION id=2aaaea38-3e6e-4f40-bb01-f34d3a5d4aa6, perhaps it has been deleted.
+2020-08-21 23:59:25,699 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:25,702 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:59:25,709 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:59:25,725 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:28,681 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:delete_collection:collection_id=2342581e-4404-442c-ac6c-bcb631905bdd
+2020-08-21 23:59:28,684 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_logo:collection_id=2342581e-4404-442c-ac6c-bcb631905bdd
+2020-08-21 23:59:28,686 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=2342581e-4404-442c-ac6c-bcb631905bdd
+2020-08-21 23:59:28,687 WARN  org.dspace.discovery.IndexEventConsumer @ MODIFY event, could not get object for COLLECTION id=2342581e-4404-442c-ac6c-bcb631905bdd, perhaps it has been deleted.
+2020-08-21 23:59:28,687 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COLLECTION id=2342581e-4404-442c-ac6c-bcb631905bdd, perhaps it has been deleted.
+2020-08-21 23:59:28,794 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:28,796 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:59:28,802 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:59:28,836 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:33,591 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:delete_collection:collection_id=3853df2c-a679-47df-a86e-5a3f98654320
+2020-08-21 23:59:33,595 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_logo:collection_id=3853df2c-a679-47df-a86e-5a3f98654320
+2020-08-21 23:59:33,597 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=3853df2c-a679-47df-a86e-5a3f98654320
+2020-08-21 23:59:33,598 WARN  org.dspace.discovery.IndexEventConsumer @ MODIFY event, could not get object for COLLECTION id=3853df2c-a679-47df-a86e-5a3f98654320, perhaps it has been deleted.
+2020-08-21 23:59:33,598 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COLLECTION id=3853df2c-a679-47df-a86e-5a3f98654320, perhaps it has been deleted.
+2020-08-21 23:59:33,641 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:33,643 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:59:33,649 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:59:33,665 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:37,031 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:delete_collection:collection_id=5bc4eec9-f63c-4077-9aa0-38f7e9aebce5
+2020-08-21 23:59:37,034 INFO  org.dspace.content.CollectionServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_logo:collection_id=5bc4eec9-f63c-4077-9aa0-38f7e9aebce5
+2020-08-21 23:59:37,036 INFO  org.dspace.content.CommunityServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:remove_collection:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c,collection_id=5bc4eec9-f63c-4077-9aa0-38f7e9aebce5
+2020-08-21 23:59:37,037 WARN  org.dspace.discovery.IndexEventConsumer @ MODIFY event, could not get object for COLLECTION id=5bc4eec9-f63c-4077-9aa0-38f7e9aebce5, perhaps it has been deleted.
+2020-08-21 23:59:37,037 WARN  org.dspace.discovery.IndexEventConsumer @ REMOVE event, could not get object for COLLECTION id=5bc4eec9-f63c-4077-9aa0-38f7e9aebce5, perhaps it has been deleted.
+2020-08-21 23:59:37,086 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:37,088 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:59:37,095 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@56272e39: 4
+2020-08-21 23:59:37,114 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=e3011aa5-e3c2-4e4f-b8ce-c222ee2abd0c
+2020-08-21 23:59:41,043 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community_list:
+2020-08-21 23:59:55,332 INFO  org.dspace.app.webui.servlet.HandleServlet @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=348960bf-c5ee-4a18-a20c-d0485587f913
+2020-08-21 23:59:55,333 INFO  org.dspace.browse.BrowseEngine @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:browse_mini:
+2020-08-21 23:59:55,344 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@6ec0671: 4
+2020-08-21 23:59:55,355 INFO  org.dspace.usage.LoggerUsageEventListener @ luizurita@mailes.ueb.edu.ec:session_id=1AB24F78F9E4D6D7E2D4CD03B573FB33:ip_addr=181.198.172.161:view_community:community_id=348960bf-c5ee-4a18-a20c-d0485587f913

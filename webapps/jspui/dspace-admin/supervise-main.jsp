@@ -26,9 +26,8 @@
                parentlink="/dspace-admin"
                parenttitlekey="jsp.administer">
 
-<h1><fmt:message key="jsp.dspace-admin.supervise-main.heading"/>
-<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.site-admin\") + \"#supervision\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
-</h1>
+ <h1><fmt:message key="jsp.dspace-admin.supervise-main.heading"/>
+</h1> 
 
 <h3><fmt:message key="jsp.dspace-admin.supervise-main.subheading"/></h3>
 

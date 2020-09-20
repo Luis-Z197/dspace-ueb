@@ -1,0 +1,11 @@
+2020-09-04 14:45:18,641 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=42966E640995019B129E96307ACC1AF9:ip_addr=179.49.13.43:browse_mini:
+2020-09-04 14:45:18,657 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-09-04 14:45:18,683 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-09-04 14:45:18,683 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-09-04 14:51:29,735 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=42966E640995019B129E96307ACC1AF9:ip_addr=179.49.13.43:authenticate:attempting password auth of user=rcuzco@mailes.ueb.edu.ec
+2020-09-04 14:51:29,753 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=42966E640995019B129E96307ACC1AF9:ip_addr=179.49.13.43:failed_login:email=rcuzco@mailes.ueb.edu.ec, result=2
+2020-09-04 14:52:07,948 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=42966E640995019B129E96307ACC1AF9:ip_addr=179.49.13.43:authenticate:attempting password auth of user=rcuzco@mailes.ueb.edu.ec
+2020-09-04 14:52:07,956 INFO  org.dspace.authenticate.PasswordAuthentication @ rcuzco@mailes.ueb.edu.ec:session_id=42966E640995019B129E96307ACC1AF9:ip_addr=179.49.13.43:authenticate:type=PasswordAuthentication
+2020-09-04 14:52:07,956 INFO  org.dspace.eperson.EPersonServiceImpl @ rcuzco@mailes.ueb.edu.ec:session_id=42966E640995019B129E96307ACC1AF9:ip_addr=179.49.13.43:update_eperson:eperson_id=8c53aeeb-6035-4f91-80fd-d8ffb0e3e36b
+2020-09-04 14:52:07,997 INFO  org.dspace.app.webui.servlet.PasswordServlet @ rcuzco@mailes.ueb.edu.ec:session_id=42966E640995019B129E96307ACC1AF9:ip_addr=179.49.13.43:login:type=explicit
+2020-09-04 14:52:08,063 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ rcuzco@mailes.ueb.edu.ec:session_id=883890FBB7FE2F9CF0B0CCA92E39C8EE:ip_addr=179.49.13.43:view_mydspace:

@@ -60,8 +60,8 @@
     <%-- <h1>Administration Tools</h1> --%>
     <h1><fmt:message key="jsp.dspace-admin.index.heading"/></h1>
     
-    <%-- <p>Please select an operation from the main menu bar.</p> --%>
-    <p><fmt:message key="jsp.dspace-admin.index.text"/></p>
+    <%-- <p>Please select an operation from the main menu bar.</p> --%>  
+ <p><fmt:message key="jsp.dspace-admin.index.text"/></p>
 </dspace:layout>
 <%
     }

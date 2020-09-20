@@ -1,0 +1,632 @@
+2020-08-20 12:39:50,020 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F5D44A9290A2D5C2892F4DA15723A052:ip_addr=179.49.13.43:browse_mini:
+2020-08-20 12:39:50,039 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-20 12:39:50,079 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-20 12:39:50,079 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-20 12:40:58,678 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper @ SQL Error: 0, SQLState: 08001
+2020-08-20 12:40:58,681 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper @ Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2020-08-20 12:56:35,929 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/home/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2020-08-20 12:56:35,971 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2020-08-20 12:56:35,986 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 12.3)
+2020-08-20 12:56:36,103 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2020-08-20 12:56:36,118 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2020-08-20 12:56:36,266 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2020-08-20 12:56:36,273 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2020-08-20 12:56:36,276 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2020-08-20 12:56:36,278 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2020-08-20 12:56:36,306 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:/home/dspace/config/hibernate.cfg.xml
+2020-08-20 12:56:36,362 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2020-08-20 12:56:36,573 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2020-08-20 12:56:36,591 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-08-20 12:56:36,601 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@58c78f94
+2020-08-20 12:56:36,601 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6d60dfe
+2020-08-20 12:56:36,866 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-08-20 12:56:36,872 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2020-08-20 12:56:36,930 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "/opt/tomcat/temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$URLConfigurationSource@704a94bc.
+The diskStore path for this CacheManager will be set to /opt/tomcat/temp/ehcache_auto_created_1597946196930.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2020-08-20 12:56:36,965 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2020-08-20 12:56:36,973 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2020-08-20 12:56:37,329 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2020-08-20 12:56:37,329 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2020-08-20 12:56:37,347 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2020-08-20 12:56:37,347 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2020-08-20 12:56:37,366 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2020-08-20 12:56:37,367 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2020-08-20 12:56:37,372 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2020-08-20 12:56:37,373 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2020-08-20 12:56:37,378 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2020-08-20 12:56:37,378 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2020-08-20 12:56:37,383 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2020-08-20 12:56:37,383 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2020-08-20 12:56:37,389 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2020-08-20 12:56:37,389 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2020-08-20 12:56:37,394 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2020-08-20 12:56:37,394 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2020-08-20 12:56:37,399 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2020-08-20 12:56:37,399 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2020-08-20 12:56:37,404 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2020-08-20 12:56:37,404 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2020-08-20 12:56:37,409 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2020-08-20 12:56:37,409 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2020-08-20 12:56:37,413 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2020-08-20 12:56:37,414 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2020-08-20 12:56:37,418 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2020-08-20 12:56:37,418 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2020-08-20 12:56:37,423 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2020-08-20 12:56:37,423 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-20 12:56:37,428 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2020-08-20 12:56:37,428 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2020-08-20 12:56:37,433 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2020-08-20 12:56:37,433 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2020-08-20 12:56:37,438 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2020-08-20 12:56:37,438 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2020-08-20 12:56:37,443 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2020-08-20 12:56:37,443 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2020-08-20 12:56:37,448 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2020-08-20 12:56:37,448 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2020-08-20 12:56:37,453 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2020-08-20 12:56:37,453 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-20 12:56:37,458 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2020-08-20 12:56:37,458 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-20 12:56:37,463 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2020-08-20 12:56:37,463 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2020-08-20 12:56:37,468 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2020-08-20 12:56:37,468 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2020-08-20 12:56:37,473 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2020-08-20 12:56:37,473 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2020-08-20 12:56:37,478 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2020-08-20 12:56:37,479 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2020-08-20 12:56:37,483 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2020-08-20 12:56:37,484 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2020-08-20 12:56:37,488 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2020-08-20 12:56:37,488 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2020-08-20 12:56:37,493 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2020-08-20 12:56:37,493 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2020-08-20 12:56:37,498 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2020-08-20 12:56:37,498 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2020-08-20 12:56:37,503 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2020-08-20 12:56:37,503 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2020-08-20 12:56:37,507 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2020-08-20 12:56:37,507 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2020-08-20 12:56:37,512 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2020-08-20 12:56:37,512 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2020-08-20 12:56:37,516 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2020-08-20 12:56:37,516 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2020-08-20 12:56:37,521 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2020-08-20 12:56:37,521 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-20 12:56:37,525 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2020-08-20 12:56:37,525 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2020-08-20 12:56:37,529 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2020-08-20 12:56:37,529 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2020-08-20 12:56:37,533 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2020-08-20 12:56:37,533 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2020-08-20 12:56:37,538 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2020-08-20 12:56:37,538 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2020-08-20 12:56:37,542 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2020-08-20 12:56:37,542 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2020-08-20 12:56:37,547 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2020-08-20 12:56:37,547 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2020-08-20 12:56:37,551 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2020-08-20 12:56:37,551 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2020-08-20 12:56:37,849 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2020-08-20 12:56:37,849 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2020-08-20 12:56:37,849 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:/home/dspace/config/GeoLite2-City.mmdb
+2020-08-20 12:56:37,896 ERROR org.dspace.statistics.SolrLoggerServiceImpl @ The GeoLite Database file is missing (/home/dspace/config/GeoLite2-City.mmdb)! Solr Statistics cannot generate location based reports! Please see the DSpace installation instructions for instructions to install this file.
+java.io.FileNotFoundException: /home/dspace/config/GeoLite2-City.mmdb (No existe el fichero o el directorio)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:116)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160)
+	at org.dspace.statistics.SolrLoggerServiceImpl.afterPropertiesSet(SolrLoggerServiceImpl.java:170)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1127)
+	at org.dspace.servicemanager.spring.SpringServiceManager.getServiceByName(SpringServiceManager.java:103)
+	at org.dspace.servicemanager.DSpaceServiceManager.getServiceByName(DSpaceServiceManager.java:284)
+	at org.dspace.statistics.factory.StatisticsServiceFactoryImpl.getSolrLoggerService(StatisticsServiceFactoryImpl.java:26)
+	at org.dspace.statistics.SolrLoggerUsageEventListener.<init>(SolrLoggerUsageEventListener.java:35)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1032)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:985)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4678)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1830)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+2020-08-20 12:56:37,898 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2020-08-20 12:56:47,362 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/home/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2020-08-20 12:56:47,382 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2020-08-20 12:56:47,397 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 12.3)
+2020-08-20 12:56:47,483 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2020-08-20 12:56:47,498 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2020-08-20 12:56:47,644 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2020-08-20 12:56:47,651 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2020-08-20 12:56:47,654 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2020-08-20 12:56:47,656 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2020-08-20 12:56:47,683 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:/home/dspace/config/hibernate.cfg.xml
+2020-08-20 12:56:47,736 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2020-08-20 12:56:47,922 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2020-08-20 12:56:47,937 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-08-20 12:56:47,946 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@741207d6
+2020-08-20 12:56:47,946 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1d31d861
+2020-08-20 12:56:48,207 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-08-20 12:56:48,212 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2020-08-20 12:56:48,262 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "/opt/tomcat/temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$URLConfigurationSource@273c1c21.
+The diskStore path for this CacheManager will be set to /opt/tomcat/temp/ehcache_auto_created_1597946208262.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2020-08-20 12:56:48,289 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2020-08-20 12:56:48,296 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2020-08-20 12:56:48,641 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2020-08-20 12:56:48,641 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2020-08-20 12:56:48,654 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2020-08-20 12:56:48,655 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2020-08-20 12:56:48,660 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2020-08-20 12:56:48,660 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2020-08-20 12:56:48,664 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2020-08-20 12:56:48,665 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2020-08-20 12:56:48,669 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2020-08-20 12:56:48,669 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2020-08-20 12:56:48,673 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2020-08-20 12:56:48,673 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2020-08-20 12:56:48,678 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2020-08-20 12:56:48,678 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2020-08-20 12:56:48,682 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2020-08-20 12:56:48,682 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2020-08-20 12:56:48,686 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2020-08-20 12:56:48,686 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2020-08-20 12:56:48,690 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2020-08-20 12:56:48,690 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2020-08-20 12:56:48,694 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2020-08-20 12:56:48,694 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2020-08-20 12:56:48,699 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2020-08-20 12:56:48,699 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2020-08-20 12:56:48,703 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2020-08-20 12:56:48,703 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2020-08-20 12:56:48,707 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2020-08-20 12:56:48,707 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-20 12:56:48,711 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2020-08-20 12:56:48,711 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2020-08-20 12:56:48,715 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2020-08-20 12:56:48,715 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2020-08-20 12:56:48,719 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2020-08-20 12:56:48,719 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2020-08-20 12:56:48,723 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2020-08-20 12:56:48,723 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2020-08-20 12:56:48,728 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2020-08-20 12:56:48,728 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2020-08-20 12:56:48,732 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2020-08-20 12:56:48,732 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-20 12:56:48,736 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2020-08-20 12:56:48,736 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-20 12:56:48,740 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2020-08-20 12:56:48,740 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2020-08-20 12:56:48,745 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2020-08-20 12:56:48,745 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2020-08-20 12:56:48,749 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2020-08-20 12:56:48,749 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2020-08-20 12:56:48,753 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2020-08-20 12:56:48,753 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2020-08-20 12:56:48,758 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2020-08-20 12:56:48,758 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2020-08-20 12:56:48,762 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2020-08-20 12:56:48,762 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2020-08-20 12:56:48,766 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2020-08-20 12:56:48,766 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2020-08-20 12:56:48,770 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2020-08-20 12:56:48,771 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2020-08-20 12:56:48,775 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2020-08-20 12:56:48,775 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2020-08-20 12:56:48,779 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2020-08-20 12:56:48,779 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2020-08-20 12:56:48,783 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2020-08-20 12:56:48,784 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2020-08-20 12:56:48,788 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2020-08-20 12:56:48,788 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2020-08-20 12:56:48,792 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2020-08-20 12:56:48,792 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-20 12:56:48,795 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2020-08-20 12:56:48,795 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2020-08-20 12:56:48,799 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2020-08-20 12:56:48,799 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2020-08-20 12:56:48,803 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2020-08-20 12:56:48,803 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2020-08-20 12:56:48,807 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2020-08-20 12:56:48,807 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2020-08-20 12:56:48,811 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2020-08-20 12:56:48,811 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2020-08-20 12:56:48,815 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2020-08-20 12:56:48,815 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2020-08-20 12:56:48,818 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2020-08-20 12:56:48,819 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2020-08-20 12:56:49,994 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2020-08-20 12:56:49,994 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2020-08-20 12:56:49,994 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:/home/dspace/config/GeoLite2-City.mmdb
+2020-08-20 12:56:50,038 ERROR org.dspace.statistics.SolrLoggerServiceImpl @ The GeoLite Database file is missing (/home/dspace/config/GeoLite2-City.mmdb)! Solr Statistics cannot generate location based reports! Please see the DSpace installation instructions for instructions to install this file.
+java.io.FileNotFoundException: /home/dspace/config/GeoLite2-City.mmdb (No existe el fichero o el directorio)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:116)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160)
+	at org.dspace.statistics.SolrLoggerServiceImpl.afterPropertiesSet(SolrLoggerServiceImpl.java:170)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1127)
+	at org.dspace.servicemanager.spring.SpringServiceManager.getServiceByName(SpringServiceManager.java:103)
+	at org.dspace.servicemanager.DSpaceServiceManager.getServiceByName(DSpaceServiceManager.java:284)
+	at org.dspace.statistics.factory.StatisticsServiceFactoryImpl.getSolrLoggerService(StatisticsServiceFactoryImpl.java:26)
+	at org.dspace.statistics.SolrLoggerUsageEventListener.<init>(SolrLoggerUsageEventListener.java:35)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1032)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:985)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4678)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1830)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+2020-08-20 12:56:50,040 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2020-08-20 12:56:50,062 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /home/dspace/config/xmlui.xconf
+2020-08-20 12:56:50,144 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2020-08-20 12:56:50,144 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2020-08-20 12:56:50,145 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2020-08-20 12:56:50,145 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2020-08-20 12:56:50,145 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2020-08-20 12:56:50,145 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2020-08-20 12:56:50,145 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2020-08-20 12:56:50,145 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2020-08-20 12:56:50,145 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2020-08-20 12:57:04,841 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/home/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2020-08-20 12:57:04,863 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2020-08-20 12:57:04,880 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 12.3)
+2020-08-20 12:57:04,969 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2020-08-20 12:57:04,986 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2020-08-20 12:57:05,144 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2020-08-20 12:57:05,150 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2020-08-20 12:57:05,153 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2020-08-20 12:57:05,155 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2020-08-20 12:57:05,182 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:/home/dspace/config/hibernate.cfg.xml
+2020-08-20 12:57:05,233 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2020-08-20 12:57:05,402 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2020-08-20 12:57:05,418 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-08-20 12:57:05,427 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@3c1d8bd
+2020-08-20 12:57:05,427 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@587315f3
+2020-08-20 12:57:05,681 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-08-20 12:57:05,687 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2020-08-20 12:57:05,738 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "/opt/tomcat/temp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$URLConfigurationSource@329226dd.
+The diskStore path for this CacheManager will be set to /opt/tomcat/temp/ehcache_auto_created_1597946225738.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2020-08-20 12:57:05,766 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2020-08-20 12:57:05,772 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2020-08-20 12:57:06,126 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2020-08-20 12:57:06,126 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2020-08-20 12:57:06,138 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2020-08-20 12:57:06,138 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2020-08-20 12:57:06,144 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2020-08-20 12:57:06,144 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2020-08-20 12:57:06,149 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2020-08-20 12:57:06,149 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2020-08-20 12:57:06,153 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2020-08-20 12:57:06,153 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2020-08-20 12:57:06,157 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2020-08-20 12:57:06,157 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2020-08-20 12:57:06,162 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2020-08-20 12:57:06,162 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2020-08-20 12:57:06,166 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2020-08-20 12:57:06,166 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2020-08-20 12:57:06,171 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2020-08-20 12:57:06,171 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2020-08-20 12:57:06,175 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2020-08-20 12:57:06,175 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2020-08-20 12:57:06,179 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2020-08-20 12:57:06,179 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2020-08-20 12:57:06,183 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2020-08-20 12:57:06,183 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2020-08-20 12:57:06,187 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2020-08-20 12:57:06,187 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2020-08-20 12:57:06,191 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2020-08-20 12:57:06,191 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-20 12:57:06,195 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2020-08-20 12:57:06,195 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2020-08-20 12:57:06,199 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2020-08-20 12:57:06,199 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2020-08-20 12:57:06,203 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2020-08-20 12:57:06,203 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2020-08-20 12:57:06,207 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2020-08-20 12:57:06,208 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2020-08-20 12:57:06,212 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2020-08-20 12:57:06,212 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2020-08-20 12:57:06,216 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2020-08-20 12:57:06,216 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-20 12:57:06,220 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2020-08-20 12:57:06,220 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2020-08-20 12:57:06,224 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2020-08-20 12:57:06,224 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2020-08-20 12:57:06,229 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2020-08-20 12:57:06,229 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2020-08-20 12:57:06,233 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2020-08-20 12:57:06,233 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2020-08-20 12:57:06,237 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2020-08-20 12:57:06,237 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2020-08-20 12:57:06,241 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2020-08-20 12:57:06,242 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2020-08-20 12:57:06,246 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2020-08-20 12:57:06,246 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2020-08-20 12:57:06,250 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2020-08-20 12:57:06,250 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2020-08-20 12:57:06,254 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2020-08-20 12:57:06,254 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2020-08-20 12:57:06,259 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2020-08-20 12:57:06,259 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2020-08-20 12:57:06,263 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2020-08-20 12:57:06,263 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2020-08-20 12:57:06,267 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2020-08-20 12:57:06,267 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2020-08-20 12:57:06,271 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2020-08-20 12:57:06,271 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2020-08-20 12:57:06,275 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2020-08-20 12:57:06,275 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2020-08-20 12:57:06,278 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2020-08-20 12:57:06,279 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2020-08-20 12:57:06,282 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2020-08-20 12:57:06,282 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2020-08-20 12:57:06,286 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2020-08-20 12:57:06,286 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2020-08-20 12:57:06,289 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2020-08-20 12:57:06,289 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2020-08-20 12:57:06,293 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2020-08-20 12:57:06,293 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2020-08-20 12:57:06,297 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2020-08-20 12:57:06,297 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2020-08-20 12:57:06,301 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2020-08-20 12:57:06,301 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2020-08-20 12:57:06,541 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2020-08-20 12:57:06,542 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2020-08-20 12:57:06,542 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:/home/dspace/config/GeoLite2-City.mmdb
+2020-08-20 12:57:06,584 ERROR org.dspace.statistics.SolrLoggerServiceImpl @ The GeoLite Database file is missing (/home/dspace/config/GeoLite2-City.mmdb)! Solr Statistics cannot generate location based reports! Please see the DSpace installation instructions for instructions to install this file.
+java.io.FileNotFoundException: /home/dspace/config/GeoLite2-City.mmdb (No existe el fichero o el directorio)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:116)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160)
+	at org.dspace.statistics.SolrLoggerServiceImpl.afterPropertiesSet(SolrLoggerServiceImpl.java:170)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1127)
+	at org.dspace.servicemanager.spring.SpringServiceManager.getServiceByName(SpringServiceManager.java:103)
+	at org.dspace.servicemanager.DSpaceServiceManager.getServiceByName(DSpaceServiceManager.java:284)
+	at org.dspace.statistics.factory.StatisticsServiceFactoryImpl.getSolrLoggerService(StatisticsServiceFactoryImpl.java:26)
+	at org.dspace.statistics.SolrLoggerUsageEventListener.<init>(SolrLoggerUsageEventListener.java:35)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1032)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:985)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4678)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1866)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+2020-08-20 12:57:06,586 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2020-08-20 12:57:07,145 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=CA257E56E3F7A09060B2DE4205AEF2D9:ip_addr=190.15.128.220:browse_mini:
+2020-08-20 12:57:07,413 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-20 12:57:07,548 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-20 12:57:07,548 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-20 13:04:25,235 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7D2DA5640EF74C5B82099A6EEFE28E90:ip_addr=181.198.172.161:browse_mini:
+2020-08-20 13:04:25,252 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-20 13:04:25,296 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-20 13:04:25,297 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-20 13:07:01,132 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=CA257E56E3F7A09060B2DE4205AEF2D9:ip_addr=190.15.128.220:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-20 13:07:01,161 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=CA257E56E3F7A09060B2DE4205AEF2D9:ip_addr=190.15.128.220:failed_login:email=luizurita@mailes.ueb.edu.ec, result=2
+2020-08-20 13:07:25,602 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=CA257E56E3F7A09060B2DE4205AEF2D9:ip_addr=190.15.128.220:authenticate:attempting password auth of user=luizurita@mailes.ueb.edu.ec
+2020-08-20 13:07:25,614 INFO  org.dspace.authenticate.PasswordAuthentication @ luizurita@mailes.ueb.edu.ec:session_id=CA257E56E3F7A09060B2DE4205AEF2D9:ip_addr=190.15.128.220:authenticate:type=PasswordAuthentication
+2020-08-20 13:07:25,614 INFO  org.dspace.eperson.EPersonServiceImpl @ luizurita@mailes.ueb.edu.ec:session_id=CA257E56E3F7A09060B2DE4205AEF2D9:ip_addr=190.15.128.220:update_eperson:eperson_id=af599c2b-50b1-470c-a9d8-6e5f0cdd8988
+2020-08-20 13:07:25,729 INFO  org.dspace.app.webui.servlet.PasswordServlet @ luizurita@mailes.ueb.edu.ec:session_id=CA257E56E3F7A09060B2DE4205AEF2D9:ip_addr=190.15.128.220:login:type=explicit
+2020-08-20 13:07:25,795 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ luizurita@mailes.ueb.edu.ec:session_id=63198E274883CD2CD6AE307B4F42C5EC:ip_addr=190.15.128.220:view_mydspace:
+2020-08-20 13:08:40,473 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-20 13:09:45,868 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=7D2DA5640EF74C5B82099A6EEFE28E90:ip_addr=181.198.172.161:view_community_list:
+2020-08-20 13:09:56,812 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7D2DA5640EF74C5B82099A6EEFE28E90:ip_addr=181.198.172.161:browse_mini:
+2020-08-20 13:09:56,824 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-20 13:09:56,848 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-20 13:09:56,849 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-20 13:14:54,563 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7D2DA5640EF74C5B82099A6EEFE28E90:ip_addr=181.198.172.161:browse_mini:
+2020-08-20 13:14:54,575 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-20 13:14:54,603 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-20 13:14:54,603 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-20 13:14:56,180 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=7D2DA5640EF74C5B82099A6EEFE28E90:ip_addr=181.198.172.161:view_community_list:
+2020-08-20 13:14:58,529 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=7D2DA5640EF74C5B82099A6EEFE28E90:ip_addr=181.198.172.161:browse_mini:
+2020-08-20 13:14:58,542 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-20 13:14:58,566 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-20 13:14:58,567 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)
+2020-08-20 22:20:44,641 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=36ABDE21979D761DE9B51555316C790F:ip_addr=179.49.13.43:browse_mini:
+2020-08-20 22:20:44,661 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2020-08-20 22:20:44,690 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-top_es.html (No existe el fichero o el directorio)
+2020-08-20 22:20:44,690 WARN  org.dspace.core.NewsServiceImpl @ news_read: /home/dspace/config/news-side_es.html (No existe el fichero o el directorio)

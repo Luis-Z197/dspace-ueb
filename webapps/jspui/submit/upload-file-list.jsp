@@ -90,8 +90,8 @@
     {
 %>
 		<h1><fmt:message key="jsp.submit.upload-file-list.heading1"/>
-		<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#uploadedfile\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
-		</h1>
+	<%--<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#uploadedfile\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
+		--%></h1>
         <p><fmt:message key="jsp.submit.upload-file-list.info1"/></p>
 <%
     }
@@ -258,14 +258,14 @@
         {
 %>
             <li class="uploadHelp"><fmt:message key="jsp.submit.upload-file-list.info5"/>
-            <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#checksum\"%>"><fmt:message key="jsp.submit.upload-file-list.help1"/></dspace:popup></li>
+            <%-- <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#checksum\"%>"><fmt:message key="jsp.submit.upload-file-list.help1"/></dspace:popup> --%> </li>
 <%
         }
         else
         {
 %>
             <li class="uploadHelp"><fmt:message key="jsp.submit.upload-file-list.info6"/>
-            <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#checksum\"%>"><fmt:message key="jsp.submit.upload-file-list.help2"/></dspace:popup> 
+          <%--  <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#checksum\"%>"><fmt:message key="jsp.submit.upload-file-list.help2"/></dspace:popup> --%> 
             <input class="btn btn-info" type="submit" name="submit_show_checksums" value="<fmt:message key="jsp.submit.upload-file-list.button3"/>" /></li>
 <%
         }

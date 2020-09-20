@@ -62,8 +62,8 @@
 
         <%-- <h1>Submit: Select File Format</h1> --%>
 		<h1><fmt:message key="jsp.submit.get-file-format.heading"/>
-		<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#formats\" %>"><fmt:message key="jsp.morehelp"/></dspace:popup>
-		</h1>
+		<%--<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#formats\" %>"><fmt:message key="jsp.morehelp"/></dspace:popup>
+	    --%></h1>
 
         <%-- <p>Uploaded file: <code><%= si.bitstream.getName() %></code> (<%= si.bitstream.getSize() %> bytes)</p> --%>
 		<p><fmt:message key="jsp.submit.get-file-format.info1">

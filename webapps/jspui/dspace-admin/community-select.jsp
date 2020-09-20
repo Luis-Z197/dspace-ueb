@@ -65,7 +65,7 @@
                parentlink="<%= link %>">
 
     <%-- <h1>communities:</h1> --%>
-    <h1><fmt:message key="jsp.dspace-admin.community-select.com"/></h1>
+    <h1><ftm:message key="jsp.dspace-admin.community-select.com"/></h1>
 
     <form method="post" action="">
 

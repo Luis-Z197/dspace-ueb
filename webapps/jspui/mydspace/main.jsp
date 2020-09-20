@@ -75,8 +75,7 @@
 	<div class="panel panel-primary">
         <div class="panel-heading">
                     Usuario <!--<fmt:message key="jsp.mydspace"/>-->: <%= Utils.addEntities(user.getFullName()) %>
-	                <span class="pull-right"><dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#mydspace\"%>"><fmt:message key="jsp.help"/></dspace:popup></span>
-        </div>         
+	                    </div>         
 
 		<div class="panel-body">
 		    <form action="<%= request.getContextPath() %>/mydspace" method="post">

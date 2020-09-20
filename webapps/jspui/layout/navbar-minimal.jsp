@@ -56,7 +56,7 @@
 
 
        <div class="navbar-header">
-         <a class="navbar-brand" href="<%= request.getContextPath() %>/"><img height="65" src="http://desarrollo.ueb.edu.ec:8080/repositorio/image/logo_ueb.png" alt="DSpace UEB" /></a>
+         <a class="navbar-brand" href="<%= request.getContextPath() %>/"><img height="65" src="image/logo_ueb.png" alt="DSpace UEB" /></a>
        </div>
        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
        <div class="nav navbar-nav navbar-right">
@@ -75,10 +75,9 @@
              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <fmt:message key="jsp.layout.navbar-default.sign"/> <b class="caret"></b></a>
 	<% } %>             
              <ul class="dropdown-menu">
-               <li><a href="<%= request.getContextPath() %>/mydspace"><fmt:message key="jsp.layout.navbar-default.users"/></a></li>
+               <li><a href="<%= request.getContextPath() %>/mydspace"><ftm:message key="jsp.layout.navbar-default.users"/></a></li>
                <li><a href="<%= request.getContextPath() %>/subscribe"><fmt:message key="jsp.layout.navbar-default.receive"/></a></li>
                <li><a href="<%= request.getContextPath() %>/profile"><fmt:message key="jsp.layout.navbar-default.edit"/></a></li>
-
 		<%
 		  if (isAdmin)
 		  {

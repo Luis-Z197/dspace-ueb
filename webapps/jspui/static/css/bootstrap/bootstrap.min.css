@@ -1272,7 +1272,8 @@ th {
  padding:8px;
  line-height:1.428571429;
  vertical-align:top;
- border-top:1px solid #ddd
+ border-top:1px solid #ddd; 
+ width: 100px;
 }
 .table thead>tr>th {
  vertical-align:bottom;
@@ -4184,8 +4185,8 @@ a.list-group-item.active>.badge,
  font-size:21px;
  font-weight:200;
  line-height:2.1428571435;
- color:#ffffff;
- background-color:#e2edf4;
+ color:#000000;
+ background-color:#e8f1f7;
 }
 .jumbotron h1 {
  line-height:1;

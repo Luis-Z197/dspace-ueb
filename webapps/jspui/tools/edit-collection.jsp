@@ -162,15 +162,15 @@
     if (collection == null)
     {
 %>
-    <fmt:message key="jsp.tools.edit-collection.heading1"/>
+   <fmt:message key="jsp.tools.edit-collection.heading1"/>
 <% } else { %>
     <fmt:message key="jsp.tools.edit-collection.heading2">
         <fmt:param><%= collection.getHandle() %></fmt:param>
     </fmt:message>
 <% } %>    
-	<span>
+	<%--<span>
 		<dspace:popup page="/help/site-admin.html#editcollection"><fmt:message key="jsp.help"/></dspace:popup>
-	</span>
+	</span>--%>
 	</h3>    
 <% if(bDeleteButton) { %>
               <form class="col-md-4" method="post" action="">

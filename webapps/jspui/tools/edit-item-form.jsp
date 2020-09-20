@@ -222,9 +222,10 @@
 
 
     <%-- <h1>Edit Item</h1> --%>
-        <h1><fmt:message key="jsp.tools.edit-item-form.title"/>
-        <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.collection-admin\") + \"#editmetadata\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
-        </h1>
+        <h1>Editar Item<key="jsp.tools.edit-item-form.title"/>
+      <%--  <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.collection-admin\") + \"#editmetadata\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
+        --%>
+	</h1>
     
     <%-- <p><strong>PLEASE NOTE: These changes are not validated in any way.
     You are responsible for entering the data in the correct format.

@@ -54,7 +54,7 @@
 
 	<%-- <h1>Edit or Delete Item</h1> --%>
 	<h1><fmt:message key="jsp.tools.get-item-id.heading"/>
-	<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.site-admin\") + \"#items\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
+	
 	</h1>
     
 <%
